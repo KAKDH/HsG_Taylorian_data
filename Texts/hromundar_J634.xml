@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hrómundar saga Greipssonar, based on JS 634 4to with variants</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>Taylor edition</date>
+            </edition>
+            <respStmt>
+               <resp>Edited by </resp>
+               <persName ref="#KAKapitan"><ref type="url"
+                     target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                  Kapitan</ref></persName>
+            </respStmt>
+         </editionStmt>
+         <extent>16 folios. <note>This in an edition of the complete text of the saga, but it is
+               only one part of the manuscript.</note></extent>
+         <publicationStmt>
+            <publisher>Taylor Institution Library, one of the Bodleian Libraries of the University
+               of Oxford, </publisher>
+            <date>2024. </date>
+            <availability>
+               <licence xml:id="xml_files" target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  The XML files are available for download under a <ref
+                     target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                     Attribution-ShareAlike 4.0 International License</ref>
+                  <graphic url="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>. </licence>
+               <licence xml:id="image_files" target="https://creativecommons.org/licenses/by/4.0/">
+                  The images of JS 634 4to are reproduced from Reykjavík, Landsbókasafn Íslands
+                  under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative
+                     Commons Attribution 4.0 International License by permission of the
+                     institution</ref> <graphic
+                        url="https://licensebuttons.net/l/by/4.0/80x15.png"/>. </licence>
+            </availability>
+
+            <idno type="ORA">
+               <!-- put link to ORA data url here --></idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:id="tayeditions">Taylor Editions: </title>
+            <title xml:id="guest">Guest</title>
+         </seriesStmt>
+         <notesStmt>
+            <note type="images">JPEG</note>
+            <note type="pbtype">Folio</note>
+            <note type="holding"><p>The base text from JS 634 4to, held at the
+                     <orgName>Landsbókasafn Íslands</orgName> in <placeName>Reykjavík</placeName>.
+               </p></note>
+            <note type="intro">
+               <p>This is a digital edition of the eighteenth-century version of <title>Hrómundar
+                     saga Greipssonar</title>. It is based on the text preserved in JS 634 4to with
+                  variants from LBS 840 4to. </p>
+               <p>The edition was prepared by <persName ref="#KAKapitan"><ref type="url"
+                        target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                     Kapitan</ref></persName>. </p>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Reykjavík</settlement>
+                  <repository>Landsbókasafn Íslands</repository>
+                  <idno>JS 634 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>The contents of this manuscript are described in the following online
+                     catalogues: <list>
+                        <item>Handrit, <ref type="url"
+                              target="https://handrit.is/manuscript/view/is/JS04-0634"
+                              >https://handrit.is/manuscript/view/is/JS04-0634</ref> (last accessed
+                           14/01/2024).</item>
+                        <item>The Stories For All Time Catalogue, <ref type="url"
+                              target="https://fasnl.net/manuscripts/47"
+                              >https://fasnl.net/manuscripts/47</ref> (last accessed
+                           14/01/2024).</item>
+                     </list>
+                  </p>
+               </msContents>
+            </msDesc>
+            <listPerson>
+               <person xml:id="KAKapitan">
+                  <persName>
+                     <forename sort="2">Katarzyna Anna</forename>
+                     <surname sort="1">Kapitan</surname>
+                  </persName>
+                  <affiliation>University of Oxford</affiliation>
+                  <idno type="VIAF">https://viaf.org/viaf/311146236/#Kapitan,_Katarzyna_Anna.</idno>
+                  <idno type="ORCID">https://orcid.org/0000-0003-2763-0056</idno>
+               </person>
+               <person xml:id="EHuber">
+                  <persName>
+                     <forename sort="2">Emma</forename>
+                     <surname sort="1">Huber</surname>
+                  </persName>
+                  <affiliation>Taylor Institution Library, University of Oxford</affiliation>
+                  <idno type="ORCID">https://orcid.org/0000-0002-3257-1807</idno>
+               </person>
+            </listPerson>
+
+
+
+            <listWit>
+               <witness xml:id="J634" n="base">J634: Reykjavík, <name type="organisation"
+                     >Landsbókasafn Íslands</name>, JS 634 4to</witness>
+               <witness xml:id="L840">L840: Reykjavík, <name type="organisation">Landsbókasafn
+                     Íslands</name>, Lbs 840 4to</witness>
+            </listWit>
+            <bibl type="citation">
+               <author><persName ref="#KAKapitan"><ref type="url"
+                        target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                     Kapitan</ref></persName></author>
+               <title>Lost but Not Forgotten: The Saga of Hrómundur and Its Manuscript
+                  Transmission</title>
+               <publisher>Taylor Institution Library</publisher>
+               <pubPlace>Oxford</pubPlace>
+               <date>2024</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Based on transcriptions and collations by <persName ref="#KAKapitan"><ref type="url"
+                     target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                  Kapitan</ref></persName>.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>This XML-based edition was created by an automatic export from LaTeX on <date
+                  when="2024-01-14">14 January 2024</date> by <persName ref="#KAKapitan"><ref
+                     type="url" target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                     Kapitan</ref></persName>. </p>
+            <p>The editorial principles are discussed in the introduction to <title>Lost but Not
+                  Forgotten</title>, available on <ref type="url">!!! link to the pdf of the book
+                  !!!</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ice">Icelandic</language>
+            <language ident="eng">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change resp="#KAKapitan"><date when="2023-12-20"/><label>Inital export from LaTeX
+               fromatted into TEI XML</label></change>
+         <change resp="#KAKapitan"><date when="2024-01-14"/><label>New export loaded into text/body
+               + proofreading</label></change>
+         <change resp="#KAKapitan"><date when="2024-03-28"/><label>Added urls and info about the
+               book</label></change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="ice" xml:id="hromundar_J634">
+      <body>
+
+         <pb n="89r" facs="18HsG_JS_634_4to_0089r"/>
+         <head><hi rend="rubric"><supplied>Sagan</supplied> Af Hrómundi Greýpssýni.</hi>
+         </head>
+         <div type="chapter" n="1">
+            <p><hi rend="rubric">I. Cap<ex>ítuli</ex> Ætterni, fædíng uppvỏxtr oc bradgỏr sigur
+                  Hromundar.</hi> Þat er upphaf <app>
+                  <lem>þessar<ex>ar</ex> saugo</lem>
+                  <rdg wit="#L840">Søgu þessarar</rdg>
+               </app> at kongr sa redi fyri Gaurþom er Oláfr het, h<ex>an</ex>n w<ex>ar</ex> son
+                  Gnoþ<ex>ar</ex> Asmundar, <ex>og</ex> w<ex>ar</ex> frægr madr. <app>
+                  <lem>Brædr ij</lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> woru med k<ex>on</ex>gi, <app>
+                  <lem>er</lem>
+                  <rdg wit="#L840">sem</rdg>
+               </app> sva hetu Kári og Aurnólfr, þ<ex>ei</ex>r woru
+                  l<ex>an</ex>dwarn<ex>ar</ex>m<ex>enn</ex> k<ex>on</ex>gs, herm<ex>enn</ex>
+                  m<ex>ik</ex>lir og sterkir. Ein<ex>n</ex> Ríkr bóndi bió þar í Rikino er Greýpr
+               het, h<ex>an</ex>n atti þá konu er het Gun<ex>n</ex>lauð,<note resp="#KAKapitan"
+                  n="1" place="foot" xml:id="ftn001">
+                  Even though the letter <q>ð</q> is not common
+                  in J634, the ascender of the word-final <q>d</q> is crossed with a horizontal bar,
+                  making it look like an <q>ð</q>. It is worth to note here that the name is written
+                  in the antiqua script, which may suggest some relationship between the script type
+                  and the orthography; see also <q>Hraugviður</q> further down on the same page.</note> hun war dóttir
+               Hróks hins Svarta, þau áttu ix s<ex>yni</ex> sin á millum er sva hetu: Hrólfr, Háki,
+               Gautr, Þraustr, Angantír, Logi, Hrómundr<supplied>,</supplied>
+                  Helgi<supplied>,</supplied> Hrókr. þ<ex>ei</ex>r woru all<ex>ir</ex>
+                  Efnileg<ex>ir</ex> m<ex>enn</ex>, <ex>og</ex> m<ex>ik</ex>lir f<ex>yrir</ex> ser,
+               en þó war Hrómundr f<ex>yrir</ex> þ<ex>ei</ex>m í ỏllu, h<ex>an</ex>n kun<ex>n</ex>i
+               ei at hrædaz. H<ex>an</ex>n war sva á sig kom<ex>in</ex>: at han<ex>n</ex> war
+               fagrEigdr, biartr á hár, <app>
+                  <lem>herdabreidr</lem>
+                  <rdg wit="#L840">herda mikill</rdg>
+               </app>, midmiór, og kálfa m<ex>ik</ex>ill, þar m<ex>ed</ex> mikill m<ex>adr</ex>
+               <ex>og</ex> sterkr, <app>
+                  <lem>liktiz han<ex>n</ex></lem>
+                  <rdg wit="#L840">hann lijktest</rdg>
+               </app> miỏg <app>
+                  <lem>Hróki módr faudr sin<ex>um</ex></lem>
+                  <rdg wit="#L840">mödur fỏdur sijnum Hroke hinum svarta</rdg>
+               </app>. Med k<ex>on</ex>gi woru þ<ex>ei</ex>r ij m<ex>enn</ex> er heto Bildr og Voli,
+                  þ<ex>ei</ex>r wo<ex>ru</ex> ill<ex>ir</ex> og undirfỏrul<ex>ir</ex>, en þó <app>
+                  <lem>mat</lem>
+                  <rdg wit="#L840">matte</rdg>
+               </app> k<ex>on</ex>gr þá m<ex>ik</ex>ils. Eitt sin<ex>n</ex> war þ<ex>at</ex> at
+               Oláfr k<ex>on</ex>gr hellt austr f<ex>yrir</ex> Norveg m<ex>ed</ex> herlidi síno,
+                  <ex>og</ex> helldu þ<ex>ei</ex>r at Úlfaskeriom, heriudu wida, <ex>og</ex> lỏgduz
+               at einu kvỏlldi wid <app>
+                  <lem>eitt</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> Eyland. K<ex>on</ex>gr bidr þá b<ex>ræd</ex>r Kára <pb n="89v"
+                  facs="18HsG_JS_634_4to_0089v"/> og Aurnólf at g<ex>an</ex>ga uppá Eyona,
+                  <ex>og</ex> wita hv<ex>er</ex>t þ<ex>ei</ex>r <app>
+                  <lem>sæu</lem>
+                  <rdg wit="#L840">sæe</rdg>
+               </app>
+               <app>
+                  <lem>n<ex>ock</ex>r</lem>
+                  <rdg wit="#L840"><unclear reason="damaged">ei00</unclear></rdg>
+               </app> skip. þ<ex>ei</ex>r g<unclear>ỏ</unclear>ra<note resp="#KAKapitan" n="2"
+                  place="foot" xml:id="ftn002"> In J634, this word appears to be written with a
+                  detached loop of <q>ỏ</q> or a superfluous abbreviation mark for
+                     <q>g<ex>er</ex>a</q>, if that's the case, the abbreviation has been ignored
+                  here. L840 reads <q>giora</q>.</note> nú sva, g<ex>en</ex>go uppá landit, og litu
+               vj herskip liggia an<ex>nar</ex>s weg<ex>ar</ex> Ey<ex>ar</ex>in<ex>n</ex>ar,
+                  und<ex>ir</ex> haumr<ex>um</ex> n<ex>oc</ex>k<ex>rum</ex>, þar w<ex>ar</ex>
+                  m<ex>ed</ex> Ein<ex>n</ex> Dreki allskrautlegr. Kári kall<ex>ar</ex> til
+                  þ<ex>ei</ex>ra af landi, <ex>og</ex> sp<ex>ir</ex> hver f<ex>yrir</ex>
+                  skipun<ex>um</ex> redi? Ein<ex>n</ex> Dólgr stód wid siglu á Drekan<ex>um</ex>
+               uppi, <ex>og</ex> qv<ex>ad</ex>st Hraungviðr heita, <ex>og</ex> ræde eg
+                  f<ex>yrir</ex> þessum skip<ex>um</ex> s<ex>egir</ex> h<ex>an</ex>n, edr
+                  hv<ex>er</ex>t er namn þitt? Kári s<ex>sagdi</ex><note resp="#KAKapitan" n="3"
+                  place="foot" xml:id="ftn003"> This word is abbreviated in both manuscripts, but
+                  the abbreviation in L840 indicates the past tense, hence this expansion.</note>
+                  t<ex>il</ex> sin hit san<ex>n</ex>a og <app>
+                  <lem>til</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app>
+               <app>
+                  <lem>br<ex>odurs</ex> sins</lem>
+                  <rdg wit="#L840">syns brödurs</rdg>
+               </app>, og þar med m<ex>ælir</ex> han<ex>n</ex>: Aungwan m<ex>ann</ex> weit eg werri
+               til í heimin<ex>um</ex> en<ex>n</ex> þig Hraungviðr! og þar fyrir sk<ex>al</ex> eg
+               hỏggwa þig í smá stycki fyrir hund og <app>
+                  <lem>hrafn</lem>
+                  <rdg wit="#L840">hr<unclear reason="illegible">on</unclear>
+                  </rdg>
+               </app> : Hraungv<ex>idr</ex> m<ex>ælir</ex>: Eg hefir heriat <app>
+                  <lem>í xxxiij ár</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> sumar og <app>
+                  <lem>wetr</lem>
+                  <rdg wit="#L840">+ i xxxiij är</rdg>
+               </app>, og hád <app>
+                  <lem>m<ex>ar</ex>gar</lem>
+                  <rdg wit="#L840">Lx.</rdg>
+               </app> or<ex>rost</ex>or, og f<ex>en</ex>git <app>
+                  <lem>sigur í þ<ex>ei</ex>m LX jafnan</lem>
+                  <rdg wit="#L840">jafnan Sigur</rdg>
+               </app>. Mitt wopn er Brijnþwari, er alld<ex>ri</ex> hefir en<ex>n</ex> sliófgast, kom
+               þú her á Morgun Kári! <ex>og</ex> sk<ex>al</ex> eg þá slidra h<ex>an</ex>n í
+                  þi<ex>no</ex> briósti. Kári qv<ex>ad</ex>st ei bila <app>
+                  <lem>m<ex>un</ex>di</lem>
+                  <rdg wit="#L840">mundu</rdg>
+               </app> at hitta han<ex>n</ex>. Hraungvidr matti kiósa hv<ex>er</ex>n dag m<ex>an</ex>
+               til dauds fyri Brijnþvaran<ex>um</ex>. Þ<ex>ei</ex>r b<ex>ræd</ex>r komu nú aftr til
+                  k<ex>on</ex>gs og s<ex>ỏgdu</ex> h<ex>onu</ex>m þessi tídindi. K<ex>on</ex>gr baud
+                  þeg<ex>ar</ex> at hallda til or<ex>rost</ex>o <app>
+                  <lem>og</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> sva war gỏrt, hitt<ex>ust</ex> þ<ex>ei</ex>r nú hverutv<ex>egia</ex> og tókz
+               þar hardr bardagi med þ<ex>ei</ex>m. þ<ex>ei</ex>r b<ex>ræd</ex>r g<ex>en</ex>go wel
+               fram, og hafdi Kári jafn<ex>an</ex> viij edr xij m<ex>enn</ex> j hverio hóggi,
+                  <ex>og</ex> er Hraungvidr sá þ<ex>e</ex>tta, hlióp han<ex>n</ex> uppá
+               K<ex>on</ex>gs skip<ex>it</ex> til Kára, <ex>og</ex> lagdi Brynþwaran<ex>um</ex> í
+               gegnum han<ex>n</ex>. En<ex>n</ex> er Kári hafdi f<ex>en</ex>git lag<ex>it</ex>,
+                  m<ex>ælti</ex><note resp="#KAKapitan" n="4" place="foot" xml:id="ftn004"> The word
+                  is abbreviated in both manuscripts, but the abbreviation in L840 indicates the use
+                  of the past tense, hence this expansion.</note> han<ex>n</ex> til K<ex>on</ex>gs:
+               lifit heilir Herra! en<ex>n</ex> ek man Oþin gista. Efftir þ<ex>at</ex> wo
+                  Hraungv<ex>idr</ex> Aurnólf uppá Brijnþv<ex>ar</ex>an<ex>um</ex>, og fleigdi <app>
+                  <lem>h<ex>onu</ex>m</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> d<ex>au</ex>dum á þiliurn<ex>n</ex>ar. En<ex>n</ex> er þ<ex>ei</ex>r
+                  b<ex>ræd</ex>r wo<ex>ru</ex> fallnir, kallar Hraungvidr til filgdarm<ex>ann</ex>a
+                  þ<ex>eir</ex>ra, at þ<ex>ei</ex>r skuli gef<pb n="90r"
+                  facs="18HsG_JS_634_4to_0090r"/>ast upp í sitt walld, <ex>og</ex> er þá illr kúr í
+               lidi k<ex>on</ex>gs, en<ex>n</ex> eing<ex>in</ex> jarn bitu á Hraungvid. Þess er nú
+               widgetit at Hromundr Greypss<ex>on</ex> w<ex>ar</ex> í filgd <app>
+                  <lem>med k<ex>on</ex>gi</lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app>, h<ex>an</ex>n tók ser í haund eina kylfu, byndr ser grátt og sydt geitaskegg,
+               setr sidan m<ex>ik</ex>in hátt á haufud <app>
+                  <lem>ser</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app>, wedr sva fram, <ex>og</ex> fin<ex>n</ex>r þá b<ex>ræd</ex>r báda
+               d<ex>au</ex>da, tekr han<ex>n</ex> þá upp merki k<ex>on</ex>gs er ádr war nidr
+                  fall<ex>it</ex>, <ex>og</ex> lemr m<ex>ed</ex> kylfun<ex>n</ex>i
+                  blámen<ex>n</ex>ina<note resp="#KAKapitan" n="5" place="foot" xml:id="ftn005"
+                  >Superfluous abbreviation marker in J634, <q>blám<ex>m</ex>en<ex>n</ex>ina</q>,
+                  ignored.</note> til d<ex>au</ex>ds á bad<ex>ar</ex> hendr. Hraungv<ex>idr</ex>
+                  sp<ex>ir</ex> nú hver <app>
+                  <lem>er</lem>
+                  <rdg wit="#L840">ad</rdg>
+               </app> þ<ex>ess</ex>i hrott<ex>in</ex> wæri, edr er þ<ex>et</ex>ta n<ex>ock</ex>ut <app>
+                  <lem>s<ex>egir</ex> h<ex>an</ex>n</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> fretkallin fadir h<ex>an</ex>s illa Kára, <app>
+                  <lem>enn</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> Hróm<ex>undr</ex> s<ex>agdi</ex><note resp="#KAKapitan" n="6" place="foot"
+                  xml:id="ftn006"> This word is abbreviated in both manuscripts, but the
+                  abbreviation in L840 indicates the past tense, hence this expansion.</note>
+                  h<ex>onu</ex>m namn sitt, <ex>og</ex> qv<ex>ad</ex>z hefna wilia þ<ex>eir</ex>ra
+                  b<ex>ræd</ex>ra, enn ei war Kári m<ex>er</ex> sk<ex>ill</ex>d<unclear>r</unclear>
+                  s<ex>egir</ex> h<ex>an</ex>n, sk<ex>al</ex> eg <app>
+                  <lem>þó</lem>
+                  <rdg wit="#L840"> + skal</rdg>
+               </app> samt drepa þ<ex>ig</ex>, <ex>og</ex> í þ<supplied>v</supplied>í gaf
+                  han<ex>n</ex> Hraungvidi kylfu hỏgg sv<unclear>a</unclear> m<ex>ik</ex>it, at
+                  h<ex>an</ex>n b<ex>ar</ex> hallt hofudit efft<ex>ir</ex>, <app>
+                  <lem>og</lem>
+                  <rdg wit="#L840">þá</rdg>
+               </app> m<ex>ælti</ex>
+               <app>
+                  <lem>sídan</lem>
+                  <rdg wit="#L840">Hraungvidr</rdg>
+               </app> : Eg hefir nú wer<ex>it</ex>
+               <app>
+                  <lem>allwída</lem>
+                  <rdg wit="#L840">vijda</rdg>
+               </app> í bard<ex>au</ex>g<ex>um</ex>, <ex>og</ex> alld<ex>ri</ex>
+                  f<ex>en</ex>g<ex>it</ex> þ<supplied>v</supplied>ílíkt hỏgg se<ex>m</ex> þetta.
+                  An<ex>n</ex>at hỏgg sló Hrom<ex>undr</ex> Hraungv<ex>idi</ex> med
+               kylfun<ex>n</ex>i í haufudit, war þ<ex>at</ex> ei lettara en<ex>n</ex> hitt, lamadiz
+               þá hausin miỏg, en<ex>n</ex> í þridia hogginu misti h<ex>an</ex>n lífit.
+                  Efft<ex>ir</ex> þ<ex>et</ex>ta g<ex>en</ex>go þ<ex>ei</ex>r allir á hendr
+                  k<ex>on</ex>gi, <app>
+                  <lem>se<ex>m</ex></lem>
+                  <rdg wit="#L840">er</rdg>
+               </app> efft<ex>ir</ex> lifdu, <ex>og</ex> lauk sva bardagan<ex>um</ex>. </p>
+         </div>
+         <div type="chapter" n="2">
+            <p><hi rend="rubric">II. Cap<ex>ítuli</ex> Hrómundr opnar haug Þráins.</hi> Nú
+                  kan<ex>n</ex><ex>ar</ex> Hróm<ex>undr</ex> skip<ex>in</ex> oc fin<ex>n</ex>r einn
+                  m<ex>ann</ex> hallast upp vit í stafni á Drekan<ex>um</ex>, sp<ex>ir</ex>
+                  h<ex>an</ex>n þ<ex>ann</ex> m<ex>ann</ex> at namni? en h<ex>an</ex>n
+               qv<ex>ad</ex>z Helgi heita, <ex>og</ex> wera kalladr hin<ex>n</ex> Frækni, er eg
+                  br<ex>odir</ex> Hraungvidar s<ex>egir</ex> h<ex>an</ex>n, og
+                  nen<ex>n</ex><ex>i</ex><note resp="#KAKapitan" n="7" place="foot" xml:id="ftn007">
+                  J634 has an abbreviation marker here, which is vaguely similar to that used for
+                     <q>er</q>, making the form <q>nennir</q> a possibility.</note> eg ydr ei fridar
+               at bidia. Hrom<ex>undr</ex> tók Helga hin<ex>n</ex> Frækna og let græda han<ex>n</ex>
+               at heilu, hellt h<ex>an</ex>n sídan heim á leid afftr til Sviþiód<ex>ar</ex>, <pb
+                  n="90v" facs="18HsG_JS_634_4to_0090v"/> og gỏrdiz þar landwarn<ex>ar</ex>
+                  m<ex>adr</ex>. Efftir þ<ex>et</ex>ta hellt Oláfr k<ex>on</ex>gr lidi sínu <app>
+                  <lem>westr</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> til Sudr <app>
+                  <lem>Eýia</lem>
+                  <rdg wit="#L840">+ vestur</rdg>
+               </app>, g<ex>en</ex>go þ<ex>ei</ex>r þar á land, <ex>og</ex> tóku ser
+                  strandhỏgg<unclear>e</unclear> karl ein<ex>n</ex> bió þar á <app>
+                  <lem>landi</lem>
+                  <rdg wit="#L840">landenú</rdg>
+               </app> uppi miỏg nærri, hỏfdu k<ex>on</ex>gs m<ex>enn</ex> tekit f<ex>ra</ex>
+               <app>
+                  <lem>h<ex>onu</ex>m</lem>
+                  <rdg wit="#L840">+ ij</rdg>
+               </app> kyr h<ex>an</ex>s, og ráku þær undan ser til skipa, let karl miỏg aumlega yfer
+               ser, <app>
+                  <lem>wid</lem>
+                  <rdg wit="#L840">um</rdg>
+               </app> þan<ex>n</ex> miss<ex>ir</ex>, <ex>og</ex> er Hróm<ex>undr</ex> ward þess wys
+                  sp<ex>ir</ex> h<ex>an</ex>n kall at hvỏr han<ex>n</ex> wæri? en<ex>n</ex>
+                  han<ex>n</ex> qvadst Máni heita. Hrom<ex>undr</ex> sp<ex>ir</ex> hvad hellz
+                  h<ex>an</ex>n misst hafi? en<ex>n</ex> h<ex>an</ex>n qvedz lát<ex>it</ex> hafa kyr
+                  sín<ex>ar</ex>, er <app>
+                  <lem>wæ<ex>ri</ex></lem>
+                  <rdg wit="#L840">væro</rdg>
+               </app> sitt hiálprædi, qvedz h<ex>an</ex>n búa þar allskamt frá, og kwad lítla fremd
+               at ræna kotkalla; wæ<ex>ri</ex> þ<ex>at</ex> m<ex>ik</ex>lu m<ex>ei</ex>ri frami
+                  s<ex>egir</ex> h<ex>an</ex>n at brióta hauga, <ex>og</ex> abla ser þadan fiár
+                  þ<ex>essa</ex> er <app>
+                  <lem>draug<ex>ur</ex></lem>
+                  <rdg wit="#L840">draugar</rdg>
+               </app>
+               <note resp="#KAKapitan" n="8" place="foot" xml:id="ftn008">J634 has here a regular
+                  r-superscript abbreviation, which usually is used for <q>ar</q> and it would agree
+                  with L840, but it has been expanded as <q>ur</q> to agree with the form of the
+                  following verb.</note>
+               <app>
+                  <lem>hefdi</lem>
+                  <rdg wit="#L840">hhefdú</rdg>
+               </app> at w<ex>ar</ex>dweita, Hrom<ex>undr</ex> bad h<ex>an</ex>n <app>
+                  <lem>segia</lem>
+                  <rdg wit="#L840">vijsa</rdg>
+               </app> ser, ef h<ex>an</ex>n wissi n<ex>ock</ex>ut um sodd<ex>an</ex>, en<ex>n</ex>
+               Máni qvadz wiz wita og m<ex>ælti</ex> Þráin war k<ex>on</ex>gr nemndr, <app>
+                  <lem>er</lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> wan<ex>n</ex> allt Valland og <app>
+                  <lem>ward</lem>
+                  <rdg wit="#L840">var</rdg>
+               </app> þar k<ex>on</ex>gr yfir, h<ex>an</ex>n war Berserkr m<ex>ik</ex>ill og sterkr, <app>
+                  <lem>og</lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> þar med fullr galld<ex>ra</ex>, h<ex>an</ex>n war settr í haug med
+                  sv<ex>er</ex>di og herklædum og m<ex>ik</ex>lu audru fee, en<ex>n</ex> fáir eru
+                  þ<ex>ei</ex>r <app>
+                  <lem>er</lem>
+                  <rdg wit="#L840">sem</rdg>
+               </app> fysaz <app>
+                  <lem>þan<ex>n</ex>ig</lem>
+                  <rdg wit="#L840">þangad</rdg>
+               </app> at fáz wid h<ex>an</ex>n s<ex>egir</ex> karl. Hróm<ex>undr</ex> sp<ex>ir</ex>
+               hweria leid sigla sk<ex>ule</ex>
+               <app>
+                  <lem>þan<ex>n</ex>igd</lem>
+                  <rdg wit="#L840">þangad</rdg>
+               </app>
+               <note resp="#KAKapitan" n="9" place="foot" xml:id="ftn009">A mistake in J634, should
+                  read <q>þangad</q>.</note> karl seig<ex>ir</ex> at h<ex>an</ex>n má sigla rett í
+               sudr á vj dỏgum. Hrom<ex>undr</ex> þackar karli þessa <app>
+                  <lem>frá saugo</lem>
+                  <rdg wit="#L840">fräsógn</rdg>
+               </app>, <ex>og</ex> gaf h<ex>onu</ex>m aptr kyr sín<ex>ar</ex>, <ex>og</ex> þar
+                  t<ex>il</ex> an<ex>n</ex><ex>at</ex> fee, ward karl <app>
+                  <lem>gladi</lem>
+                  <rdg wit="#L840">gladdur</rdg>
+               </app> wid þ<ex>et</ex>ta, og rak þær heim til bigda sin<ex>n</ex>a. Efft<ex>ir</ex>
+                  þ<ex>at</ex>
+               <app>
+                  <lem>sigldu</lem>
+                  <rdg wit="#L840">hielldu</rdg>
+               </app> þ<ex>ei</ex>r <app>
+                  <lem>brott</lem>
+                  <rdg wit="#L840">búrt</rdg>
+               </app> þadan, <ex>og</ex>
+               <app>
+                  <lem>helldo</lem>
+                  <rdg wit="#L840">sigldu</rdg>
+               </app> skip<ex>um</ex> sinum í þá átt se<ex>m</ex> karl h<ex>a</ex>fdi þ<ex>ei</ex>m
+               tilwísat, <ex>og</ex> at vj daga fresti, komu þ<ex>ei</ex>r vest<ex>an</ex> til at
+               Vallandi og sáu þar haug<ex>in</ex> rett f<ex>yrir</ex> fram<ex>m</ex>stafni, á nesi
+               einu. G<ex>en</ex>gu þ<ex>ei</ex>r nú uppá land at haugin<ex>um</ex>, <ex>og</ex>
+               tóku <app>
+                  <lem>t<ex>il</ex> þeg<ex>ar</ex></lem>
+                  <rdg wit="#L840">þegar til</rdg>
+               </app> at riufa <pb n="91r" facs="18HsG_JS_634_4to_0091r"/> h<ex>an</ex>n,
+                  en<ex>n</ex> at lidn<ex>um</ex> iiij daug<ex>um</ex>, gátu þ<ex>ei</ex>r
+                  kom<ex>it</ex>
+               <app>
+                  <lem>glúgg á</lem>
+                  <rdg wit="#L840">glúgga ä</rdg>
+               </app> haugin; sáu þ<ex>ei</ex>r þá in<ex>n</ex> at þar sat Dólgr m<ex>ik</ex>ill á
+               stóli, sá war bædi blár og digr, og allr gullleg<ex>um</ex> skrúda klæddr, sva at
+               leyptra þóckti af, rumdi han<ex>n</ex> miỏg <app>
+                  <lem>m<ex>ik</ex>it</lem>
+                  <rdg wit="#L840">vid</rdg>
+               </app>, er h<ex>an</ex>n bles at Elldin<ex>um</ex>. Hróm<ex>undr</ex> sp<ex>ir</ex>
+               þá hv<ex>er</ex> þ<ex>eir</ex>ra allra g<ex>an</ex>ga wili í haugin, <ex>og</ex>
+               skuli sá mega kiósa ser iij kiorgripi af fe haugbúans. Voli qv<ex>ad</ex>
+               <app>
+                  <lem>aungw<ex>an</ex></lem>
+                  <rdg wit="#L840">+ munde</rdg>
+               </app> wilia gefa líf sítt, wid <app>
+                  <lem>þ<ex>at</ex></lem>
+                  <rdg wit="#L840">þvi</rdg>
+               </app>
+               <note resp="#KAKapitan" n="10" place="foot" xml:id="ftn010">This word is abbreviated
+                  in both manuscripts.</note> se<ex>m</ex> í haugin<ex>um</ex> er; eru her nú LX
+                  m<ex>ann</ex>a s<ex>egir</ex> h<ex>an</ex>n: og m<ex>un</ex> Trỏll þ<ex>et</ex>ta
+                  ỏllu<ex>m</ex> þ<ex>ei</ex>m bana weita. Hróm<ex>undr</ex> m<ex>ælti</ex>
+                  Vog<ex>ad</ex> m<ex>un</ex>di Kári hafa þ<ex>et</ex>ta ef lífs wæri, og qvad
+                  m<ex>ik</ex>lega<ex>z</ex> at ser wæ<ex>ri</ex> nidr sleppt í festi nockurri,
+                  in<ex>n</ex> í haug<ex>in</ex><note resp="#KAKapitan" n="*11" place="foot"
+                  xml:id="ftn011"> The expansion with a single <q>n</q> (<q>haug<ex>in</ex></q>
+                  instead of <q>haug<ex>inn</ex></q>) follows the written-out forms in J634.</note>,
+               þó at eg witi s<ex>egir</ex> h<ex>an</ex>n: at bet<ex>ra</ex> se, at fáz wid viij
+               adra Rauskwa m<ex>enn</ex>, en<ex>n</ex>
+               <app>
+                  <lem>draug</lem>
+                  <rdg wit="#L840">haugbúa</rdg>
+               </app> þen<ex>n</ex>an ein <app>
+                  <lem>saman</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app>. Sid<ex>an</ex> fer Hróm<ex>undr</ex> nidr í festin<ex>n</ex>i, war
+                  þ<ex>et</ex>ta á nóttu. En<ex>n</ex> er han<ex>n</ex> kom in<ex>n</ex> í
+                  haug<ex>in</ex>, <ex>og</ex> nidr á gólfit, þá sveifladiz h<ex>an</ex>n
+                  um<ex>m</ex>, og bar sam<ex>an</ex> fee m<ex>ik</ex>it, er han<ex>n</ex>
+                  fan<ex>n</ex> fyri ser, <ex>og</ex> batt þat í festar Endan. Þráin h<ex>a</ex>fdi
+               á fyrri daugun<ex>um</ex> wer<ex>id</ex> k<ex>on</ex>gr yfir Vallandi, se<ex>m</ex>
+               fyrr war sagt; Van<ex>n</ex> h<ex>an</ex>n þ<ex>at</ex> allt m<ex>ed</ex>
+                  gỏlldr<ex>um</ex>, <ex>og</ex> gỏrdi m<ex>ar</ex>gt íllt af ser. En<ex>n</ex> er
+                  han<ex>n</ex> war sva gamall at han<ex>n</ex> kun<ex>n</ex>i ei at geta stridt
+                  l<ex>ein</ex>gr; þá let h<ex>an</ex>n setia sig <app>
+                  <lem>lifanda</lem>
+                  <rdg wit="#L840">lifande</rdg>
+               </app> í haug<ex>in</ex>, <ex>og</ex> m<ex>ik</ex>it fe m<ex>ed</ex> ser. </p>
+         </div>
+         <div type="chapter" n="3">
+            <p><hi rend="rubric">III. Cap<ex>ítuli</ex> Hróm<ex>undr</ex> vin<ex>n</ex>r
+                     Haugbúan<ex>n</ex>, og fær Mistiltein.</hi> Hróm<ex>undr</ex> kan<ex>nar</ex>
+               nú víþa haug<ex>in</ex>, <ex>og</ex> getr seet hv<ex>ar</ex> sverd hángir upp á
+                  ein<ex>n</ex>i súlu, h<ex>an</ex>n kyppir þ<supplied>v</supplied>í of<ex>an</ex>,
+               girdir sig m<ex>ed</ex> þ<supplied>v</supplied>í, <ex>og</ex> g<ex>en</ex>gr fram at
+                  stólin<ex>um</ex> sva mælandi: Mer man w<ex>er</ex>a mál kom<ex>it</ex> or
+                  haugin<ex>um</ex> f<ex>ir</ex>st eing<ex>inn</ex> hamlar, <pb n="91v"
+                  facs="18HsG_JS_634_4to_0091v"/> eda hv<ex>er</ex>nig
+                  weg<unclear>n<ex>ar</ex></unclear> þer þú herna hin<ex>n</ex> Gamli: eda sástú
+                  e<ex>ck</ex>e at eg bar sam<ex>an</ex> fee þitt, en húkt<ex>ir</ex> kir á
+                  med<ex>an</ex> húndr leidr. Eda hwad war þer í aug<ex>um</ex> er þú horfdir á, at
+               eg tók sv<ex>er</ex>dit og men<ex>it</ex>, <ex>og</ex> fiỏlda <app>
+                  <lem>þin<ex>n</ex>a</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> an<ex>n</ex>a<ex>ra</ex> gripa? Þráin qv<ex>ad</ex> s<ex>er</ex> einkis
+                  w<ex>er</ex>dt þyckia um þ<ex>et</ex>ta, ef h<ex>an</ex>n leti sig kirr<ex>an</ex>
+               sitia á stóli sín<ex>um</ex>; kun<ex>n</ex>a eg s<ex>egir</ex> h<ex>an</ex>n ádr fyr
+               at beriaz, <ex>og</ex> er þá ord<ex>inn</ex> nógu ragr, ef þú ein<ex>n</ex>
+                  sk<ex>alt</ex> ræna mig audi mínum, wil eg synia þer gripan<ex>n</ex>a,
+                  <ex>og</ex> máttú siá wid mer d<ex>au</ex>d<ex>um</ex>. Þá m<ex>ælti</ex>
+                  Hróm<ex>undr</ex> Rigadu þer á fætr, ragr og blaudr, og tak tú sw<ex>er</ex>dit
+               afftr af m<ex>er</ex> ef þú þor<ex>ir</ex>. draugurin m<ex>ælti</ex> þat er
+                  eing<ex>in</ex> fremd at bera sv<ex>er</ex>d <unclear>á</unclear> mig wopnlausan,
+               wil eg helldr reina abl wid þig <ex>og</ex> glímo. Hróm<ex>undr</ex> kastar þá nidr
+                  sv<ex>er</ex>dinu, <ex>og</ex> treisti abli sínu, <ex>og</ex> er Þráin sá
+                  þ<ex>et</ex>ta, leisti h<ex>an</ex>n ofan ketil sin<ex>n</ex>, er h<ex>an</ex>n
+                  h<ex>a</ex>fdi <app>
+                  <lem>upp i</lem>
+                  <rdg wit="#L840">upp</rdg>
+               </app> yfer <app>
+                  <lem>hlaudun</lem>
+                  <rdg wit="#L840">hlödunum</rdg>
+               </app>, war h<ex>an</ex>n þá ei frínlegr og bles at Elldin<ex>um</ex>, er
+                  h<ex>an</ex>n war búin at eta or katlin<ex>um</ex>, fun<ex>n</ex>i war
+                  m<ex>ik</ex>ill <app>
+                  <lem>í</lem>
+                  <rdg wit="#L840">ä</rdg>
+               </app> milli fóta h<ex>an</ex>s, en<ex>n</ex> ketill<ex>inn</ex> fullr af
+                  m<ex>ann</ex>a búku<ex>m</ex>. H<ex>an</ex>n war í stacki gullfágud<ex>um</ex>,
+                  bád<ex>ar</ex> h<ex>an</ex>s hendr wo<ex>ru</ex> breinglad<ex>ar</ex>, og beigduz
+               neglur fyri góma. Hróm<ex>undr</ex> m<ex>ælti</ex> skrydtú af stóli skálckr argr!
+               Swiptr aullu fee. Þá sv<ex>arar</ex> draugr<ex>inn</ex>: Nú man mál wera at fara á
+               fætr, fi<supplied>r</supplied>st þú fry<supplied>a</supplied>r mer hugar
+                  þ<supplied>v</supplied>i e<ex>ck</ex>e er þ<ex>et</ex>ta þolandi leingr, lydr <app>
+                  <lem>nú</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> dagurin, en<ex>n</ex> kwỏlld<ex>ar</ex> miỏg, <ex>og</ex> gỏriz þá <app>
+                  <lem>myrkt</lem>
+                  <rdg wit="#L840">dimmt</rdg>
+               </app> í hauginum, reys h<ex>an</ex>n þá á fætr, og g<ex>eck</ex> til glímu wid
+                  Hróm<ex>und</ex> og kastadi nidr frá ser katli sín<ex>um</ex>, neytti
+                  Hróm<ex>undr</ex> þá abls; <ex>og</ex> g<ex>en</ex>guz þ<ex>ei</ex>r at sva hardt,
+               at griót og stock<ex>ar</ex> g<ex>en</ex>go upp, <ex>og</ex> allt þ<ex>at</ex> er
+                  f<ex>yrir</ex> ward. <pb n="92r" facs="18HsG_JS_634_4to_0092r"/> þá dátt
+                  draugur<ex>inn</ex> á an<ex>n</ex>at kne og m<ex>ælti</ex> þú stiak<ex>ar</ex>
+               mer, og wýst ertu hraustr, Hrom<ex>undr</ex>
+               <app>
+                  <lem>s<ex>egir</ex></lem>
+                  <rdg wit="#L840">mælti</rdg>
+               </app> státtú studningslauz á fætr aptr, og m<ex>ik</ex>lo ertú linari en<ex>n</ex>
+               Mani karl s<ex>agdi</ex> mer. þá tók Þráin at Tryllast,<note resp="#KAKapitan" n="12"
+                  place="foot" xml:id="ftn012">In J634, the word-initial letter resembles more the
+                  capital <q>d</q> than <q>t</q>, compare with <q>Tígilkníf</q> on f. 94v.</note> og
+               fylltiz upp haugr<ex>in</ex> m<ex>ed</ex> illan daun, er wedr g<ex>eck</ex> af
+                  h<ex>onu</ex>m tvá wega, setti han<ex>n</ex> þá klær sín<ex>ar</ex> á hnacka
+                  Hróm<ex>undar</ex>
+               <ex>og</ex> sleit holld h<ex>an</ex>s og hudina m<ex>ed</ex> af beinun<ex>um</ex>,
+               allt á lend<ex>ar</ex> ofan og m<ex>ælti</ex> kvarta ei um <app>
+                  <lem>þo</lem>
+                  <rdg wit="#L840">þött</rdg>
+               </app> gráne leykr<ex>inn</ex> og sárni kroppr þin<ex>n</ex>, þ<ex>vía</ex>t nú
+                  sk<ex>al</ex> eg ryfa þig kwikan í sundr. E<unclear>ig</unclear>i weit eg
+                  s<ex>egir</ex> Hrom<ex>undr</ex> hvad<ex>an</ex> kattarkyn slíkt er kom<ex>it</ex>
+               í haug þen<ex>n</ex>a. Draugurin m<ex>ælir</ex> þú mant fæddr w<ex>er</ex>a af
+                  Gun<ex>n</ex>lỏd, <ex>og</ex> eru fá<ex>ir</ex> þín<ex>ir</ex> lik<ex>ar</ex>.
+               Jllt man wera s<ex>egir</ex> Hrom<ex>undr</ex> attú<note resp="#KAKapitan" n="13"
+                  place="foot" xml:id="ftn013">The scribe of J634 sometimes writes <q>áttú</q> or
+                     <q>attú</q> for <q>at þú</q>.</note> klórar mig leingi. Glímdu þ<ex>ei</ex>r þá <app>
+                  <lem>en<ex>n</ex></lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> bædi hart og l<ex>ein</ex>gi, sva at skálf undir þ<ex>at</ex> í nánd war, þar
+               til um sidir at Hróm<ex>undr</ex> felldi han<ex>n</ex> á fótarbragdi. War þá miỏg
+                  dim<ex>m</ex>t ordit. þá m<ex>ælti</ex> Draugr<ex>inn</ex>: Nú
+               yfirwan<ex>n</ex>stú mig med rádum, og tókz sverd mitt, skipti þ<ex>at</ex>
+                  m<ex>ed</ex> ockr leyki; leingi hefir eg <app>
+                  <lem>nú</lem>
+                  <rdg wit="#L840">+ segir draugur</rdg>
+               </app> lif<ex>at</ex> í haugi m<ex>inum</ex>
+               <ex>og</ex> lafat á fee þ<ex>ess</ex>u, en<ex>n</ex> ei er gott at trúa
+                  grip<ex>um</ex> sín<ex>um</ex>, þó <app>
+                  <lem>godir þycki of miỏg</lem>
+                  <rdg wit="#L840">of mióg þike gödir</rdg>
+               </app>. Og alld<ex>ri</ex> hefir eg ætlat attú mistiltein<ex>n</ex>! mitt góda
+                  sv<ex>er</ex>d, m<ex>un</ex>dir w<ex>er</ex>da m<ex>er</ex> til meins,
+                  w<ex>ar</ex>d Hróm<ex>undr</ex> þá laus, <ex>og</ex> nádi sv<ex>er</ex>dinu,
+                  <ex>og</ex> m<ex>ælti</ex> herm m<ex>er</ex> nú hv<ex>at</ex> m<ex>ar</ex>ga
+                  m<ex>enn</ex> þú <app>
+                  <lem>wan<ex>n</ex></lem>
+                  <rdg wit="#L840">vanst</rdg>
+               </app> í <app>
+                  <lem>holmg<ex>aun</ex>go</lem>
+                  <rdg wit="#L840">Hölmgaungum</rdg>
+               </app> med Mistilteini. CXXIIIJ qv<ex>ad</ex> draugr<ex>inn</ex>, og f<ex>eck</ex> eg
+                  alld<ex>ri</ex> skeinu. Semingr k<ex>on</ex>gr er war í Svíþíod, <ex>og</ex> ek
+                  reindu<ex>m</ex> ockar Jþróttir, <ex>og</ex> hugdi han<ex>n</ex> eg m<ex>un</ex>di
+               seint un<ex>n</ex><ex>inn</ex> w<ex>er</ex>da af m<ex>enn</ex>sku<ex>m</ex>
+                  m<ex>ỏnnu</ex>m. Hellz <app>
+                  <lem>í</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> l<ex>ein</ex>ge hefir þú werit m<ex>ỏnnu</ex>m til meins s<ex>egir</ex>
+                  Hróm<ex>undr</ex> og man þ<ex>at</ex> happa werk, at láta þig se<ex>m</ex>
+                  f<ex>ir</ex>st de<unclear>y</unclear>ia, hió han<ex>n</ex> þá hỏfudit af
+                  draugin<ex>um</ex>, og bren<ex>n</ex>di <pb n="92v" facs="18HsG_JS_634_4to_0092v"
+               /> h<ex>an</ex>n allan upp at biỏrtu báli. Sid<ex>an</ex> war han<ex>n</ex> upp
+                  dreg<ex>inn</ex> or haugin<ex>um</ex>
+               <ex>og</ex> fet allt, sp<ex>urdu</ex> m<ex>enn</ex> þá at h<unclear>wer</unclear>nig
+                  þ<ex>ei</ex>r Þráin og h<ex>an</ex>n <app>
+                  <lem>h<ex>a</ex>fdi</lem>
+                  <rdg wit="#L840">hỏfdú</rdg>
+               </app> skilit? en<ex>n</ex> h<ex>an</ex>n qv<ex>ad</ex> þ<ex>at</ex> hafa
+                  g<ex>en</ex>g<ex>it</ex> í kiỏr, þ<ex>vía</ex>t eg hió af h<ex>onu</ex>m
+                  hỏfud<ex>it</ex> s<ex>eiger</ex> h<ex>an</ex>n at ockr<unclear>t</unclear>
+               skilnadi, Eignadiz Hróm<ex>undr</ex> þá iij kiỏrgripi, af þ<supplied>v</supplied>í
+               fee er h<ex>an</ex>n socti í haug<ex>in</ex> hríng men og Mistiltein. Feingo
+                  þ<ex>ei</ex>r allir of fjár. Sigldi Olafr k<ex>on</ex>gr sva þadan nordr afftr,
+               heim t<ex>il</ex> Rikis <app>
+                  <lem>síns</lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app>, <app>
+                  <lem><ex>og</ex></lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> settiz um<ex>m</ex> kirt at l<ex>an</ex>di síno. </p>
+         </div>
+         <div type="chapter" n="4">
+            <p><hi rend="rubric">IV. Cap<ex>ítuli</ex> Hrómundr kemz i onad k<ex>on</ex>gs fyri
+                  Róg.</hi> Ept<ex>ir</ex> þetta varþ Hróm<ex>undr</ex> miỏc frægr af þesso verki,
+               var han<ex>n</ex> bædi winsæll og stórgiỏfull, h<ex>an</ex>n gaf ein<ex>um</ex>
+                  m<ex>ann</ex>i þ<ex>ei</ex>m er Hrókr het, eitt sin<ex>n</ex> gullhring
+                  god<ex>an</ex> er wóg Eyri, en<ex>n</ex> er þ<ex>at</ex> f<ex>eck</ex> Voli at
+               wita drap h<ex>an</ex>n Hrók á nátt<ex>ar</ex>þeli, <ex>og</ex> tok sva
+                  hring<ex>inn</ex> til sin, en<ex>n</ex> se<ex>m</ex> K<ex>on</ex>gr wissi þetta,
+               qvadz h<ex>an</ex>n sk<ex>ill</ex>di launa Vola einhv<ex>er</ex>n tíma h<ex>an</ex>s
+               hrecki. K<ex>on</ex>gr átti systr <app>
+                  <lem>ij</lem>
+                  <rdg wit="#L840">+ og</rdg>
+               </app> het ỏn<ex>n</ex>r þ<ex>eir</ex>ra Dagní, en<ex>n</ex>
+               <app>
+                  <lem>hin</lem>
+                  <rdg wit="#L840">Ønnur</rdg>
+               </app> Svanhvít, <ex>og</ex> w<ex>ar</ex> sú frem<ex>ri</ex> at aullu, war
+                  eing<ex>in</ex> hen<ex>n</ex>ar líki milli Svíþiód<ex>ar</ex> og Hálogalands.
+                  Hróm<ex>undr</ex> Greypss<ex>on</ex> w<ex>ar</ex> nú heima med k<ex>on</ex>gi,
+               gỏrdi h<ex>an</ex>n ser kátt wid Svanhvít, og forda<ex>z</ex> hvỏrki at
+                  þ<supplied>v</supplied>í Vola ne Bíld. Eitt sin<ex>n</ex> war þad at hun
+                  m<ex>ælti</ex> wid Hróm<ex>und</ex> og s<ex>egir</ex> at þ<ex>ei</ex>r Voli og
+               Bíldr muni wissulega rægia h<ex>an</ex>n wid k<ex>on</ex>g, en<ex>n</ex>
+               <app>
+                  <lem>h<ex>an</ex>n</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> qvadz aungw<ex>ar</ex> arg<ex>ar</ex> fylur hrædaz, <ex>og</ex> sva
+                  l<ex>ein</ex>gi s<ex>eiger</ex> h<ex>an</ex>n se<ex>m</ex>, þú <app>
+                  <lem>will</lem>
+                  <rdg wit="#L840">villt</rdg>
+               </app> un<ex>n</ex>a mer widtals, þá man eg tala wid þig, <ex>og</ex>
+               <app>
+                  <lem>lidu</lem>
+                  <rdg wit="#L840">+ nú</rdg>
+               </app> sva fram<ex>m</ex> nockr<ex>ar</ex> stundir. En<ex>n</ex> þar kom um<ex>m</ex>
+               sídir at sva ward megn þessi Rógburdr, at <app>
+                  <lem>þeir Hróm<ex>undr</ex> og</lem>
+                  <rdg wit="#L840">Hrómundur og þeir</rdg>
+               </app> b<ex>ræd</ex>r h<ex>an</ex>s, urdu <pb n="93r" facs="18HsG_JS_634_4to_0093r"/>
+               at ríma <app>
+                  <lem>brott</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> or k<ex>on</ex>gs <app>
+                  <lem>hird</lem>
+                  <rdg wit="#L840">+ búrt</rdg>
+               </app>, <ex>og</ex> fóro heim til faudr síns. litlu her efft<ex>ir</ex> bar sva til
+               eitt sin<ex>n</ex>, at Svanhvít kom á tal wid Oláf k<ex>on</ex>g b<ex>rod</ex>r
+                  sin<ex>n</ex>, <ex>og</ex> m<ex>ælti</ex> sva: Nú er Hróm<ex>undr</ex> dæmdr í <app>
+                  <lem>brott</lem>
+                  <rdg wit="#L840">burt</rdg>
+               </app> frá k<ex>on</ex>gs hird, <app>
+                  <lem>hv<ex>er</ex> er</lem>
+                  <rdg wit="#L840">hvor ed</rdg>
+               </app> wora sæmd jók þó mest, en<ex>n</ex> afftr í stadin <app>
+                  <lem>hafit Er</lem>
+                  <rdg wit="#L840">hafe þier</rdg>
+               </app>
+               <note resp="#KAKapitan" n="14" place="foot" xml:id="ftn014"> J634 has a mistake or an
+                  unusual abbreviation here <q>er</q>, a better reading in L840: <q>þier</q>.</note>
+               med ydr þá ij <app>
+                  <lem>wanda</lem>
+                  <rdg wit="#L840">vondú</rdg>
+               </app> m<ex>enn</ex>, er hverki rækia frægd ne dád, k<ex>on</ex>gr sv<ex>arar</ex>
+               heyrt haufu<ex>m</ex> wer þess get<ex>it</ex> at h<ex>an</ex>n m<ex>un</ex>di fybla
+               þig, <ex>og</ex> sk<ex>al</ex> sv<ex>er</ex>dit skilia yckar ástir. Litt <app>
+                  <lem>man þú</lem>
+                  <rdg wit="#L840">manstú</rdg>
+               </app> þ<ex>at</ex> nú s<ex>eiger</ex> hun, þeg<ex>ar</ex> h<ex>an</ex>n
+                  ein<ex>n</ex> ward til þ<ex>ess</ex> fordum at g<ex>an</ex>ga í haug<ex>in</ex> at
+               sækia fee <app>
+                  <lem>til</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> Þráins, er eng<ex>inn</ex> an<ex>n</ex>ara af þínu lide þordi, <ex>og</ex>
+               fyrri munu þ<ex>ei</ex>r bád<ex>ir</ex> Voli og Bíldr heingd<ex>ir</ex>
+               w<ex>er</ex>da á gálga, s<ex>egir</ex> hun: en<ex>n</ex> þ<ex>ei</ex>r win<ex>n</ex>i
+                  þ<supplied>v</supplied>ílik frægdar werk se<ex>m</ex> Hróm<ex>undr</ex> geck hun
+                  sidan<ex>n</ex> snúdugt <app>
+                  <lem>í</lem>
+                  <rdg wit="#L840">ä</rdg>
+               </app> brott. </p>
+         </div>
+         <div type="chapter" n="5">
+            <p><hi rend="rubric">V. Cap<ex>ítuli</ex> Hrómundr berz mot haddingum med Olafi
+                     k<ex>on</ex>gi fyri bón Svanh<ex>hvítar</ex></hi> Nockro siþ<ex>ar</ex>
+                  b<ex>ar</ex> sva t<ex>il</ex> at k<ex>on</ex>g<ex>ar</ex> ij er heto
+                  bád<ex>ir</ex> Hadding<ex>ar</ex> oc reþo fyri Svíþiod, gỏrdu ord Olafi
+                  k<ex>on</ex>gi og budu h<ex>onu</ex>m ij kosti, at h<ex>an</ex>n gæfi
+               þ<ex>ei</ex>m upp R<ex>íki</ex> sitt, eda berdiz wid þá westr á Vænis ysi,
+                  m<ex>ed</ex> þ<ex>ei</ex>m war þá Helgi hin<ex>n</ex> Frækni Hraungvidar
+                  b<ex>rod</ex>r: en<ex>n</ex> k<ex>on</ex>gr kiỏri helldr at hallda
+               or<ex>rost</ex>o wid þá, en<ex>n</ex> flyia Odul sín; gỏrir h<ex>an</ex>n nú ord
+                  þ<ex>ei</ex>m Hrom<ex>undi</ex> og b<ex>ræd</ex>ru<ex>m</ex> h<ex>an</ex>s, at
+                  þ<ex>ei</ex>r <app>
+                  <lem>komi</lem>
+                  <rdg wit="#L840">verde</rdg>
+               </app> til lids wid han<ex>n</ex>, wildi Hróm<ex>undr</ex> þá hvergi fara,
+                  qv<ex>ad</ex> þá Bild og Vola wel duga <app>
+                  <lem>m<ex>un</ex>di</lem>
+                  <rdg wit="#L840">mundú</rdg>
+               </app>, <ex>og</ex> win<ex>n</ex>a allt med k<ex>on</ex>gi, for kóngr þá af stad
+                  m<ex>ed</ex> lid sitt. En<ex>n</ex> er Svanhvít systir h<ex>an</ex>s feck
+                  þ<ex>et</ex>ta at wita, þá fór hun at hitta Hróm<ex>und</ex> ef w<ex>er</ex>da
+               mætti hun <app>
+                  <lem>gæti</lem>
+                  <rdg wit="#L840">keme</rdg>
+               </app> í n<ex>ock</ex>ro <app>
+                  <lem>mýkt</lem>
+                  <rdg wit="#L840">at mijkia</rdg>
+               </app>
+               <pb n="93v" facs="18HsG_JS_634_4to_0093v"/>
+               <app>
+                  <lem>mikt</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app>
+               <note resp="#KAKapitan" n="15" place="foot" xml:id="ftn015">The scribe of J643
+                  repeated the last word from the previous page at the top of the following
+                  page.</note> h<ex>an</ex>s ged, sva h<ex>an</ex>n yrdi k<ex>on</ex>gi til lids.
+                  En<ex>n</ex> er hún kom þ<ex>ar</ex>, tók Hróm<ex>undr</ex> hen<ex>n</ex>i wel,
+                  m<ex>ælti</ex> hún þá til h<ex>an</ex>s med klỏckvu bragdi: Wird nú til bón
+                  m<ex>ína</ex> s<ex>egir</ex> hun m<ex>ei</ex>r en<ex>n</ex>
+               <app>
+                  <lem>werdleika</lem>
+                  <rdg wit="#L840">verdskulldan</rdg>
+               </app> b<ex>rodur</ex> m<ex>íns</ex> og weit nú lid k<ex>on</ex>gi, wil eg gefa þer <app>
+                  <lem>ein<ex>n</ex></lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> skiỏlld og filgir h<ex>onu</ex>m eitt band, at þig mun ei saka á medann þú
+                  h<ex>efur</ex> þat. Hróm<ex>undr</ex> þackadi h<ex>en</ex>ni giỏf þessa,
+                  <ex>og</ex> het nú ferdin<ex>n</ex>i, gladdiz hún þá, <ex>og</ex> fór heim afftr
+                  t<ex>il</ex> borg<ex>ar</ex>in<ex>n</ex><ex>ar</ex>, en Hróm<ex>undr</ex> bióz til
+                  orostun<ex>nar</ex>, <ex>og</ex> þ<ex>ei</ex>r all<ex>ir</ex> b<ex>ræd</ex>r
+                  h<ex>an</ex>s viij m<ex>ed</ex> h<ex>onu</ex>m. Nú kemr k<ex>on</ex>gr med lid
+               sitt til Vænis yss, <ex>og</ex> w<ex>ar</ex> þ<ex>ar</ex> kom<ex>it</ex>
+                  f<ex>yrir</ex> Svía lid, en<ex>n</ex> at morgni þeg<ex>ar</ex> víglióz war,
+                  wopn<ex>az</ex> þeir h<unclear>verir</unclear>tveggio á ysin<ex>um</ex>,
+                  <ex>og</ex> sóktu Sví<ex>ar</ex> hart fram, en strax se<ex>m</ex>
+                  bardag<ex>inn</ex> hófz war Bíldr wegin, en Voli kom þar alld<ex>ri</ex>.
+                  þ<ex>ei</ex>r Oláfr k<ex>on</ex>gr <ex>og</ex> Haddíngr k<ex>on</ex>gr
+                  mætt<ex>uz</ex> í bardagan<ex>um</ex> og baurd<ex>uz</ex> lyktadi sva m<ex>ed</ex>
+                  þ<ex>ei</ex>m ad Haddíngr k<ex>on</ex>gr ward sár. Hróm<ex>undr</ex> hafdi sett
+               hrauktialld sitt hino megin watnsins, þ<ex>ei</ex>r b<ex>ræd</ex>r h<ex>an</ex>s
+                  herklæd<ex>az</ex> snem<ex>m</ex>a um<ex>m</ex> morgun<ex>inn</ex>, en
+                  Hróm<ex>undr</ex> m<ex>ælti</ex> þá: Jlla hefir mig dreymt í nótt, <ex>og</ex> man
+               ei g<ex>an</ex>ga allt at osku<ex>m</ex>, og man eg e<ex>ck</ex>i fara í dag
+                  t<ex>il</ex>
+               <app>
+                  <lem>or<ex>rost</ex>o</lem>
+                  <rdg wit="#L840">orrostonar</rdg>
+               </app>, en þ<ex>ei</ex>r b<ex>ræd</ex>r h<ex>an</ex>s sỏgdu þ<ex>at</ex>
+               m<ex>ik</ex>la skỏm<ex>m</ex> wera at þóra ei at weita lid k<ex>on</ex>gi
+                  sin<ex>um</ex>, en<ex>n</ex> w<ex>er</ex>a þó kom<ex>inn</ex> þess
+                  <unclear>erendis</unclear>,<note resp="#KAKapitan" n="16" place="foot"
+                  xml:id="ftn016">The reading is largely unclear in J634, it was deciphered based on
+                  the readings preserved in L840.</note> fóru þ<ex>ei</ex>r nú til <app>
+                  <lem>or<ex>rost</ex>o</lem>
+                  <rdg wit="#L840">orrostonar</rdg>
+               </app>, og g<ex>en</ex>go sva hart fram<ex>m</ex>, at hv<ex>er</ex> fell um<ex>m</ex>
+                  þver<ex>an</ex> an<ex>n</ex><ex>an</ex> er þ<ex>ei</ex>m mætti af lidi
+                  k<ex>on</ex>gan<ex>n</ex>a. Ein fiỏlkíngis kona war þar kom<ex>in</ex> í
+               Alptarham, hún <app>
+                  <lem>gól</lem>
+                  <rdg wit="#L840">gölade</rdg>
+               </app> m<ex>ed</ex> sva m<ex>ik</ex>lu<ex>m</ex> galdralatum, at <app>
+                  <lem>eingin</lem>
+                  <rdg wit="#L840">einge</rdg>
+               </app> Oláfs k<ex>on</ex>gs m<ex>ann</ex>a gádi at weria sig; hún het Kára; <app>
+                  <lem>flo hun</lem>
+                  <rdg wit="#L840">hun flaug</rdg>
+               </app> yfir þá Greýpss<ex>yni</ex>
+               <ex>og</ex> saung hátt. Helgi hin<ex>n</ex> Fræk<supplied>ne</supplied> mætti
+                  þ<ex>ei</ex>m b<ex>ræd</ex>r<ex>um</ex> þ<ex>at</ex> sama sin<ex>n</ex>,
+                  <ex>og</ex> drap þá alla viij sam<ex>an</ex> hvern efft<ex>er</ex>
+               <pb n="94r" facs="18HsG_JS_634_4to_0094r"/> an<ex>n</ex>an. J þessu bili kom
+                  Hróm<ex>undr</ex> til bardagans. Helgi hin<ex>n</ex> Frækni þeckti han<ex>n</ex>
+               brádt og m<ex>ælti</ex> Nú er <app>
+                  <lem>sá her</lem>
+                  <rdg wit="#L840">hier sa</rdg>
+               </app> kom<ex>inn</ex>, er wóg Hraungvid br<ex>odr</ex> min<ex>n</ex>, <ex>og</ex>
+               <app>
+                  <lem>megit Er</lem>
+                  <rdg wit="#L840">mege þier</rdg>
+               </app>
+               <note resp="#KAKapitan" n="17" place="foot" xml:id="ftn017">J634 has a mistake or an
+                  unusual abbreviation here <q>er</q>, a better reading in L840: <q>þier</q>. </note>
+               nú siá wid <app>
+                  <lem>sverdi h<ex>an</ex>s</lem>
+                  <rdg wit="#L840">hanns sverde</rdg>
+               </app>, er han<ex>n</ex> sóckti í haug<ex>num</ex>; warstu nú fiær<ex>ri</ex>
+                  Hróm<ex>undr</ex> s<ex>agdi</ex> h<ex>an</ex>n: er eg drap b<ex>ræd</ex>r þína.
+                  Hrom<ex>undr</ex> m<ex>ælti</ex> Ecki þarf þú Helgi at fryia mer hug<ex>ar</ex>,
+                  þ<ex>vía</ex>t an<ex>n</ex><ex>ar</ex> hv<ex>er</ex> eg eda þú sk<ex>ul</ex>u nú
+               falla. Helgi sv<ex>arar</ex>; Mistiltein<ex>n</ex> er sva þúngt wopn, áttú fær ei
+               walldit, og wil ek liá þer an<ex>n</ex><ex>at</ex> sv<ex>er</ex>d, <app>
+                  <lem>er</lem>
+                  <rdg wit="#L840">sem</rdg>
+               </app> þer see wopnhæfara. Hróm<ex>undr</ex> m<ex>ælti</ex> Ecki þarftú at bregda mer
+                  um<ex>m</ex> orkuleysi, þ<ex>vía</ex>t muna muntú þ<ex>at</ex> hỏgg er eg gaf
+               Hraungvid, <app>
+                  <lem>þá</lem>
+                  <rdg wit="#L840">þegar</rdg>
+               </app>
+               <app>
+                  <lem> haus h<ex>an</ex>s moladiz</lem>
+                  <rdg wit="#L840">moladest j honum hausenn</rdg>
+               </app>. H<ex>elge</ex> seig<ex>ir</ex>: þú Hrom<ex>undr</ex> hefir bundit <app>
+                  <lem>wid</lem>
+                  <rdg wit="#L840">um</rdg>
+               </app> þína haund sockaband Meyi<ex>ar</ex> ein<ex>n</ex>r<ex>ar</ex>, skil þig wid
+               skiỏld þan<ex>n</ex> er þú ber, <app>
+                  <lem>þ<ex>vía</ex>t</lem>
+                  <rdg wit="#L840">því</rdg>
+               </app> eingi sár fær þú med<ex>an</ex> þú ber þ<ex>et</ex>ta band, <ex>og</ex> helld
+               eg f<ex>yrir</ex> sátt áttú trúir á þá meyio. Hróm<ex>undr</ex> þoldi ei þessi
+                  skapraun<ex>ar</ex> ord, <ex>og</ex> kastadi nidr sk<ex>ill</ex>din<ex>um</ex>.
+               Helge hin<ex>n</ex> Frækni hafdi jamn<ex>an</ex> sigr hafft, og wan<ex>n</ex>
+                  m<ex>ed</ex> fiỏlkingi fridlo sin<ex>nar</ex> er Kára het, er þar flỏckti <app>
+                  <lem>þá</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> yf<ex>ir</ex> þ<ex>ei</ex>m í Alfft<ex>ar</ex> líki, reiddi Helgi þá sva hátt
+                  sv<ex>er</ex>d sitt, upp yfir sig, at þ<ex>at</ex> tók sundr fótlegg
+                  alfftarin<ex>nar</ex>, og rendi sv<ex>er</ex>dit ofan í ysin upp at
+                  hiỏllt<ex>um</ex>
+               <app>
+                  <lem>er þ<ex>at</ex></lem>
+                  <rdg wit="#L840">þar er hann </rdg>
+               </app> misti Hromund<ex>ar</ex>, <app>
+                  <lem>þ<supplied>v</supplied>í</lem>
+                  <rdg wit="#L840">þar er</rdg>
+               </app> han<ex>n</ex> brá ser undan. þá m<ex>ælti</ex> Helgi: nú er far<ex>in</ex> mín
+               heill, og illa tokz til, er eg missta þín. datt Kára þá d<ex>au</ex>d nidr.
+                  Hróm<ex>undr</ex> m<ex>ælti</ex> Nú wan<ex>n</ex> þú Helgi hit
+                  we<supplied>r</supplied>sta slis, er þú <app>
+                  <lem>drap</lem>
+                  <rdg wit="#L840">drapst</rdg>
+               </app> siálfr fridlo þína, og farin mun þin heill. En<ex>n</ex> af þesso sama hỏggi
+               er Helgi hió til Hróm<ex>undar</ex> sn<ex>ar</ex>t <app>
+                  <lem>oddr</lem>
+                  <rdg wit="#L840">oddurenn</rdg>
+               </app> sv<ex>er</ex>dsins kwid Hróm<ex>undar</ex> og risti nidr, en<ex>n</ex> Helgi
+               laut <pb n="94v" facs="18HsG_JS_634_4to_0094v"/> efftir hỏgginu, er sv<ex>er</ex>dit
+               festiz í ysin<ex>um</ex> se<ex>m</ex> fyrr war sagt, ward Hromundr <app>
+                  <lem>þá</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> ei hand sein<ex>n</ex>, <ex>og</ex> hỏggr Mistilteini í haufud Helga, klofnadi
+               þá hialmr<ex>inn</ex> og hausin<ex>n</ex>, sva stad<ex>ar</ex> nam í
+                  herdun<ex>um</ex>, brotnadi þá skard í sverdit. Efftir þ<ex>at</ex> tók
+                  Hróm<ex>undr</ex> Tígilkníf sin<ex>n</ex>, og stack í kwidin á ser í
+                  sársbrúnin<ex>nar</ex> raufar, hrátt sva ystron<ex>n</ex>i in<ex>n</ex>, er út
+               hángdi hrifiar þar med sam<ex>an</ex> kwidin med bandi, <ex>og</ex> bátt klædin hardt
+               at ser útan, sóckti sva fram í akafa, og felldi hv<ex>er</ex>n um<ex>m</ex>
+                  an<ex>n</ex><ex>an</ex> þv<ex>er</ex>an<ex>n</ex>, bardiz sva fram til midrar
+               nætr, flydi þá lid <app>
+                  <lem>þ<ex>at</ex></lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> se<ex>m</ex> efft<ex>ir</ex> war af Haddíngum, og lykr þar med
+                  orustun<ex>n</ex>i. Hrom<ex>undr</ex> seer þá at ein<ex>n</ex> m<ex>adr</ex>
+                  st<ex>en</ex>dr á ysin<ex>um</ex>, <ex>og</ex> weit han<ex>n</ex> at sá sami mun
+               gỏrt hafa ysin<ex>n</ex> med gaulldr<ex>um</ex> á watnid, þeckti han<ex>n</ex> at
+                  þ<ex>et</ex>ta war Voli. Hróm<ex>undr</ex> qv<ex>ad</ex> ei osk<ex>il</ex>dt at
+               launa h<ex>onu</ex>m n<ex>ock</ex>ro, hlióp til h<ex>an</ex>s, reiddi upp
+                  Mistiltein<ex>n</ex>, og wildi hỏggva h<ex>an</ex>n, en Voli bles sv<ex>er</ex>dit
+               or hendi h<ex>onu</ex>m, hitti þ<ex>at</ex> fyrir wauk eina, <ex>og</ex> sỏck sva
+               nidr í watnid. þá hló Voli og m<ex>ælti</ex> Nú er þú feigr, er þú mist<ex>ir</ex>
+               Mistiltein or hendi þer, Hróm<ex>undr</ex> sv<ex>arar</ex> fyrr manto deyia
+                  en<ex>n</ex> eg, hlióp han<ex>n</ex> þá at Vola, greip h<ex>an</ex>n
+                  hondu<ex>m</ex> á lofft upp, og færdi han<ex>n</ex> nidr wid ysin<ex>n</ex>
+               <app>
+                  <lem>at</lem>
+                  <rdg wit="#L840">ä</rdg>
+               </app> haufdi, sva at hausin<ex>n</ex> brotnadi, lág þessi galdra Raumr þ<ex>ar</ex>
+               nú d<ex>au</ex>dr, <app>
+                  <lem>en<ex>n</ex></lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> Hróm<ex>undr</ex> settiz nidr á ysin<ex>n</ex> og m<ex>ælti</ex> Jlla gordi eg
+               at eg hafdi ei Rád meyiarin<ex>nar</ex>, hefir eg nú f<ex>en</ex>git xiiij undir, og
+               þar med miz b<ex>ræd</ex>r mína viij, <ex>og</ex> mitt goda sv<ex>er</ex>d
+                  Mistiltein<ex>n</ex> fell í watnid, fær eg þess alld<ex>ri</ex> bætr, <app>
+                  <lem>er</lem>
+                  <rdg wit="#L840">at</rdg>
+               </app> eg misti sv<ex>er</ex>dit, g<ex>eck</ex> h<ex>an</ex>n sid<ex>an</ex>
+                  þad<ex>an</ex>
+               <ex>og</ex> heim at tialldi sinu og tók nockra hvíld. <pb n="95r"
+                  facs="18HsG_JS_634_4to_0095r"/>
+            </p>
+         </div>
+         <div type="chapter" n="6">
+            <p><hi rend="rubric">VI<supplied>.</supplied> Cap<ex>ítuli</ex> Hrómundr er í grædslo
+                  hiá Hagli Karli og Kerlíngo h<ex>an</ex>s.</hi> Sva er <app>
+                  <lem>frá</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> sagt at þeg<ex>ar</ex> Svanhvít k<ex>on</ex>gs syst<ex>ir</ex>
+                  frett<ex>ir</ex> Hróm<ex>undr</ex> mi<ex>ỏc</ex> sár<ex>an</ex> wera, fer hun á
+                  h<ex>an</ex>s fund, <ex>og</ex> saum<ex>ar</ex> sam<ex>an</ex> kwidin med silki
+               þrædi <ex>og</ex> smyr sidan, leitandi h<ex>onu</ex>m allra þ<ex>eir</ex>ra hagenda
+               er hún kan<ex>n</ex>, let sid<ex>an</ex> færa h<ex>an</ex>n karli þ<ex>ei</ex>m til
+               grædslu er Hagall het; kerlíng h<ex>an</ex>s war klók nockut, þaug tóku wel wid
+                  h<ex>onu</ex>m, <ex>og</ex> græddu han<ex>n</ex> at heilu á laun. þat
+                  fan<ex>n</ex> Hromundr at <app>
+                  <lem>þessi hión</lem>
+                  <rdg wit="#L840">þau</rdg>
+               </app>
+               <app>
+                  <lem>woru</lem>
+                  <rdg wit="#L840">+ klök nockut og</rdg>
+               </app> marg kun<ex>n</ex>ug. karl war wanr at weyda fiska or watninu <app>
+                  <lem>Wæni</lem>
+                  <rdg wit="#L840">Væner</rdg>
+               </app>, <ex>og</ex> eitt sin<ex>n</ex> er h<ex>an</ex>n w<ex>ar</ex> at weydiskap
+                  sin<ex>um</ex>, dróg h<ex>an</ex>n eina Geddu m<ex>ik</ex>la, <ex>og</ex> er
+                  h<ex>an</ex>n kom heim <app>
+                  <lem>og</lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app>
+               <app>
+                  <lem>krufdi</lem>
+                  <rdg wit="#L840">+ hann</rdg>
+               </app>
+               <app>
+                  <lem>gedduna</lem>
+                  <rdg wit="#L840">+ og</rdg>
+               </app>, fan<ex>n</ex>
+               <app>
+                  <lem>han<ex>n</ex></lem>
+                  <rdg wit="#L840">÷</rdg>
+               </app> í hen<ex>nar</ex> maga Mistiltein, sv<ex>er</ex>d Hróm<ex>undar</ex> og
+                  f<ex>eck</ex> h<ex>onu</ex>m þ<ex>at</ex>. Hróm<ex>undr</ex> ward miỏg gladur wid
+                  þ<ex>et</ex>ta, og kyssti á sverdsins hiỏllt, <ex>og</ex> umbunadi karli
+                  þ<ex>et</ex>ta wel. Ein<ex>n</ex> m<ex>adr</ex> war sá med Haddíngi
+                  k<ex>ongi</ex><note resp="#KAKapitan" n="18" place="foot" xml:id="ftn018">L840 has
+                  a lacuna from here onwards.</note> er het Blindr hin<ex>n</ex> Jlli; H<ex>an</ex>n
+                  s<ex>agdi</ex> k<ex>on</ex>gi at Hróm<ex>undr</ex> wæri lífs og græddr á laun hiá
+                  þ<ex>ei</ex>m Hagli karli, og kerlíngo h<ex>an</ex>s. k<ex>on</ex>gr qv<ex>ad</ex>
+                  þ<ex>at</ex> otrúlegt at þau m<ex>un</ex>du þora at leyna h<ex>onu</ex>m þar.
+                  k<ex>on</ex>gr baud at leita h<ex>an</ex>s þáng<ex>at</ex>, fór Blindr
+                  þan<ex>n</ex>ig wid n<ex>ock</ex>ra m<ex>enn</ex> til húsa þ<ex>eir</ex>ra Hagals,
+                  <ex>og</ex> sp<ex>irja</ex> ef Hróm<ex>undr</ex> wæ<ex>ri</ex> þar geymdr? kerlíng
+                  s<ex>egir</ex> h<ex>an</ex>n m<ex>un</ex>di ei þar fin<ex>naz</ex>. Blindr leitadi
+               wandlega, <ex>og</ex> fan<ex>n</ex> ei at helldr, þ<ex>vía</ex>t kerling
+               h<ex>a</ex>fdi falit Hróm<ex>und</ex> und<ex>ir</ex> hitu katli sin<ex>um</ex>,
+                  fo<ex>ru</ex> þ<ex>ei</ex>r nú Blindr og h<ex>an</ex>s feelag<ex>ar</ex> þadan. Og
+               er þ<ex>ei</ex>r wo<ex>ru</ex> á leid komn<ex>ir</ex> m<ex>ælti</ex> Blindr: Ei er
+               ferd wor frægileg ordin, og sku<ex>lum</ex> w<ex>er</ex> afftr snúa, þ<ex>ei</ex>r
+               gỏrdu nú sva, komu heim og fundu kerlíngu, s<ex>egir</ex> Blindr hún wæri brỏgdótt,
+               og hefdi geimt Hróm<ex>und</ex> und<ex>ir</ex> katli sín<ex>um</ex>. leit<ex>it</ex>
+               þar þá kv<ex>at</ex> hún, <ex>og</ex> takit han<ex>n</ex>. En<ex>n</ex>
+                  þ<supplied>v</supplied>í s<ex>agdi</ex> hun þ<ex>et</ex>ta, at þeg<ex>ar</ex> hún
+               sá þ<ex>ei</ex>r sneru aptr, færdi hún Hróm<ex>und</ex> í kwen<ex>n</ex> skrúda,
+                  <ex>og</ex> let han<ex>n</ex> snúa kwỏrn<unclear>in</unclear>
+               <pb n="95v" facs="18HsG_JS_634_4to_0095v"/> mala. þeir leita nú í husun<ex>um</ex>,
+               og þegar þ<ex>ei</ex>r koma þan<ex>n</ex>ig se<ex>m</ex> mærin<ex>n</ex> snir
+                  kwỏrnin<ex>n</ex>i, þá snudrúdu þ<ex>ei</ex>r allt um kríng, en<ex>n</ex> sú sama
+               mær leit ófyrlega til k<ex>on</ex>gs m<ex>ann</ex>a. Snero þ<ex>ei</ex>r en<ex>n</ex>
+               sva á brott at þ<ex>ei</ex>r fundu h<ex>an</ex>n e<ex>ck</ex>e. Og er þ<ex>ei</ex>r
+                  wo<ex>ru</ex> á weg komn<ex>ir</ex>, s<ex>egir</ex> Bl<ex>indr</ex> at kerlíng man
+               hafa willt sión<ex>ir</ex> fyr þ<ex>ei</ex>m, <ex>og</ex> ser þycki grunsamt at
+                  Hróm<ex>undr</ex> muni hafa werit þ<ex>at</ex>, se<ex>m</ex> sneri
+                  kwỏrnin<ex>n</ex>i í kwen<ex>n</ex>klædun<ex>um</ex>, <ex>og</ex> seer eg
+                  o<ex>ss</ex> hefir yf<ex>ir</ex>seez, dug<ex>ir</ex> oss ei at þreíta wid kerlíngu
+               þessa, þ<ex>vía</ex>t hun er oss klókari, bádu þ<ex>ei</ex>r h<ex>en</ex>ni ills
+                  <ex>og</ex> foru heim<ex>m</ex> afftr til k<ex>on</ex>gs wid sva búit, <ex>og</ex>
+                  s<ex>agdi</ex> h<ex>onu</ex>m allt sem farit hafdi. </p>
+         </div>
+         <div type="chapter" n="7">
+            <p><hi rend="rubric">VII. Cap<ex>ítuli</ex> Draum<ex>ar</ex> Blinds, og
+                     útlegging<ex>ar</ex> Haddíngs K<ex>on</ex>gs.</hi> Um vetrin ept<ex>ir</ex>,
+                  b<ex>ar</ex> m<ex>ar</ex>gt fyri Blind í svefni, o<ex>g</ex> s<ex>agdi</ex>
+                  h<ex>ann</ex> K<ex>on</ex>gi eitt sin<ex>n</ex> draum sin<ex>n</ex> og
+                  m<ex>ælti</ex> sva: Mer þóckti wargr ein<ex>n</ex> ren<ex>n</ex>a austan af
+               landino, <ex>og</ex> allt hin<ex>n</ex>gat at hallin<ex>n</ex>i, h<ex>an</ex>n beit
+               ydr k<ex>on</ex>gr, og weitti ydr á w<ex>er</ex>ka. k<ex>on</ex>gr qv<ex>ad</ex>st
+               ráda draum<ex>inn</ex> sva: her man koma k<ex>on</ex>gr ein<ex>n</ex> af
+                  n<ex>ock</ex>rum stad, <ex>og</ex> man fundur<ex>inn</ex> w<ex>er</ex>da skædr
+                  f<ex>ir</ex>st, en falla þó nidr til sátta. En<ex>n</ex> qv<ex>ad</ex> Blindr sig
+               dreimt hafa an<ex>nan</ex> draum: At h<ex>onu</ex>m þóckti marg<ex>ir</ex> haukar
+               sitia í einu húsi, <ex>og</ex> þeckta eg þ<ex>ar</ex> fálcka þin herra s<ex>agdi</ex>
+                  h<ex>an</ex>n: han<ex>n</ex> w<ex>ar</ex> allr fiadralaus, og flettr haminum.
+                  k<ex>on</ex>gr m<ex>ælti</ex> Vindr man koma af skyum, og skelfa wora Borg. þridia
+               draum dreimdi mig s<ex>agdi</ex> Blindr: At eg þóckti siá mỏrg swín ren<ex>n</ex>a
+                  sun<ex>nan</ex> at k<ex>on</ex>gs hallin<ex>n</ex>i, rótudu þau miỏg upp
+                  jỏrdun<ex>n</ex>i med ranan<ex>um</ex>, k<ex>on</ex>gr m<ex>ælti</ex> þat er fyri
+               siáfarólgu, wotwidr<ex>it</ex> og graswexti þ<ex>ei</ex>m, er grær af
+                  wat<supplied>n</supplied>sins waukva, er sólin skyn í heidi. fiorda draum dreimdi
+               mig s<ex>agdi</ex> Blindr: at mer þóckti ein<ex>n</ex> ogurlegr hriki koma <pb
+                  n="96r" facs="18HsG_JS_634_4to_0096r"/> austan ad, h<ex>an</ex>n beit ydr
+                  k<ex>on</ex>gr stóra und, k<ex>on</ex>gr m<ex>ælti</ex> Sendim<ex>enn</ex> munu
+               koma frá ein<ex>um</ex> k<ex>on</ex>gi í mína hall, þ<ex>ei</ex>r munu bíta upp
+                  ỏ<ex>llum</ex> sin<ex>um</ex> wapn<ex>um</ex>, <ex>og</ex> þar af man eg
+                  reid<ex>az</ex>. Hin<ex>n</ex> fimti draumr er sá segir Blindr: at mer þóckti
+               liggia um allt Svíawelldi ein<ex>n</ex> grimlegr ormr. Her man koma at l<ex>an</ex>di
+                  s<ex>egir</ex> k<ex>on</ex>gr dreki wæn<ex>n</ex> hladin<ex>n</ex>
+                  gersem<ex>um</ex>. <ex>Sjỏunda</ex><note resp="#KAKapitan" n="19" place="foot"
+                  xml:id="ftn019">Note that the story jumps from the fifth dream to the seventh
+                  dream.</note> Draum dreimdi mig, s<ex>agdi</ex> Blindr: At mer þóckti koma af
+                  l<ex>an</ex>di ofan svỏrt kyr<note resp="#KAKapitan" n="20" place="foot"
+                  xml:id="ftn020">Note that the variant <q>kýr</q> is characteristic to text-group
+                  B.</note> med klóm, og wængium, og fliúga brott med þig k<ex>on</ex>gr! þá dreimdi
+               mig en<ex>n</ex> s<ex>agdi</ex> h<ex>an</ex>n: at ormr ein<ex>n</ex> wæri hia Hagli
+               karli, sá beit mig grim<ex>m</ex>lega, át han<ex>n</ex> bædi mig og ydr upp,
+                  k<ex>on</ex>gr! og alla ydar m<ex>enn</ex>, edr hwad mun þ<ex>et</ex>ta þída
+               herra! k<ex>on</ex>gr m<ex>ælti</ex> heyrt hefir eg sagt, at skamt á brott fra
+               híbylum Hagals karls, liggi hydbiỏrn no<ex>ck</ex>r, man eg fara at win<ex>n</ex>a
+                  Biỏrn<ex>inn</ex> og man h<ex>an</ex>n þá bistaz miỏg. Her næst dreimdi mig
+                  s<ex>agdi</ex> Blindr: at dreka hamr wæ<ex>ri</ex> dregin<ex>n</ex> um
+                  k<ex>on</ex>gs hỏllina alla, og heck þ<ex>ar</ex> wid lyndi Hromundar.
+                  k<ex>on</ex>gr m<ex>ælti</ex> þat weit þú at Hróm<ex>undr</ex> misti sverd og
+               lynda í watninu, eda ertú nú hræddr wid Hrómund? Fleiri drauma dreimdi Blind,
+                  hv<ex>er</ex>ia han<ex>n</ex> s<ex>agdi</ex> alla k<ex>on</ex>gi, en
+               k<ex>on</ex>gr redi alla ser í wil, en aungw<ex>an</ex> sva se<ex>m</ex> þíddi. Nú
+                  s<ex>egir</ex> Blindr draum sin<ex>n</ex> er han<ex>n</ex> dreymdi um sialfan sig
+               og m<ex>ælti</ex> mer þóckti Jarnhringr settr um min háls, s<ex>agdi</ex>
+                  h<ex>an</ex>n: k<ex>on</ex>gr m<ex>ælti</ex> þat er þíding þess draums attú mun
+               heingdr w<ex>er</ex>da, og þar med munu wid bádir feigir.</p>
+         </div>
+         <div type="chapter" n="8">
+            <p><hi rend="rubric">VIII. Cap<ex>ituli</ex> Dráp þ<ex>eir</ex>ra Haddíngs
+                  k<ex>on</ex>gs og Blinds <ex>og</ex> gipting Hróm<ex>undar</ex></hi>
+               <pb n="96v" facs="18HsG_JS_634_4to_0096v"/> Ept<ex>ir</ex> þetta samn<ex>ar</ex>
+               Oláfr K<ex>on</ex>gr lidi, oc hellt þ<supplied>v</supplied>í sidan t<ex>il</ex>
+                  Svíþiód<ex>ar</ex>. Hróm<ex>undr</ex> filgdi h<ex>onu</ex>m, komu þ<ex>ei</ex>r á
+               owart at haullu Haddíngs k<ex>on</ex>gs, h<ex>an</ex>n lág í úti skemmu
+               ein<ex>n</ex>i, og ward ei fyrr war wid hernadin, en<ex>n</ex> upp war
+                  brot<ex>in</ex> skem<ex>m</ex>u hurdin, kallar Haddingr k<ex>on</ex>gr þá á
+                  m<ex>enn</ex> sína, og sp<ex>ir</ex> hver<ex>ir</ex> um<ex>m</ex><note
+                  resp="#KAKapitan" n="21" place="foot" xml:id="ftn021">Here the text of L840 starts
+                  again on f. 260r.</note> nætr strída? Hróm<ex>undr</ex> s<ex>agdi</ex> til sín.
+                  k<ex>on</ex>gr m<ex>ælti</ex> þú munt nú wilia hefna b<ex>ræd</ex>ra
+               þin<ex>n</ex>a? Hróm<ex>undr</ex>
+               <app>
+                  <lem>s<ex>agdi</ex></lem>
+                  <rdg wit="#L840">qvad</rdg>
+               </app> han<ex>n</ex> sk<ex>ill</ex>di fátt tala um<ex>m</ex> fall b<ex>ræd</ex>ra
+                  sin<ex>n</ex>a; sk<ex>al</ex> þú nú þ<ex>ess</ex> giallda s<ex>egir</ex>
+                  h<ex>an</ex>n: <ex>og</ex> her lífit missa. Þá hlióp upp ein<ex>n</ex> kappi
+               Haddíngs <app>
+                  <lem>k<ex>on</ex>gs, sva</lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> stór se<ex>m</ex> Risi, og wildi weria k<ex>on</ex>g, en<ex>n</ex>
+                  Hróm<ex>undr</ex> drap þan<ex>n</ex>. Haddingr k<ex>on</ex>gr werz í
+                  hvílun<ex>n</ex>i sva h<ex>an</ex>n feck eckert sár, þ<supplied>v</supplied>í
+                  hv<ex>er</ex>t sin<ex>n</ex> se<ex>m</ex> Hróm<ex>undr</ex> hió til h<ex>an</ex>s,
+               kom sw<ex>er</ex>dit flátt á k<ex>on</ex>g, þá tok Hróm<ex>undr</ex> kylfu og lamdi
+               Haddíng k<ex>on</ex>g í hel <app>
+                  <lem>med hen<ex>n</ex>i</lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app>. þá m<ex>ælti</ex> Hróm<ex>undr</ex> Her hefir eg felldan Haddíng
+               k<ex>on</ex>g, <ex>og</ex> hefir eg ei <app>
+                  <lem>fundit</lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> frægri m<ex>ann</ex>. Karlin Blindr, er het Bavis rettu nafni war
+                  bundin<ex>n</ex> og heingdur sidan, rættiz sva draumr h<ex>an</ex>s. Toku
+                  þ<ex>ei</ex>r þ<ex>ar</ex> m<ex>ik</ex>it gull og an<ex>n</ex>ad fee, helldu sidan
+               heim. Oláfr k<ex>on</ex>gr giffti Hromundi Svanhvít systr sína, þaug un<ex>n</ex>tuz
+               wel, áttu s<ex>yni</ex> og dætr <app>
+                  <lem>til</lem>
+                  <rdg wit="#L840">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> samans, <ex>og</ex> woru afbragd an<ex>n</ex>ara m<ex>ann</ex>a, eru af
+                  þ<ex>ei</ex>m komn<ex>ar</ex> k<ex>on</ex>ga ættir og kappar miklir, og dreifdiz
+               sá afspreingr wída um<ex>m</ex> laund, jafnwel til Islands. Og lykr her sva
+                  Saugun<ex>n</ex>i af Hromundi Greýpssyni. <note resp="#KAKapitan" n="22"
+                  place="foot" xml:id="ftn022">In J634, the text is followed by a colophon, which
+                  reads <q>skrifud 3 Martii A<ex>nno</ex> 1767.</q> There is no colophon in
+                  L840.</note>
+            </p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

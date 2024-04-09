@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title>Hrómundar saga Greipssonar, based on AM 601 b 4to with variants</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>Taylor edition</date>
+            </edition>
+            <respStmt>
+               <resp>Edited by </resp>
+               <persName ref="#KAKapitan"><ref type="url"
+                     target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                  Kapitan</ref></persName>
+            </respStmt>
+         </editionStmt>
+         <extent>6 folios.<note>This in an edition of the complete text of the saga, but it is only
+               one part of the manuscript.</note></extent>
+         <publicationStmt>
+            <publisher>Taylor Institution Library, one of the Bodleian Libraries of the University
+               of Oxford, </publisher>
+            <date>2024. </date>
+            <availability>
+               <licence xml:id="xml_files" target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  The XML files are available for download under a <ref
+                     target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                     Attribution-ShareAlike 4.0 International License</ref>
+                  <graphic url="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>. </licence>
+               <licence xml:id="image_files" target="https://creativecommons.org/licenses/by/4.0/">
+                  The images of AM 601 b 4to were taken by Sigurður Stefán Jónsson on behalf of
+                  Stofnun Árna Magnússonar. They are reproduced with permission from the
+                  photographer and the institution under a <ref
+                     target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                     Attribution 4.0 International License</ref> 
+                  <graphic url="https://licensebuttons.net/l/by/4.0/80x15.png"/>. </licence>
+            </availability>
+
+            <idno type="ORA">
+               <!-- put link to ORA data url here -->
+            </idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:id="tayeditions">Taylor Editions: </title>
+            <title xml:id="guest">Guest</title>
+         </seriesStmt>
+         <notesStmt>
+            <note type="images">JPEG</note>
+            <note type="pbtype">Folio</note>
+            <note type="holding"><p>The base text from AM 601 b 4to, held at <orgName>Stofnun Árna
+                     Magnússonar í íslenskum fræðum</orgName> in <placeName>Reykjavík</placeName>.
+               </p></note>
+            <note type="intro">
+               <p>This is a digital edition of the seventeenth century saga of Hrómundur
+                     (<title>Hrómundar saga Greipssonar</title>). It is based on the text preserved
+                  in AM 601 b 4to with variants from the seven oldest manuscripts.</p>
+               <p>The edition was prepared by <persName ref="#KAKapitan"><ref type="url"
+                        target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                     Kapitan</ref></persName>. </p>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Reykjavík</settlement>
+                  <repository>Stofnun Árna Magnússonar í íslenskum fræðum</repository>
+                  <idno>AM 601 b 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>The contents of this manuscript are described in the following online
+                     catalogues: <list>
+                        <item>Handrit, <ref type="url"
+                              target="https://handrit.is/manuscript/view/is/AM04-0601b"
+                              >https://handrit.is/manuscript/view/is/AM04-0601b</ref> (last accessed
+                           14/01/2024).</item>
+                        <item>The Stories For All Time Catalogue, <ref type="url"
+                              target="https://fasnl.net/manuscripts/415"
+                              >https://fasnl.net/manuscripts/415</ref> (last accessed
+                           14/01/2024).</item>
+                     </list>
+                  </p>
+               </msContents>
+            </msDesc>
+            <listPerson>
+               <person xml:id="KAKapitan">
+                  <persName>
+                     <forename sort="2">Katarzyna Anna</forename>
+                     <surname sort="1">Kapitan</surname>
+                  </persName>
+                  <affiliation>University of Oxford</affiliation>
+                  <idno type="VIAF">https://viaf.org/viaf/311146236/#Kapitan,_Katarzyna_Anna.</idno>
+                  <idno type="ORCID">https://orcid.org/0000-0003-2763-0056</idno>
+               </person>
+               <person xml:id="EHuber">
+                  <persName>
+                     <forename sort="2">Emma</forename>
+                     <surname sort="1">Huber</surname>
+                  </persName>
+                  <affiliation>Taylor Institution Library, University of Oxford</affiliation>
+                  <idno type="ORCID">https://orcid.org/0000-0002-3257-1807</idno>
+               </person>
+            </listPerson>
+
+            <listWit>
+               <witness xml:id="A601" n="base"> A601: Reykjavík, <name type="organisation">Stofnun
+                     Árna Magnússonar í íslenskum fræðum</name>, AM 601 b 4to</witness>
+               <witness xml:id="A193"> A193: Reykjavík, <name type="organisation">Stofnun Árna
+                     Magnússonar í íslenskum fræðum</name>, AM 193 e fol.</witness>
+               <witness xml:id="A345"> A345: Reykjavík, <name type="organisation">Stofnun Árna
+                     Magnússonar í íslenskum fræðum</name>, AM 345 4to</witness>
+               <witness xml:id="A587">A587: Reykjavík, <name type="organisation">Stofnun Árna
+                     Magnússonar í íslenskum fræðum</name>, AM 587 b 4to</witness>
+               <witness xml:id="B4859">B4859: London, <name type="organisation">British
+                     Library</name>, BL Add 4859</witness>
+               <witness xml:id="L222"> L222: Reykjavík, <name type="organisation">Landsbókasafn
+                     Íslands</name>, Lbs 222 fol.</witness>
+               <witness xml:id="P67">P67: Stockholm, <name type="organisation">Kungliga
+                     biblioteket</name>, Papp. fol. nr 67</witness>
+               <witness xml:id="T1768">T1768: København, <name type="organisation">Det Kongelige
+                     Bibliotek</name>, Thott 1768 4to</witness>
+            </listWit>
+
+
+            <bibl type="citation">
+               <author><persName ref="#KAKapitan"><ref type="url"
+                        target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                     Kapitan</ref></persName></author>
+               <title>Lost but Not Forgotten: The Saga of Hrómundur and Its Manuscript
+                  Transmission</title>
+               <publisher>Taylor Institution Library</publisher>
+               <pubPlace>Oxford</pubPlace>
+               <date>2024</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Based on transcriptions and collations by <persName ref="#KAKapitan"><ref type="url"
+                     target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                  Kapitan</ref></persName>.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>This XML-based edition was created by an automatic export from LaTeX on <date
+                  when="2024-01-14">14 January 2024</date> by <persName ref="#KAKapitan"><ref
+                     type="url" target="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+                     Kapitan</ref></persName>. </p>
+            <p>The editorial principles are discussed in the introduction to <title>Lost but Not
+                  Forgotten</title>, available on <ref type="url">!!! link to the pdf of the book
+                  !!!</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ice">Icelandic</language>
+            <language ident="eng">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change resp="#KAKapitan"><date when="2023-10-11"/><label>fInital export from LaTeX
+               fromatted into TEI XML</label></change>
+         <change resp="#EH"><date when="2013-10-17"/><label>Template created</label></change>
+         <change resp="#KAKapitan"><date when="2023-12-14"/><label>Tamplate filled and file
+               proofread</label></change>
+         <change resp="#KAKapitan"><date when="2023-12-20"/><label>Tilte moved out of div as head
+               and pagebreak oved out of div</label></change>
+         <change resp="#KAKapitan"><date when="2024-01-14"/><label>New export loaded into text/body
+               + proofreading</label></change>
+         <change resp="#KAKapitan"><date when="2024-03-28"/><label>Added urls and info about the
+               book</label></change>
+         <change resp="#KAKapitan"><date when="2024-04-01"/><label>Fixed two footnotes</label></change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="ice" xml:id="hromundar_A601">
+      <body>
+
+         <pb n="1r" facs="AM_601b_4to_0001r"/>
+         <head><hi rend="rubric">Saga af Hrómu<supplied>n</supplied>de Greipszýne</hi></head>
+         <div type="chapter" n="1">
+            <p>
+               <hi rend="rubric">Cäp<ex>ituli</ex> .I.</hi>
+               <supplied>S</supplied>á<note resp="#KAKapitan" n="1" place="foot" xml:id="ftn001">
+                  In A601, there is a blank space left for a three-lines-tall initial, here supplied
+                  as the word-initial <q>s</q>.</note> k<ex>on</ex>gr <app>
+                  <lem>rieþe</lem>
+                  <rdg wit="#T1768">red</rdg>
+               </app> f<ex>yrir</ex>
+               <del>Gordom</del>
+               <app>
+                  <lem><add><del>ı</del></add>
+                     <add><del>danm<ex>or</ex>c</del></add></lem>
+                  <rdg wit="#T1768 #A345 #P67 #L222 #B4859">÷</rdg>
+               </app>
+               <note resp="#KAKapitan" n="2" place="foot" xml:id="ftn002">
+                  A345, L222 and B4859 have a marginal note <q>aliis Danmork</q>, trimmed in
+                  L222 with only final letters visible.</note> er Olafr h<ex>ie</ex>t,<note resp="#KAKapitan" n="3"
+                     place="foot" xml:id="ftn003">
+                     A marginal note in A601 refers to the underlined text about King Ólafur.</note> h<ex>ann</ex> v<ex>ar</ex> s<ex>onr</ex> Gnóþar <app>
+                  <lem>Asmund<ex>ar</ex></lem>
+                  <rdg wit="#A587 #A193">+ d.</rdg>
+               </app>, h<ex>ann</ex> var <app>
+                  <lem>frǫgr <ex>maþr</ex></lem>
+                  <rdg wit="#A587 #A193">maþr frægr</rdg>
+               </app>.<note resp="#KAKapitan" n="4" place="foot" xml:id="ftn004">
+                  In A601, the M-rune is used to abbreviate <q>maður</q>.</note> Brǫþr .ij. kári oc ørnulfr,
+               v<ex>or</ex>u l<ex>an</ex>dv<ex>ar</ex>n<ex>ar</ex> m<ex>enn</ex> k<ex>on</ex>gz,
+                  herm<ex>enn</ex> mikl<ex>er</ex>. Þar Bió e<ex>ir</ex>n rýk<ex>ur</ex> Boandi, <app>
+                  <lem>sá hiet Greýpr</lem>
+                  <rdg wit="#A345">er Greypur hiet</rdg>
+               </app>. h<ex>ann</ex> átte þá <ex>kon</ex>o, e<ex>r</ex> Gunnlǫþ h<ex>ie</ex>t,
+                  dótt<ex>er</ex> Hrókz hinz su<ex>ar</ex>ta, Þau átto .ix. sono e<ex>r</ex> sva
+                  h<ex>ie</ex>to. Hrólfr, Hake, Gautr<supplied>,</supplied> Þrǫstr, Angantýr, Logi,
+               Hrómundr. Helge. Hrókr. Þ<ex>ei</ex>r v<ex>or</ex>u all<ex>er</ex>
+                  efnil<ex>e</ex>g<ex>er</ex> m<ex>enn</ex>. Þo v<ex>ar</ex> Hrómundr f<ex>yrir</ex>
+                  þ<ex>ei</ex>m aullom. h<ex>ann</ex> kunni <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#A193 #P67 #L222">ei</rdg>
+               </app> at hrǫdast, h<ex>ann</ex> v<ex>ar</ex> augna fagr, hárbi<ex>ar</ex>tr, oc
+                  h<ex>er</ex>þamikill, mikill oc st<ex>er</ex>cr, lýkt<ex>iz</ex> miǫc Hróki móþr
+               fauþr sýnom. M<ex>ed</ex> k<ex>on</ex>gi v<ex>or</ex>u .ij. m<ex>enn</ex>,
+                  h<ex>ie</ex>t e<ex>ir</ex>n Býld<ex>ur</ex>, ann<ex>ar</ex> voli, Þ<ex>ei</ex>r
+                  v<ex>or</ex>u Ill<ex>er</ex> oc und<ex>er</ex>fǫrul<ex>er</ex>. k<ex>on</ex>gr
+               matti Þá mikils. Eytt sinn hiellt olafr <app>
+                  <lem>k<ex>on</ex>gr</lem>
+                  <rdg wit="#A345">÷</rdg>
+               </app>, <app>
+                  <lem>austur</lem>
+                  <rdg wit="#A345">norþr</rdg>
+                  <rdg wit="#P67">vestur</rdg>
+               </app>
+               <note resp="#KAKapitan" n="5" place="foot" xml:id="ftn005">
+                  In P67, <q>austur</q> is corrected into <q>vestur</q>, most likely by a younger hand.</note> f<ex>yrir</ex>
+               noreg m<ex>ed</ex> h<ex>er</ex> sinn, oc hielldo aþ Vlfaskerium, h<ex>er</ex>ioþo, oc
+               lau viþ eitt Eýl<ex>an</ex>d. K<ex>on</ex>gr býþr Kára oc Ørnulfi aþ g<ex>an</ex>ga
+               uppá Eýuna, oc vita, hu<ex>or</ex>t þ<ex>ei</ex>r <app>
+                  <lem>sæe</lem>
+                  <rdg wit="#A345 #B4859">sæo,</rdg>
+               </app>
+               <app>
+                  <lem>einginn</lem>
+                  <rdg wit="#A587">eingi</rdg>
+                  <rdg wit="#A193 #T1768 #A345 #L222 #B4859">engi</rdg>
+               </app>
+               <app>
+                  <lem>h<ex>er</ex>skip</lem>
+                  <rdg wit="#A345 #L222 #B4859">skip</rdg>
+               </app>. Þ<ex>ei</ex>r g<ex>en</ex>gu uppá l<ex>an</ex>d<ex>iþ</ex>, oc litu .vj.
+                  h<ex>er</ex>skip und<ex>er</ex> hǫm<ex>rum</ex> n<ex>oc</ex><ex>rum</ex>.
+                  Þ<ex>ar</ex> v<ex>ar</ex> e<ex>ir</ex>n d<ex>re</ex>ke allskrautl<ex>i</ex>gr.
+               Kári kallar til þ<ex>ei</ex>ra, oc <app>
+                  <lem>spir</lem>
+                  <rdg wit="#P67">+ efter</rdg>
+               </app>
+               <app>
+                  <lem>hu<ex>or</ex>i<ex>er</ex></lem>
+                  <rdg wit="#A587 #A193">hver</rdg>
+                  <rdg wit="#T1768">hvorir</rdg>
+                  <rdg wit="#A345 #P67 #L222">hvor</rdg>
+                  <rdg wit="#B4859">huerier</rdg>
+               </app> f<ex>yrir</ex> skiponom rieþi, Eirn dólgr stóþ uppá d<ex>re</ex>kanom, oc
+                  q<ex>va</ex>dz Hraungviþr heita. e<ex>þr</ex> hu<ex>or</ex>t e<ex>r</ex> nafn
+               þitt. Kari sagþi til sýn oc sýnz broþurz. oc m<ex>æ</ex>l<ex>ti</ex>. Eg veit
+               aungvann verri enn þik, oc þar f<ex>yrir</ex>
+               <app>
+                  <lem>s<ex>ka</ex>l</lem>
+                  <rdg wit="#P67">vil</rdg>
+               </app> ek hauggva þ<ex>ic</ex> i smá sticki, <app>
+                  <lem>Hraungviþr. m<ex>æ</ex>l<ex>ti</ex></lem>
+                  <rdg wit="#P67">Þä mællte Hraungvidur</rdg>
+               </app>: Ek <app>
+                  <lem>h<ex>e</ex>fi</lem>
+                  <rdg wit="#A345 #L222 #B4859">hefer</rdg>
+               </app> h<ex>er</ex>iaþ sum<ex>ar</ex> oc vetr, i xxxiij ár, <app>
+                  <lem>oc</lem>
+                  <rdg wit="#L222">+ hefi</rdg>
+               </app> háþ lx o<ex>ru</ex><ex>stur</ex>, oc <app>
+                  <lem>feing<ex>iþ</ex> Jafnan</lem>
+                  <rdg wit="#T1768">jafnan fengid</rdg>
+                  <rdg wit="#B4859">jafnan</rdg>
+               </app> sigr. Mitt suerþ h<ex>ei</ex>t<ex>er</ex> Brinþu<ex>ar</ex>e, e<ex>r</ex>
+                  alld<ex>ri</ex> h<ex>e</ex>fr <app>
+                  <lem>sliófgast</lem>
+                  <rdg wit="#P67">sliofast</rdg>
+               </app>. <app>
+                  <lem>komdo</lem>
+                  <rdg wit="#A587 #T1768">kondu</rdg>
+                  <rdg wit="#A193 #A345 #L222 #B4859">kom þú</rdg>
+               </app> hi<ex>er</ex> á m<ex>or</ex>gun kári, <app>
+                  <lem>ek</lem>
+                  <rdg wit="#A345">oc</rdg>
+               </app>
+               <app>
+                  <lem>s<ex>ka</ex>l</lem>
+                  <rdg wit="#A345">+ ec</rdg>
+               </app> sliþra h<ex>ann</ex> i þino b<ex>ri</ex>osti. kári q<ex>va</ex>dz
+                  e<ex>i</ex>g<ex>i</ex> bila <app>
+                  <lem>m<ex>vn</ex>þi</lem>
+                  <rdg wit="#P67">munda</rdg>
+                  <rdg wit="#B4859">mundu</rdg>
+               </app>, Hraungviþ<ex>ur</ex> mátti kiósa hu<ex>or</ex>n d<ex>a</ex>g <app>
+                  <lem>m<ex>ann</ex></lem>
+                  <rdg wit="#A345">÷</rdg>
+               </app> f<ex>yrir</ex>
+               <app>
+                  <lem>suerþinz oddi</lem>
+                  <rdg wit="#P67">odde suerdsins</rdg>
+               </app>. Þ<ex>ei</ex>r brǫþr komo aftr til k<ex>on</ex>gz, oc <app>
+                  <lem>sǫgþu</lem>
+                  <rdg wit="#A193">segia</rdg>
+               </app><note resp="#KAKapitan" n="6" place="foot" xml:id="ftn006">
+                  The word is abbreviated in A587, it could be expanded as <q>sögðu</q> or <q>segja</q>.</note>
+                  h<ex>onu</ex>m týþinþ<ex>in</ex>. k<ex>on</ex>gr bauþ aþ hallda t<ex>il</ex>
+                  o<ex>ru</ex><ex>stu</ex> oc sva v<ex>ar</ex> gi<ex>or</ex>t. hittust
+               þ<ex>ei</ex>r, oc to<ex>c</ex>z þar harþr Bard<ex>a</ex>gi. Þ<ex>ei</ex>r brǫþr
+                  g<ex>en</ex>go vel f<ex>ra</ex>m, kári hafþi Jafnann viij <pb n="1v"
+                  facs="AM_601b_4to_0001v"/> Eþr <app>
+                  <lem>tólf</lem>
+                  <rdg wit="#L222">+ menn</rdg>
+               </app> i <app>
+                  <lem>Eýno</lem>
+                  <rdg wit="#A587 #A193 #B4859">hveriu</rdg>
+                  <rdg wit="#A345">hvoriu</rdg>
+               </app> hǫggi. <app>
+                  <lem>Hraungviþr sá þ<ex>e</ex>tta</lem>
+                  <rdg wit="#P67">Þetta sá Hraungvidur og</rdg>
+               </app>, <app>
+                  <lem>lióp</lem>
+                  <rdg wit="#A587 #A193">+ hann</rdg>
+               </app> uppá k<ex>on</ex>gs <app>
+                  <lem>skip</lem>
+                  <rdg wit="#P67">skipid</rdg>
+               </app>, til kára ok lagþi suerþino i gegnom h<ex>ann</ex>. Þ<ex>e</ex>gar kari <app>
+                  <lem>hafþi</lem>
+                  <rdg wit="#P67">+ nu</rdg>
+               </app> feng<ex>iþ</ex> sáriþ, <app>
+                  <lem>s<ex>agde</ex></lem>
+                  <rdg wit="#B4859">mælir</rdg>
+               </app> h<ex>ann</ex> til k<ex>on</ex>gz, lif<ex>ed</ex><note resp="#KAKapitan" n="7"
+                  place="foot" xml:id="ftn007">
+                  In A601, the abbreviation mark <q>er-curl</q> usually stands for <q>er</q> or <q>ir</q>, but here it is
+                  expanded as <q>ed</q>, following all the other manuscripts.</note>
+               <app>
+                  <lem>heil<ex>er</ex></lem>
+                  <rdg wit="#L222">heill</rdg>
+               </app> h<ex>er</ex>ra, Ek man hiá <app>
+                  <lem>óþni</lem>
+                  <rdg wit="#A345 #B4859">odin</rdg>
+               </app> gista. Hraung<ex>viþr</ex>
+               <app>
+                  <lem>vó</lem>
+                  <rdg wit="#P67">+ og</rdg>
+               </app> Ørnulf upp á spióti sýno. Ept<ex>er</ex> fall þ<ex>ei</ex>ra brǫþ<ex>ra</ex>
+                  kall<ex>ar</ex> Hraungv<ex>iþr</ex> aþ þ<ex>ei</ex>r s<ex>ku</ex>le
+               uppg<ex>e</ex>fast. Er <app>
+                  <lem>þá</lem>
+                  <rdg wit="#A345">nú</rdg>
+               </app> Jllr kur i liþi k<ex>on</ex>gz. <app>
+                  <lem>Einginn</lem>
+                  <rdg wit="#A587 #A193 #A345 #L222 #B4859">engi</rdg>
+               </app> Járn bito Hraungv<ex>iþ</ex><note resp="#KAKapitan" n="8" place="foot"
+                  xml:id="ftn008">The colon in A601 is treated as an abbreviation mark, not punctuation.</note> Nu e<ex>r</ex> þ<ex>ess</ex> g<ex>e</ex>tiþ aþ Hrómundr
+                  Greips<ex>son</ex>
+               <app>
+                  <lem>v<ex>ar</ex></lem>
+                  <rdg wit="#A193">er</rdg>
+               </app> i filgd m<ex>ed</ex> k<ex>on</ex>gi h<ex>ann</ex>
+               <app>
+                  <lem>tekr</lem>
+                  <rdg wit="#A345">tok</rdg>
+               </app> si<ex>er</ex> kilfu i hǫnd. Bindr sier grátt oc sýtt <app>
+                  <lem>geýt<ex>ar</ex>skiegg</lem>
+                  <rdg wit="#P67">geijtaskegg</rdg>
+               </app>. oc setr sýþann hatt ä haufuþ sier. veþr s<ex>va</ex> f<ex>ra</ex>m, oc finnr
+               þá brǫþr baþa dauþa. tekr upp m<ex>er</ex>ki k<ex>ong</ex>z. oc lemr <app>
+                  <lem>m<ex>ed</ex> kilfunni blám<ex>enn</ex> til dauþa</lem>
+                  <rdg wit="#P67">til dauda Blämenn med kilfunne</rdg>
+               </app>. Hraungv<ex>idr</ex> spir hu<ex>or</ex> sá væ<ex>ri</ex>. e<ex>þa</ex>
+                  e<ex>r</ex> þ<ex>e</ex>tta nockuþ faþ<ex>er</ex>
+               <app>
+                  <lem>h<ex>an</ex>z</lem>
+                  <rdg wit="#B4859">hins</rdg>
+               </app> Jlla kára. Hromundr.<note resp="#KAKapitan" n="9" place="foot" xml:id="ftn009"
+                  >In B4859, <q>Hraungvidr</q> is corrected into <q>Hromundr</q>. </note> sagþi nafn
+               sitt. oc q<ex>ve</ex>dz hefna vilia þ<ex>ei</ex>ra brǫdra, <app>
+                  <lem>enn</lem>
+                  <rdg wit="#P67">og</rdg>
+               </app> e<ex>i</ex>g<ex>i</ex> v<ex>ar</ex> kári mi<ex>er</ex> skilldr. samt
+                  s<ex>ka</ex>l ec drepa þik. oc <app>
+                  <lem>i</lem>
+                  <rdg wit="#A193">÷</rdg>
+               </app>
+               <app>
+                  <lem>þui</lem>
+                  <rdg wit="#A587 #A193">÷</rdg>
+               </app> gaf h<ex>ann</ex> Hraungv<ex>iþi</ex> kilfu hǫgg, sva mic<ex>iþ</ex>. aþ
+                  h<ex>ann</ex> bar hallt <app>
+                  <lem>hauf<ex>ut</ex></lem>
+                  <rdg wit="#A587 #A193 #T1768 #A345 #P67 #L222 #B4859">haufuþiþ</rdg>
+               </app> ept<ex>er</ex>, oc mællti. ek <app>
+                  <lem>h<ex>e</ex>fi</lem>
+                  <rdg wit="#A345 #L222 #B4859">hefir</rdg>
+               </app> v<ex>er</ex><ex>iþ</ex> výþa i Bard<ex>au</ex>gu<ex>m</ex>, oc alld<ex>ri</ex>
+                  feing<ex>iþ</ex>
+               <app>
+                  <lem>þuilýct</lem>
+                  <rdg wit="#P67">jafnmikiþ</rdg>
+               </app> haugg, annaþ haugg sló Hrom<ex>un</ex>d<ex>ur</ex><note resp="#KAKapitan"
+                  n="10" place="foot" xml:id="ftn010">In A601, the scribe started to write <q>Hraungviður</q>, but corrected it.</note> til
+               Hraungvidz, sva hausinn <app>
+                  <lem>brotnaþi.</lem>
+                  <rdg wit="#P67">+ og</rdg>
+               </app> J þriþia hǫggi misti h<ex>ann</ex> lýf<ex>iþ</ex>, <app>
+                  <lem>Ept<ex>er</ex> þ<ex>ad</ex></lem>
+                  <rdg wit="#P67">Sijþann</rdg>
+               </app> g<ex>en</ex>gu þ<ex>ei</ex>r s<ex>e</ex>m Eft<ex>er</ex> lifþo, all<ex>er</ex>
+               á hendr k<ex>on</ex>gi, oc liktaþ<ex>iz</ex> so b<ex>ar</ex>d<ex>a</ex>g<ex>e</ex>nn. </p>
+
+         </div>
+
+         <div type="chapter" n="2">
+            <p>
+               <hi rend="rubric">Cäp<ex>ituli</ex> .ij.</hi> Nu kann<ex>ar</ex> Hrómundr skipinn, oc
+               finnr e<ex>ir</ex>n m<ex>ann</ex>, hallast upp v<ex>iþ</ex> J stafni, h<ex>ann</ex>
+               spir þ<ex>ann</ex> m<ex>ann</ex> aþ nafni, Sá <app>
+                  <lem>q<ex>ve</ex>dst</lem>
+                  <rdg wit="#P67">+ heita</rdg>
+               </app> Helgi <app>
+                  <lem>heite</lem>
+                  <rdg wit="#A587 #A193 #T1768 #A345 #L222 #B4859">heita</rdg>
+                  <rdg wit="#P67">÷</rdg>
+               </app> hinn frǫkni, Broþer<note resp="#KAKapitan" n="11" place="foot" xml:id="ftn011"
+                  >A marginal note in A601 refers to the underlined sentence in lines 19 and
+                  20.</note> Hraungzvidz, oc nenni
+               ek e<ex>i</ex>g<ex>i</ex> friþar aþ biþia. Hrom<ex>un</ex>d<ex>r</ex> l<ex>ie</ex>t
+               græþa helga hinn <app>
+                  <lem>frækna</lem>
+                  <rdg wit="#P67">+ Þar epte<supplied>r</supplied>
+                  </rdg>
+               </app>, <app>
+                  <lem>h<ex>ann</ex> siglþi</lem>
+                  <rdg wit="#P67">siglde hann</rdg>
+               </app>
+               <app>
+                  <lem>þar ept<ex>er</ex></lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app>
+               <app>
+                  <lem>i</lem>
+                  <rdg wit="#P67">til</rdg>
+               </app>
+               <app>
+                  <lem>Suýþioþ</lem>
+                  <rdg wit="#P67">Suijþiöþar</rdg>
+               </app>,<note resp="#KAKapitan" n="12" place="foot" xml:id="ftn012">A marginal note in A601 refers to the underlined text, <q>Svíþjóð</q>.</note> oc
+                  gi<ex>or</ex>þist <app>
+                  <lem>þar</lem>
+                  <rdg wit="#A587 #A193">÷</rdg>
+               </app> l<ex>an</ex>dv<ex>ar</ex>n<ex>ar</ex><ex>maþr</ex>. Þar Ept<ex>er</ex> hiellt
+                  olaf<ex>ur</ex> k<ex>on</ex>gr liþi sýno v<ex>e</ex>str<note resp="#KAKapitan"
+                     n="13" place="foot" xml:id="ftn013">In A601 <q>austur</q> is corrected to <q>vestur</q>.</note> t<ex>il</ex> súþr Eýgia, geingo
+                  þ<ex>ar</ex> á l<ex>an</ex>d, oc tóco strandhǫgg. Kall e<ex>ir</ex>n bió þar næri,
+                  k<ex>on</ex>gz m<ex>enn</ex> haufþo tek<ex>iþ</ex> kýr h<ex>an</ex>z oc ráku
+               undann si<ex>er</ex>. liet h<ex>ann</ex> mieg auml<ex>i</ex>ga um<ex>m</ex>
+                  þ<ex>an</ex>n misz<ex>er</ex> Hromundr k<ex>ie</ex>mr <app>
+                  <lem>aþ</lem>
+                  <rdg wit="#T1768">afftr</rdg>
+               </app>, oc spir hu<ex>or</ex> sá væ<ex>ri</ex>. kallinn s<ex>agþi</ex> aþ bigþ sýn
+                  væ<ex>ri</ex> allskamt þ<ex>ad</ex>ann, oc q<ex>va</ex>d meiri f<ex>re</ex>md, aþ
+               brióta hauga, oc ræna drauga <app>
+                  <lem>fie</lem>
+                  <rdg wit="#L222">÷</rdg>
+               </app>
+               <app>
+                  <lem>helldr enn ræna kotkalla.</lem>
+                  <rdg wit="#A587 #A193">÷</rdg>
+               </app> þ<ex>ess</ex>i q<supplied>va</supplied>dz máni <note resp="#KAKapitan" n="14"
+                  place="foot" xml:id="ftn014">
+                  A marginal note in A601 refers to the underlined name, <q>Máni</q>.</note> aþ nafni. Hrom<ex>un</ex>d<ex>r</ex> baþ h<ex>an</ex>n
+               seigia sie<ex>r</ex>, ef h<ex>ann</ex> visssi<note resp="#KAKapitan" n="15"
+                  place="foot" xml:id="ftn015">The scribe of A601 wrote ‘vissi’ with a long s <q>ſ</q> followed by <q>ß</q>, here transcribed
+                  as three <q>s</q>s.</note>
+               nockud um<ex>m</ex> soddann. Mani s<ex>agdiz</ex><note resp="#KAKapitan" n="16"
+                  place="foot" xml:id="ftn016">A601 has only one long s followed by a colon, which would usually be
+                  expanded as <q>segir</q> or <q>sagði</q>. All other manuscripts, however, preserve the reading
+                  ‘sagðist’, therefore it was chosen as an expansion here. It is expanded with the
+                  medio passive ‘z-ending’, which follows the orthography of A601.</note> výst <pb n="2r" facs="AM_601b_4to_0002r"/>
+               vita oc m<ex>æ</ex>l<ex>ti</ex> Þráinn<note resp="#KAKapitan" n="17" place="foot"
+                  xml:id="ftn017">A marginal note in A601 refers to the underlined name, <q>Þráinn</q>. The word-initial
+                  ‘þ’ is enlarged and pen-flourished.</note> s<ex>e</ex>m
+               vann Valland,<note resp="#KAKapitan" n="18" place="foot" xml:id="ftn018">A marginal note in A601 refers to the underlined name, <q>Valland</q>.</note> oc
+                  v<ex>ar</ex> þ<ex>ar</ex> k<ex>on</ex>gr, B<ex>er</ex>serkr m<ex>ic</ex>ill oc
+                  st<ex>er</ex>kr, <app>
+                  <lem>oc</lem>
+                  <rdg wit="#A587 #A193 #L222 #B4859">÷</rdg>
+               </app>
+               <app>
+                  <lem>fullr galldra</lem>
+                  <rdg wit="#L222">÷</rdg>
+               </app>. H<ex>a</ex>nn var s<supplied>e</supplied>ttr J haug, m<ex>ed</ex>
+               <app>
+                  <lem>suerde</lem>
+                  <rdg wit="#A345 #L222 #B4859">+ og</rdg>
+               </app>, h<ex>er</ex>klæþ<ex>om</ex> oc fie miklo. Enn fá<ex>er</ex>
+               <app>
+                  <lem>fýsast</lem>
+                  <rdg wit="#B4859">fyzuz</rdg>
+               </app> þángaþ. Hrómund<supplied>r</supplied> spir, hu<ex>or</ex>ra leid sigla
+                  s<ex>ka</ex>l þángat, <app>
+                  <lem>kall</lem>
+                  <rdg wit="#A587 #A193">hann</rdg>
+               </app> s<ex>agþi</ex> aþ h<ex>ann</ex> má sigla rett sud<ex>ur</ex>, <app>
+                  <lem>i</lem>
+                  <rdg wit="#B4859">÷</rdg>
+               </app>.vj. d<ex>a</ex>ga. Hrom<ex>un</ex>d<ex>r</ex> þack<ex>ar</ex> kalli <app>
+                  <lem>f<ex>re</ex>gn</lem>
+                  <rdg wit="#A345 #L222 #B4859">frä</rdg>
+               </app>
+               <app>
+                  <lem>þ<ex>ess</ex>a</lem>
+                  <rdg wit="#A345 #L222">söguna</rdg>
+                  <rdg wit="#B4859">saugu og</rdg>
+               </app>, gaf <app>
+                  <lem>h<ex>onu</ex>m</lem>
+                  <rdg wit="#B4859">+ mikit</rdg>
+               </app> fe, oc liet h<ex>ann</ex> taka kýr sýnar. Siglþo þ<ex>ei</ex>r suo
+                  þ<ex>ad</ex>ann ept<ex>er</ex> þui s<ex>e</ex>m, kall výsaþi þ<ex>ei</ex>m <app>
+                  <lem>til</lem>
+                  <rdg wit="#A345">÷</rdg>
+               </app>, oc aþ .vi. d<ex>a</ex>ga fresti <app>
+                  <lem>sau</lem>
+                  <rdg wit="#P67">siä</rdg>
+               </app> þ<ex>ei</ex>r hauginn r<ex>ie</ex>tt f<ex>yrir</ex>
+               <app>
+                  <lem>fram<ex>m</ex>stafni</lem>
+                  <rdg wit="#A345">stafne fram</rdg>
+               </app>, Þ<ex>ei</ex>r komo vestann aþ Val-l<ex>an</ex>di, <app>
+                  <lem>oc</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> fundu hauginn, oc rufu þ<ex>e</ex>gar, oc aþ liþnum <app>
+                  <lem>.iv.</lem>
+                  <rdg wit="#A587 #A193 #T1768">sex</rdg>
+               </app> d<ex>au</ex>gom, komo þ<ex>ei</ex>r glugga á hauginn. Sau þ<ex>ei</ex>r aþ þar
+               sat á stóli dolgor mikill blár oc dig<ex>ur</ex>, allr gulli klædd<ex>ur</ex>, so
+               leiptraþi af. rumdi h<ex>ann</ex> miǫc oc Bles aþ elldi. Hróm<ex>un</ex>d<ex>r</ex>
+               spir, hu<ex>or</ex>
+               <app>
+                  <lem>nu</lem>
+                  <rdg wit="#L222">÷</rdg>
+               </app> vill <app>
+                  <lem>g<ex>an</ex>ga</lem>
+                  <rdg wit="#P67">+ inn</rdg>
+               </app> i hauginn, oc sá s<ex>ku</ex>le kiósa si<ex>er</ex> .iij. g<ex>ri</ex>pe. Voli
+                  q<ex>va</ex>d <app>
+                  <lem>Einginn</lem>
+                  <rdg wit="#A587 #A193 #A345 #L222 #B4859">engi</rdg>
+               </app> m<ex>vn</ex>þi vilia g<ex>ie</ex>fa lýf sitt v<ex>iþ</ex> þui, <app>
+                  <lem>e<ex>ro</ex></lem>
+                  <rdg wit="#P67">er</rdg>
+               </app> hi<ex>er</ex> nu lx. m<ex>anna</ex>, oc man t<ex>ro</ex>ll þ<ex>e</ex>tta <app>
+                  <lem>ǫllum</lem>
+                  <rdg wit="#P67">+ þeim</rdg>
+               </app> dauþa veita, Hrom<ex>un</ex>d<ex>r</ex> m<ex>æ</ex>l<ex>ti</ex> vogaþ
+                  m<ex>vn</ex>di kári hafa <app>
+                  <lem>þ<ex>e</ex>tta</lem>
+                  <rdg wit="#T1768">÷</rdg>
+               </app>, ef lifz væ<ex>ri</ex>, oc q<ex>va</ex>d makl<ex>e</ex>gt <app>
+                  <lem>þó</lem>
+                  <rdg wit="#A345 #L222 #B4859">að</rdg>
+               </app> si<ex>er</ex> væ<ex>ri</ex> niþ<ex>ur</ex> slept i Feste, þo betra sie aþ fást
+                  v<ex>iþ</ex> viij aþra. F<ex>or</ex> sva Hróm<ex>undr</ex> niþr i festenne.
+                  v<ex>ar</ex> þ<ex>ad</ex> á nótto, oc e<ex>r</ex> h<ex>ann</ex> kom niþr. Bar
+                  h<ex>ann</ex> sam<ex>an</ex> fe mic<ex>iþ</ex> oc <app>
+                  <lem>batt</lem>
+                  <rdg wit="#B4859">bar</rdg>
+               </app> i festarenda. Þráinn hafþi v<ex>er</ex>iþ á firri daugom k<ex>on</ex>gr
+                  Jf<ex>er</ex> Vallandi, oc vann allt m<ex>ed</ex>
+               <del>øllu<ex>m</ex></del> 
+               <app>
+                  <lem>gǫlld<ex>rum</ex></lem>
+                  <rdg wit="#P67">+ og</rdg>
+               </app>. <app>
+                  <lem>giorþi</lem>
+                  <rdg wit="#L222">+ hann</rdg>
+               </app> m<ex>ar</ex>gt Jllt <app>
+                  <lem>af</lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> si<ex>er</ex>, oc þá h<ex>ann</ex> v<ex>ar</ex> sva gamall aþ h<ex>ann</ex>
+               kunni <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#A345 #P67 #L222">ei</rdg>
+               </app> aþ strýþa, lengr, liet h<ex>ann</ex> setia sic lifanþi J hauginn oc
+                  mic<ex>iþ</ex> fe m<ex>ed</ex> si<ex>er</ex>. Nu sier Hrom<ex>un</ex>d<ex>r</ex>
+                  hu<ex>ar</ex>
+               <app>
+                  <lem>su<ex>er</ex>þ<ex>iþ</ex></lem>
+                  <rdg wit="#A345 #P67 #B4859 #L222">sverd</rdg>
+               </app>
+               <note resp="#KAKapitan" n="19" place="foot" xml:id="ftn019"> In L222, the word appears on the line break on a damaged leaf, therefore the
+                  form could have been with the definite article. </note> hang<ex>er</ex>
+               <app>
+                  <lem>uppi</lem>
+                  <rdg wit="#P67 #B4859">upp</rdg>
+               </app> á Eirn<ex>ri</ex> svlú, h<ex>ann</ex> kipp<ex>er</ex> þui of<ex>an</ex>
+               <app>
+                  <lem>girþiz</lem>
+                  <rdg wit="#T1768">+ sig</rdg>
+               </app> m<ex>ed</ex>, oc geing<ex>ur</ex> f<ex>ra</ex>maþ stolnum oc
+                  m<ex>æ</ex>l<ex>ti</ex> mi<ex>er</ex>
+               <app>
+                  <lem>man</lem>
+                  <rdg wit="#A345">maa</rdg>
+               </app>
+               <app>
+                  <lem>v<ex>er</ex>a mál</lem>
+                  <rdg wit="#L222">mäl vera</rdg>
+               </app>
+               <app>
+                  <lem>or haugnom</lem>
+                  <rdg wit="#P67">aþ hauggva</rdg>
+               </app> first <app>
+                  <lem>einginn</lem>
+                  <rdg wit="#A587 #A193 #A345 #B4859">engi</rdg>
+               </app> haml<ex>ar</ex>, e<ex>þr</ex> hu<ex>or</ex>ninn vegn<ex>ar</ex> þi<ex>er</ex>,
+               þu hi<ex>er</ex>na hinn gamli. Sástu <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67 #L222">ei</rdg>
+               </app> aþ ek bar sam<ex>an</ex> fe þitt. Enn þu haukt<ex>er</ex> kirr, hundr leýþr,
+                  e<ex>þa</ex> hu<ex>aþ</ex> var þi<ex>er</ex> i augom. Er þu horfþ<ex>er</ex> á, aþ
+               ec tóc suerþ<ex>iþ</ex> oc meniþ, oc fiǫlda þinna annara gripa. Þráinn q<ex>va</ex>d
+                  si<ex>er</ex>
+               <app>
+                  <lem>einskis</lem>
+                  <rdg wit="#A587 #A193 #P67 #B4859">einkis</rdg>
+               </app>
+               <app>
+                  <lem>um<ex>m</ex> v<ex>er</ex>t</lem>
+                  <rdg wit="#T1768">vert um</rdg>
+               </app> þik<ex>ia</ex> ef h<ex>ann</ex> liete sic <app>
+                  <lem>sitia kirrann</lem>
+                  <rdg wit="#A587 #A193">kyrran sitia</rdg>
+               </app> á stóli synom. Ek kunni áþr firr aþ beriast, e<ex>r</ex> þá ordinn nógo ragr
+               ef þu e<ex>ir</ex>n s<ex>ka</ex>lt ræna m<ex>ic</ex> auþi, oc vil <pb n="2v"
+                  facs="AM_601b_4to_0002v"/> ek sinia þi<ex>er</ex> gripanna, máttu siá v<ex>iþ</ex>
+                  mi<ex>er</ex> Dauþom. Þa m<ex>æ</ex>l<ex>ti</ex> Hro<ex>mundr</ex> Rigaþo
+                  þi<ex>er</ex> á fætr Rag<ex>ur</ex> ok blauþr, oc takþu suerþ<ex>iþ</ex> aptr <app>
+                  <lem>af mi<ex>er</ex></lem>
+                  <rdg wit="#T1768">÷</rdg>
+               </app> ef þu þor<ex>er</ex>. <app>
+                  <lem>Draug<ex>ur</ex><note resp="#KAKapitan" n="20" place="foot" xml:id="ftn020">
+                     If the colon at the end of the word functions as an abbreviation, it could be
+                     expanded as <q>draugurinn</q>, the form without the article chosen to agree with the
+                     majority of the manuscripts.</note></lem>
+                  <rdg wit="#P67 #B4859">dräuguren</rdg>
+               </app> m<ex>æ</ex>l<ex>ti</ex> Þ<ex>ad</ex> e<ex>r</ex>
+               <app>
+                  <lem>einginn</lem>
+                  <rdg wit="#A193 #A345 #B4859">engi</rdg>
+               </app> f<ex>re</ex>md aþ b<ex>er</ex>a su<ex>er</ex>þ<note resp="#KAKapitan" n="21"
+                  place="foot" xml:id="ftn021">In B4859, ‘sverd’ is added to replace ‘uapn’, which was initially written in this place.</note> á
+                  m<ex>ic</ex>, vapnlausann, helldr vil ec reina afl v<ex>iþ</ex> þik <app>
+                  <lem>oc</lem>
+                  <rdg wit="#B4859">÷</rdg>
+               </app>
+               <app>
+                  <lem>glýmo</lem>
+                  <rdg wit="#P67">glijma</rdg>
+               </app>. Hromund<supplied>r</supplied> kast<ex>ar</ex> þá suerþino, oc treiste afli
+               sýno. Þráinn sá þ<ex>et</ex>ta, oc leiste ofann ketil sinn <app>
+                  <lem>e<ex>r</ex></lem>
+                  <rdg wit="#A345 #P67 #L222 #B4859">+ hann</rdg>
+               </app> hafþi uppi. h<ex>ann</ex> v<ex>ar</ex> þá <app>
+                  <lem>e<ex>i</ex>gi</lem>
+                  <rdg wit="#P67">ecke</rdg>
+               </app> frýnl<ex>e</ex>gr blies þá aþ elldi <app>
+                  <lem>e<ex>r</ex></lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> h<ex>ann</ex> v<ex>ar</ex> bvinn aþ eta ur katlinom. <app>
+                  <lem>Funi</lem>
+                  <rdg wit="#A345">+ var</rdg>
+               </app> mikill <app>
+                  <lem>v<ex>ar</ex></lem>
+                  <rdg wit="#A345">÷</rdg>
+               </app> J <app>
+                  <lem>millom</lem>
+                  <rdg wit="#A587 #A193 #T1768">milli</rdg>
+                  <rdg wit="#L222">mid<unclear>0</unclear>e</rdg>
+               </app> fóta <app>
+                  <lem>h<ex>an</ex>z</lem>
+                  <rdg wit="#A587 #A193">honum</rdg>
+               </app>. enn ketellenn fullr <app>
+                  <lem>af bvkom</lem>
+                  <rdg wit="#A587 #A193">i buki</rdg>
+               </app>. H<ex>a</ex>nn v<ex>ar</ex> i stacki gullfáguþom, Báþ<ex>ar</ex> hendr
+                  h<ex>an</ex>z v<ex>or</ex>u breinglaþ<ex>ar</ex>, oc beigþust neglr f<ex>yrir</ex>
+               goma. Hrom<ex>un</ex>d<ex>r</ex> m<ex>æ</ex>l<ex>ti</ex> skrýtto af stóli skálkr
+               argr. suiptr aulu<note resp="#KAKapitan" n="22" place="foot" xml:id="ftn022">
+                  The scribe wrote <q>öllu</q> with an ‘au’-ligature followed by a single <q>l</q>, not by
+                  the <q>broken l</q>, which is usually used in this manuscript to denote doubling of the
+                  letter. </note> fie. Þá <app>
+                  <lem>s<ex>agde</ex></lem>
+                  <rdg wit="#A345 #P67 #L222 #B4859">svarar</rdg>
+               </app>
+               <app>
+                  <lem>draugr</lem>
+                  <rdg wit="#P67 #B4859">draugurenn</rdg>
+               </app>: nu man mál <app>
+                  <lem>v<ex>er</ex>a</lem>
+                  <rdg wit="#T1768">÷</rdg>
+               </app> aþ fara á fætr. first þu frýar mi<ex>er</ex> hug<ex>ar</ex>. <app>
+                  <lem>d<ex>a</ex>g</lem>
+                  <rdg wit="#A587 #A193 #T1768 #A345 #B4859">dagur</rdg>
+                  <rdg wit="#P67">daguren</rdg>
+                  <rdg wit="#L222">damaged</rdg>
+               </app> lýþr, <app>
+                  <lem>enn</lem>
+                  <rdg wit="#L222">oc</rdg>
+               </app> kuelldar, oc <app>
+                  <lem>giǫrist</lem>
+                  <rdg wit="#A587 #A193">gerþiz</rdg>
+                  <rdg wit="#T1768">giordist</rdg>
+               </app> þá mirkt i haugn<ex>om</ex>. H<ex>an</ex>n g<ex>ec</ex> þá til glýmo
+                  v<ex>iþ</ex> Hromund, <app>
+                  <lem>enn</lem>
+                  <rdg wit="#P67 #T1768">og</rdg>
+               </app> kastaþi niþr katli Sýnum. Neitte <app>
+                  <lem>þa</lem>
+                  <rdg wit="#A193">÷</rdg>
+               </app> Hróm<ex>undr</ex> aflz oc so geingust þ<ex>ei</ex>r hart aþ, aþ griót oc <app>
+                  <lem>stockar</lem>
+                  <rdg wit="#A587 #A193">steinar</rdg>
+               </app>
+               <app>
+                  <lem>gengo</lem>
+                  <rdg wit="#T1768">gengost</rdg>
+               </app> upp. þa <app>
+                  <lem>datt</lem>
+                  <rdg wit="#P67">fiell</rdg>
+               </app>
+               <app>
+                  <lem>draugrinn</lem>
+                  <rdg wit="#L222">Draugr</rdg>
+               </app> á annaþ knie, oc m<ex>æ</ex>l<ex>ti</ex> þu stiak<ex>ar</ex> mi<ex>er</ex>, oc
+               výst e<ex>r</ex>tu <app>
+                  <lem>hraustr</lem>
+                  <rdg wit="#A587 #A193">+ madr</rdg>
+               </app>. Hrom<ex>undr</ex>
+               <app>
+                  <lem>s<ex>agþi</ex></lem>
+                  <rdg wit="#P67 #T1768">mælte</rdg>
+                  <rdg wit="#L222 #B4859">svarar</rdg>
+               </app> Stattu studningzlaust á fæt<ex>ur</ex> aftr, miklu e<ex>r</ex>tu linari enn
+               Máni kall sagþi. Þá toc þrainn aþ trillast, oc filltist upp haug<ex>ur</ex>inn
+                  m<ex>ed</ex> Jllann daun, setti h<ex>ann</ex> þá klær sýn<ex>ar</ex> á hnacka
+                  hrom<ex>undi</ex> oc sleit <app>
+                  <lem>holld</lem>
+                  <rdg wit="#P67">holldid</rdg>
+               </app> af beinom <app>
+                  <lem>a lendar ofan<ex>n</ex></lem>
+                  <rdg wit="#T1768">÷</rdg>
+               </app> oc m<ex>æ</ex>l<ex>ti</ex> kuarta <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app>
+               <app>
+                  <lem>um<ex>m</ex></lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app>
+               <app>
+                  <lem>þo</lem>
+                  <rdg wit="#B4859">þott</rdg>
+               </app> gráni leýkurinn, oc sárni kropp<ex>ur</ex> þinn. þui nu s<ex>ka</ex>l ek rýfa
+               þic kuikann J sunþr <app>
+                  <lem>Ei<ex>gi</ex> veit eg</lem>
+                  <rdg wit="#A345 #L222 #B4859">Eg veit eigi</rdg>
+               </app>
+               <note resp="#KAKapitan" n="23" place="foot" xml:id="ftn023">
+                  The abbreviations in A601 could be expanded as ‘Eg veit eigi’.</note>
+               sagþi Hrom<ex>undr</ex> hu<ex>aþ</ex>ann <app>
+                  <lem>soddann</lem>
+                  <rdg wit="#T1768">÷</rdg>
+               </app>
+               <app>
+                  <lem>katt<ex>ar</ex>kin</lem>
+                  <rdg wit="#B4859">katta kyn</rdg>
+               </app>, e<ex>r</ex> kom<ex>iþ</ex> J haug þ<ex>en</ex>nann. <app>
+                  <lem>Draug<ex>ur</ex>inn</lem>
+                  <rdg wit="#L222">draugr</rdg>
+               </app> m<ex>æ</ex>l<ex>ti</ex> þu munt <app>
+                  <lem>fæddr v<ex>er</ex>a</lem>
+                  <rdg wit="#A345">vera fæddur</rdg>
+                  <rdg wit="#B4859">fæddr</rdg>
+               </app> af <app>
+                  <lem>Gunnloþ</lem>
+                  <rdg wit="#A345 #L222 #B4859">Svylaud og</rdg>
+               </app>, e<ex>ro</ex> fá<ex>er</ex> þijn<ex>er</ex> lýk<ex>ar</ex>. Jllt man
+                  v<ex>er</ex>a s<ex>agþi</ex> Hr<ex>omundr</ex> aþ þu klor<ex>er</ex> m<ex>ic</ex>
+               leinge, glýmdo <app>
+                  <lem>þ<ex>ei</ex>r</lem>
+                  <rdg wit="#P67">+ þä</rdg>
+               </app> hart oc leingi, so allt skalf þ<ex>ad</ex> næ<ex>ri</ex>
+               <app>
+                  <lem>v<ex>ar</ex></lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app>, þ<ex>ar</ex> til um sýþer, <app>
+                  <lem>aþ</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> Hrom<ex>undr</ex> felldi h<ex>ann</ex> á fót<ex>ar</ex>bragþi. Þá v<ex>ar</ex>
+                  ord<ex>iþ</ex> miǫk <app>
+                  <lem>dimt</lem>
+                  <rdg wit="#P67">mirkt</rdg>
+               </app>. Þá m<ex>æ</ex>l<ex>ti</ex>
+               <app>
+                  <lem>draugr</lem>
+                  <rdg wit="#P67">draugurenn</rdg>
+               </app>: Nu vanstu m<ex>ic</ex> m<ex>ed</ex> ráþom, <app>
+                  <lem>oc</lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> tocst suerþ mitt. þ<ex>ad</ex> scipte m<ex>ed</ex> ockr, leikum, leingi
+                  h<ex>e</ex>fi ek <app>
+                  <lem>lifaþ</lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> i <app>
+                  <lem>haugi<pb n="3r" facs="AM_601b_4to_0003r"/> mýnom</lem>
+                  <rdg wit="#P67">mijnum haug</rdg>
+               </app>, oc lafaþ á fe, Enn <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app> e<ex>r</ex> gott aþ <app>
+                  <lem>t<ex>ru</ex>a</lem>
+                  <rdg wit="#P67">treijsta</rdg>
+                  <rdg wit="#L222">tr<unclear>0</unclear>sta ÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> gripum sýnom <app>
+                  <lem>þó góþ<ex>er</ex> þike</lem>
+                  <rdg wit="#P67 #L222">÷</rdg>
+               </app>
+               <note resp="#KAKapitan" n="24" place="foot" xml:id="ftn024">
+                  In A601 and A587, the phrase <q>þó góþer þike</q> is within parentheses.</note>, of <app>
+                  <lem>miǫk</lem>
+                  <rdg wit="#L222">+ þo goþer þike</rdg>
+               </app>. oc alldri <app>
+                  <lem>h<ex>e</ex>fi</lem>
+                  <rdg wit="#P67">hefþa</rdg>
+                  <rdg wit="#B4859">hefir</rdg>
+               </app> ek ætlaþ, aþ Þu mistilteinn, mitt góda <app>
+                  <lem>suerþ</lem>
+                  <rdg wit="#A193">+ at þu</rdg>
+               </app>, mund<ex>er</ex> verþa mi<ex>er</ex> til <app>
+                  <lem>meins.<note resp="#KAKapitan" n="25" place="foot" xml:id="ftn025">
+                     In L222, there is a sentence, which was deleted later: <q>oc mon þat happa verk
+                     at lata þik sem fyrst deyia</q>. </note></lem>
+                  <rdg wit="#P67">+ Nu</rdg>
+               </app> varþ Hrom<ex>undr</ex> þá laus. oc náþi su<ex>er</ex>þino, ok
+                  m<ex>æ</ex>l<ex>ti</ex> Herm mi<ex>er</ex> nu. hu<ex>aþ</ex> marga <app>
+                  <lem>m<ex>enn</ex></lem>
+                  <rdg wit="#T1768 #A345">+ þú vanst</rdg>
+               </app> i <app>
+                  <lem>Hólmgaungo</lem>
+                  <rdg wit="#P67">homgỏngum</rdg>
+               </app>, <app>
+                  <lem>Þu vanst</lem>
+                  <rdg wit="#T1768 #A345">÷</rdg>
+               </app> m<ex>ed</ex>
+               <app>
+                  <lem>mistilteini</lem>
+                  <rdg wit="#P67">+ Drauguren qvad</rdg>
+               </app>. <app>
+                  <lem>hundraþ <add>xxiv</add></lem>
+                  <rdg wit="#P67">134</rdg>
+               </app>
+               <note resp="#KAKapitan" n="26" place="foot" xml:id="ftn026">In A601, the place of the addition is marked with a little insertion mark.</note>
+               <app>
+                  <lem>q<ex>va</ex>d draugrinn</lem>
+                  <rdg wit="#P67">÷</rdg>
+                  <rdg wit="#L222">quaþ draugr</rdg>
+               </app>. oc f<ex>ec</ex> ec allþri skeino. Semingur k<ex>on</ex>gr er v<ex>ar</ex> J
+                  Suýþióþ<note resp="#KAKapitan" n="27" place="foot" xml:id="ftn027">
+                     In A601, there
+                  is the marginal note which refers to the underlined text in lines 6 and 7.</note>
+               oc ek, <app>
+                  <lem>reindom</lem>
+                  <rdg wit="#A345">+ íþróttir</rdg>
+                  <rdg wit="#L222">+ med</rdg>
+               </app> ockar <app>
+                  <lem>Jþrótt<ex>er</ex></lem>
+                  <rdg wit="#A345">÷</rdg>
+               </app> oc hugþi h<ex>ann</ex> ec m<ex>vn</ex>þi seint unninn v<ex>er</ex>þa. leinge
+                  h<ex>e</ex>fr þu s<ex>agþi</ex> hrom<ex>undr</ex> v<ex>er</ex>iþ m<ex>aunnum</ex>
+               til meinz<note resp="#KAKapitan" n="28" place="foot" xml:id="ftn028"> Dittography
+                  in L222, <q>varþ hromundr þa laus</q>, which
+                  is later deleted.</note>, oc mun þ<ex>ad</ex>
+               <app>
+                  <lem>happav<ex>er</ex>k</lem>
+                  <rdg wit="#P67">+ sem first</rdg>
+               </app>, aþ láta þik <app>
+                  <lem>s<ex>e</ex>m first</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> deýgia, hió h<ex>ann</ex>
+               <app>
+                  <lem>sua</lem>
+                  <rdg wit="#T1768 #A193">þa</rdg>
+               </app>
+               <app>
+                  <lem>haufiþ</lem>
+                  <rdg wit="#P67">haufuþ</rdg>
+               </app> af draugnum, oc brendi h<ex>ann</ex>
+               <app>
+                  <lem>upp</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app>
+               <app>
+                  <lem>allann</lem>
+                  <rdg wit="#P67">+ upp</rdg>
+               </app> á Bále, for so ur haugnu<ex>m</ex>. spurþu m<ex>enn</ex> þá, hu<ex>or</ex>ninn
+               Þráinn oc h<ex>ann</ex> hefþo skiliþ, h<ex>an</ex>n q<supplied>va</supplied>d
+                  þ<ex>ad</ex>
+               <app>
+                  <lem>hafa geingiþ</lem>
+                  <rdg wit="#P67">geingeþ hafa</rdg>
+               </app> i kiǫr þui ek hió af h<ex>onu</ex>m haufiþ<ex>iþ</ex>. <app>
+                  <lem>Eignaþiz</lem>
+                  <rdg wit="#P67">+ þä</rdg>
+               </app> Hrom<ex>undr</ex> þá iij <app>
+                  <lem>gripi</lem>
+                  <rdg wit="#L222">k<unclear>0</unclear>stgripi</rdg>
+               </app> e<ex>r</ex> h<ex>ann</ex> sokti J hauginn, hring, men, oc mistiltein. aller
+               fengo þ<ex>ei</ex>r of fiár. Sigldi olafr k<ex>on</ex>gr sua þ<ex>ad</ex>ann, oc <app>
+                  <lem>n<ex>or</ex>þr til <del>danmerkr</del>
+                     <add>sinz</add>
+                     <add>rijkis</add></lem>
+                  <rdg wit="#P67">heim</rdg>
+               </app>, s<ex>e</ex>ttist sýþann aþ <app>
+                  <lem>l<ex>an</ex>di sýno</lem>
+                  <rdg wit="#A345">sinu landi</rdg>
+                  <rdg wit="#P67">sijnu rijke</rdg>
+               </app> um <app>
+                  <lem>kirt</lem>
+                  <rdg wit="#L222">hrijþ</rdg>
+               </app>. </p>
+
+
+         </div>
+         <div type="chapter" n="3">
+
+            <p>
+               <hi rend="rubric">Cap<ex>ituli</ex> .iij.</hi> Ept<ex>er</ex> þ<ex>et</ex>ta <app>
+                  <lem>v<ex>ar</ex></lem>
+                  <rdg wit="#P67 #L222">vard</rdg>
+               </app> Hrómundr miøg <app>
+                  <lem>frægr, vinsæll</lem>
+                  <rdg wit="#T1768 #A345">vinsæll frægr</rdg>
+                  <rdg wit="#L222">frædgr hann var vinsęll</rdg>
+               </app>, oc stórgiøfull, H<ex>an</ex>n gaf <app>
+                  <lem>ein<ex>um</ex> m<ex>anni</ex></lem>
+                  <rdg wit="#A345"><unclear>einum</unclear>
+                  </rdg>
+                  <rdg wit="#P67">eitt sinn</rdg>
+               </app>, <app>
+                  <lem>þ<ex>ei</ex>m</lem>
+                  <rdg wit="#P67">+ manne</rdg>
+               </app> e<ex>r</ex> Hrókur h<ex>ie</ex>t <app>
+                  <lem>eitt sinn</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app>, gullh<ex>ri</ex>ng gódann e<ex>r</ex> vó eýri. Þ<ex>ad</ex> fieck Voli aþ
+               vita, oc drap Hrók á náttartýma enn tók h<ex>ri</ex>nginn. <app>
+                  <lem>Enn</lem>
+                  <rdg wit="#B4859">nu</rdg>
+               </app> s<ex>e</ex>m k<ex>on</ex>gr visze þ<ex>et</ex>ta q<ex>va</ex>dz h<ex>ann</ex>
+               skilldi launa vola e<ex>ir</ex>nhu<ex>or</ex>n týma, h<ex>an</ex>z h<ex>re</ex>cki.
+                  K<ex>on</ex>gr<note resp="#KAKapitan" n="29" place="foot" xml:id="ftn029">
+                     In T1768, there seems to be a deleted word after <q>k<ex>ong</ex>r</q>, possibly <q>het</q>.
+                     </note> átti tuær sistr, ønnr þ<ex>eir</ex>ra h<ex>ie</ex>t
+               d<ex>a</ex>gný, enn hin Suanhuýt.<note resp="#KAKapitan" n="30" place="foot" xml:id="ftn030">
+                  A marginal note in A601 refers to the underlined names of Ólafur’s sisters, <q>Dagný</q> and <q>Svanhvít</q>.</note> 
+               Su v<ex>ar</ex>
+                  fram<ex>ar</ex> aþ aullu, oc v<ex>ar</ex>
+               <app>
+                  <lem>einginn</lem>
+                  <rdg wit="#A345 #B4859">engi</rdg>
+               </app> h<ex>en</ex>n<ex>ar</ex> lýki, millom Suýþioþar oc háloga l<ex>and</ex>z.
+                  Hromund<supplied>r</supplied> G<ex>reips</ex>s<ex>on</ex> v<ex>ar</ex> nu heima,
+               oc giǫrþi si<ex>er</ex> kátt viþ suanh<ex>uýt</ex> oc <app>
+                  <lem>f<ex>or</ex>þast</lem>
+                  <rdg wit="#P67">fordadist</rdg>
+               </app>
+               <app>
+                  <lem>hu<ex>or</ex>ki</lem>
+                  <rdg wit="#P67">+ aþ þui</rdg>
+               </app> Vola n<ex>ie</ex> Bijld. Hun m<ex>æ</ex>l<ex>ti</ex> eitt sinn v<ex>iþ</ex>
+                  Hrómu<ex>n</ex>d. oc seig<ex>er</ex> voli oc Býldr muni rægia h<ex>ann</ex>
+                  v<ex>iþ</ex> k<ex>on</ex>g. H<ex>an</ex>n m<ex>æ</ex>l<ex>ti</ex> ec hrædunst<note
+                  resp="#KAKapitan" n="31" place="foot" xml:id="ftn031">A601, L222, and B4859 share
+                  the reading <q>hræþunst</q> with an <q>n</q> instead of an <q>m</q>.</note>
+               aungvar <pb n="3v" facs="AM_601b_4to_0003v"/> argar fýlor, oc sua <app>
+                  <lem>leingi</lem>
+                  <rdg wit="#L222">+ sem</rdg>
+               </app> þu villt unna mi<ex>er</ex> viþtalz, þá man ek tala v<ex>iþ</ex> þik.
+                  S<ex>va</ex> v<ex>ar</ex>þ megn þ<ex>ess</ex>e rógburþr, aþ Hromundr, oc
+                  h<ex>an</ex>z brǫþ<ex>ur</ex><note resp="#KAKapitan" n="32" place="foot"
+                  xml:id="ftn032">In A345, the abbreviation for <q>bræður</q> is crossed over.</note> urþu aþ rýma, f<ex>ra</ex><note
+                  resp="#KAKapitan" n="33" place="foot" xml:id="ftn033">In A587, <q>fra</q> is
+                     corrected to <q>fyrir</q>. </note> k<ex>on</ex>gz hird, oc f<ex>or</ex>u heim til fauþ<ex>ur</ex>
+               sýns. <app>
+                  <lem>Lýtiþ</lem>
+                  <rdg wit="#B4859">litlu</rdg>
+               </app> hi<ex>er</ex> ept<ex>er</ex> talar Suanhuýt v<ex>iþ</ex> olaf k<ex>on</ex>g,
+               oc <app>
+                  <lem>s<ex>egir</ex></lem>
+                  <rdg wit="#A587 #A193 #P67 #L222">sagdi</rdg>
+               </app> Nu e<ex>r</ex> Hromund<ex>r</ex> dæmd<ex>ur</ex>
+               <app>
+                  <lem>J</lem>
+                  <rdg wit="#A193">÷</rdg>
+               </app> brot f<ex>ra</ex> k<ex>ong</ex>z hirþ, hu<ex>or</ex>
+               <app>
+                  <lem>v<ex>ar</ex></lem>
+                  <rdg wit="#A587 #A193 #T1768 #A345 #L222 #B4859">vara</rdg>
+                  <rdg wit="#P67">idar</rdg>
+               </app> sǫmd Jók þó mest. Enn aptr i staþinn hafi þi<ex>er</ex> m<ex>ed</ex>
+                  y<ex>dur</ex> þá tua er huorki rækia frǫgd <app>
+                  <lem>nie</lem>
+                  <rdg wit="#T1768">og</rdg>
+               </app> dád. k<ex>on</ex>g<supplied>r</supplied>
+               <app>
+                  <lem>su<ex>ar</ex><ex>ar</ex></lem>
+                  <rdg wit="#P67">mælte</rdg>
+               </app> heýrt h<ex>e</ex>fi ek getiþ h<ex>ann</ex> m<ex>vn</ex>þi fifla þik, oc
+                  s<ex>ka</ex>l suerþiþ skilia <app>
+                  <lem>ýck<ex>ar</ex> ást</lem>
+                  <rdg wit="#B4859">Aast yckar</rdg>
+               </app>. Lýtt manstu <app>
+                  <lem>nú</lem>
+                  <rdg wit="#A345">þad</rdg>
+               </app> s<ex>agde</ex> hu<ex>n</ex>, þ<ex>e</ex>gar h<ex>ann</ex> e<ex>ir</ex>n gieck
+               i hauginn, enn <app>
+                  <lem>eingi</lem>
+                  <rdg wit="#P67 #L222">eingenn</rdg>
+               </app> ann<ex>ar</ex> þ<ex>or</ex>þi,<note resp="#KAKapitan" n="34" place="foot"
+                  xml:id="ftn034">Dittography in B4859, <q>enn
+                     engi Annar þorþi</q>. </note>
+               <app>
+                  <lem>oc</lem>
+                  <rdg wit="#L222">kongr vard miøk reiþr oc mælltti fyrir þesssi þijn ord skal
+                     Hromundr Gälgann Gysta þott hann sie frækni kallaþr</rdg>
+                  <rdg wit="#B4859">konungr mælir fyrir þessi þijn ord skal Hromundr Heingdr verþa,
+                     þott hann se frækinn</rdg>
+               </app> fir man voli <add>og</add> bylþr heingþ<ex>ir</ex><note resp="#KAKapitan"
+                  n="35" place="foot" xml:id="ftn035">In A601, there is an unusual abbreviation: the
+                  superscript <q>r-rotunda</q> used for an <q>ir</q> ending instead of a <q>ur</q>
+                  ending.</note> v<ex>er</ex>þa s<ex>agde</ex>
+               <app>
+                  <lem>h<ex>on</ex></lem>
+                  <rdg wit="#L222">+ oc</rdg>
+               </app>. Geck sýþann snvþuckt <app>
+                  <lem>i</lem>
+                  <rdg wit="#A193">a</rdg>
+               </app> brot.<note resp="#KAKapitan" n="36" place="foot" xml:id="ftn036">
+                  In L222,
+                  chapter IV begins here.</note> Nockru sýþar komo .ij. k<ex>on</ex>gar af Suýþióþ
+               hietu báþ<ex>er</ex> Hallding<ex>ar</ex>. <app>
+                  <lem>Helgi<note resp="#KAKapitan" n="37" place="foot" xml:id="ftn037">
+                     In A601,
+                           <q>Kári</q> is corrected to <q>Helgi</q>.</note></lem>
+                  <rdg wit="#P67">+ hin frækne</rdg>
+               </app>
+               <app>
+                  <lem>Hraungvidz bróþ<ex>er</ex></lem>
+                  <rdg wit="#P67">bröder Hraungvidz</rdg>
+               </app> v<ex>ar</ex> m<ex>ed</ex> þ<ex>ei</ex>m. Þ<ex>ei</ex>r Buþu <app>
+                  <lem>k<ex>on</ex>g olafi</lem>
+                  <rdg wit="#T1768">Olafi kongi</rdg>
+               </app> til o<ex>rrustu</ex> vestr, <app>
+                  <lem>á</lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> vænis ýs. H<ex>a</ex>nn vill nu helldr mæta þ<ex>ei</ex>m, enn flýa óþal sitt.
+                  gi<ex>or</ex><ex>er</ex> nu <app>
+                  <lem>ord</lem>
+                  <rdg wit="#P67">bod</rdg>
+               </app> Hrómundi oc brǫþ<ex>rum</ex> h<ex>a</ex>nz. aþ filgia si<ex>er</ex>. þa villdi
+                  Hróm<ex>un</ex>d<ex>r</ex> hu<ex>or</ex>gi f<ex>ar</ex>a.<note resp="#KAKapitan"
+                  n="38" place="foot" xml:id="ftn038">
+                     In A601, the abbreviation <q>ra</q> is used for
+                     <q>ar</q>.</note> kuaþ Býlld oc vola v<ex>e</ex>l duga. oc vinna allt
+                  m<ex>ed</ex> k<ex>on</ex>gi. k<ex>on</ex>gr <app>
+                  <lem>f<ex>or</ex></lem>
+                  <rdg wit="#B4859">+ þa</rdg>
+               </app> af stad m<ex>ed</ex> liþ sitt. Suannhuýt klckanþi v<ex>iþ</ex>, oc
+                  f<ex>or</ex> heim til Hrom<ex>un</ex>d<supplied>ar</supplied>. H<ex>an</ex>n tóc
+                  h<ex>en</ex>ni v<ex>e</ex>l virþ <app>
+                  <lem>nu til</lem>
+                  <rdg wit="#P67">þu</rdg>
+               </app> bn myna s<ex>agde</ex> h<ex>on</ex>, <app>
+                  <lem>meir enn</lem>
+                  <rdg wit="#A587">eir enn</rdg>
+                  <rdg wit="#A193">eirninn</rdg>
+                  <rdg wit="#T1768">enn</rdg>
+               </app>. beýþni broþr mýnz, oc veit nu <app>
+                  <lem>liþ k<ex>on</ex>gi</lem>
+                  <rdg wit="#A193">konge liþ</rdg>
+               </app>. Ek vil g<ex>ie</ex>fa þi<ex>er</ex> e<ex>ir</ex>n skiǫlld, m<ex>ed</ex> þui
+               bandi e<ex>r</ex> h<ex>onu</ex>m filg<ex>er</ex>, m<ex>vn</ex> þik <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app> saka <app>
+                  <lem>m<ex>ed</ex>ann</lem>
+                  <rdg wit="#T1768">a medan</rdg>
+               </app> þu h<ex>e</ex>fr þ<ex>ad</ex>. Hrom<ex>un</ex>d<ex>r</ex> þack<ex>ar</ex>
+                  h<ex>en</ex>ni giof þ<ex>ess</ex>a gladd<ex>iz</ex> h<ex>on</ex> þá, h<ex>an</ex>n
+               bióst til <app>
+                  <lem>ferdar</lem>
+                  <rdg wit="#A345 #P67 #L222 #B4859">ferda</rdg>
+               </app> oc brǫþr h<ex>an</ex>z viij. Nu k<ex>ie</ex>mr k<ex>on</ex>gr m<ex>ed</ex> liþ
+               sitt til vænis ysz. <app>
+                  <lem>v<ex>ar</ex> þar</lem>
+                  <rdg wit="#L222">þar var</rdg>
+               </app> f<ex>yrir</ex>
+               <app>
+                  <lem>Suýa</lem>
+                  <rdg wit="#P67">suenska</rdg>
+               </app>
+               <app>
+                  <lem>liþ</lem>
+                  <rdg wit="#P67">lideþ</rdg>
+               </app>. Enn aþ m<ex>or</ex>gni <app>
+                  <lem>þ<ex>e</ex>gar</lem>
+                  <rdg wit="#A345 #L222 #B4859">+ at</rdg>
+               </app> výglióst v<ex>ar</ex>, vapnast þ<ex>ei</ex>r á ýsnnom, oc socktu suýar hart
+                  fram<ex>m</ex>. Strax s<ex>e</ex>m b<ex>ar</ex>d<ex>a</ex>ginn <app>
+                  <lem>hófst</lem>
+                  <rdg wit="#P67">tökst</rdg>
+               </app>, var Býldr veiginn, Enn voli kom þ<ex>ar</ex> e<ex>i</ex>g<ex>i</ex>. olafr
+                  k<ex>on</ex>gr<note resp="#KAKapitan" n="39" place="foot" xml:id="ftn039">In B4859,
+                  there are multiple corrections in this sentence: <q>kongr var þar, fiell konungr
+                     þeirra Halldingur (Haddingur) annar enn</q>.</note> oc
+                  k<ex>on</ex>g<supplied>r</supplied>
+               <app>
+                  <lem>hallding</lem>
+                  <rdg wit="#A345">Hadding</rdg>
+               </app> mættust. oc <app>
+                  <lem>lictaþi</lem>
+                  <rdg wit="#L222">lyctadist</rdg>
+               </app> sua m<ex>ed</ex>
+               <app>
+                  <lem>þ<ex>ei</ex>m</lem>
+                  <rdg wit="#P67"> + þeirra vidskipte</rdg>
+               </app>
+               <app>
+                  <lem>aþ</lem>
+                  <rdg wit="#P67">+ kong</rdg>
+                  <rdg wit="#B4859">+ hinn</rdg>
+               </app>
+               <app>
+                  <lem>hallding</lem>
+                  <rdg wit="#A345">hadding</rdg>
+                  <rdg wit="#B4859">Hadding/Halling (correction)</rdg>
+               </app> v<ex>ar</ex>d sár. Hromu<ex>n</ex>d<supplied>r</supplied> hafþi sett <app>
+                  <lem>hrauktialld</lem>
+                  <rdg wit="#B4859">+ sitt</rdg>
+               </app>, hinu meiginn vatzinz, brǫþ<ex>ur</ex> h<ex>an</ex>z <app>
+                  <lem>h<ex>er</ex>klæþast</lem>
+                  <rdg wit="#B4859">herklædduzt</rdg>
+               </app> snem<ex>m</ex>a um<ex>m</ex> m<ex>or</ex>guninn. Hrom<ex>un</ex>d<ex>r</ex>
+                  m<ex>æ</ex>l<ex>ti</ex> Jlla h<ex>e</ex>fr m<ex>ic</ex> dreimt i nótt, oc man <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app>
+               <app>
+                  <lem>ganga allt</lem>
+                  <rdg wit="#L222">allt ganga</rdg>
+               </app> aþ óskum, oc <app>
+                  <lem>man e<ex>c</ex>
+                     <pb n="4r" facs="AM_601b_4to_0004r"/> ecki</lem>
+                  <rdg wit="#P67">ei man eg</rdg>
+               </app> fa<ex>ra</ex> id<ex>a</ex>g til o<ex>rrustu</ex>. Brǫþr h<ex>a</ex>nz <app>
+                  <lem>saugþo</lem>
+                  <rdg wit="#T1768 #B4859">+ at</rdg>
+               </app> þ<ex>ad</ex> væ<ex>ri</ex> stǫr skǫm<ex>m</ex> aþ þora <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67 #B4859">ei</rdg>
+               </app> aþ veita <app>
+                  <lem>k<ex>on</ex>gi liþ</lem>
+                  <rdg wit="#B4859">liþ konungi</rdg>
+               </app>, enn <app>
+                  <lem>v<ex>er</ex>a</lem>
+                  <rdg wit="#B4859">÷</rdg>
+               </app> þo komin<ex>n</ex> þ<ex>ess</ex>
+               <app>
+                  <lem>Erindis</lem>
+                  <rdg wit="#A345 #L222 #B4859">eyrindis</rdg>
+               </app>. Þ<ex>ei</ex>r <app>
+                  <lem>komo</lem>
+                  <rdg wit="#P67">geingu</rdg>
+                  <rdg wit="#T1768">foro</rdg>
+               </app> t<ex>il</ex> o<ex>rrustu</ex> oc <app>
+                  <lem>gengu</lem>
+                  <rdg wit="#P67">söktu</rdg>
+               </app> hart fram<ex>m</ex>, <app>
+                  <lem>oc</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> fiell hu<ex>or</ex> um<ex>m</ex> þu<ex>er</ex>ann annann, e<ex>r</ex>
+                  þ<ex>ei</ex>m mætti <app>
+                  <lem>af liþi halldinga</lem>
+                  <rdg wit="#A345">÷</rdg>
+               </app>. Ein fiǫlkýngis <ex>kon</ex>a, v<ex>ar</ex> þar kominn i <app>
+                  <lem>ál<supplied>f</supplied>tarham</lem>
+                  <rdg wit="#P67">altarlijke edur ham</rdg>
+               </app>, hun <app>
+                  <lem>gólaþi</lem>
+                  <rdg wit="#B4859">Gool</rdg>
+               </app> m<ex>ed</ex> sua miklum galldra látu<ex>m</ex>, aþ <app>
+                  <lem>einginn</lem>
+                  <rdg wit="#A345 #B4859">engi</rdg>
+               </app> gáþi aþ v<ex>er</ex>ia sik. olafz m<ex>anna</ex>. Flaug h<ex>on</ex>
+                  ýf<ex>er</ex> þá <app>
+                  <lem>Greipz sýne</lem>
+                  <rdg wit="#L222 #B4859">Greypssonu</rdg>
+               </app>, oc saung hátt h<ex>un</ex> h<ex>ie</ex>t Cára<note resp="#KAKapitan" n="40"
+                  place="foot" xml:id="ftn040">In A601, the phrase <q>hon hiet Cára</q> is within
+                  parentheses.</note> Helgi hinn frækni mætti þ<ex>ei</ex>m bræþ<ex>rum</ex>
+                  þ<ex>ad</ex> sama sinn, oc drap þá alla viij. sam<ex>an</ex>. J þui Bili kom
+                  Hrom<ex>un</ex>d<ex>ur</ex> J B<ex>ar</ex>d<ex>a</ex>gann. Helgi <app>
+                  <lem>hinn</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> frækni <app>
+                  <lem>þeckti</lem>
+                  <rdg wit="#P67">kiende</rdg>
+               </app> h<ex>ann</ex> oc m<ex>æ</ex>l<ex>ti</ex> Nu e<ex>r</ex> sá kominn
+                  hi<ex>er</ex>
+               <app>
+                  <lem>s<ex>e</ex>m</lem>
+                  <rdg wit="#A193">er</rdg>
+               </app>
+               <app>
+                  <lem>vó</lem>
+                  <rdg wit="#B4859">drap</rdg>
+               </app> hraungviþ bróþr minn, meige þi<ex>er</ex> nu siá v<ex>iþ</ex>
+               <app>
+                  <lem>h<ex>an</ex>z</lem>
+                  <rdg wit="#P67">þvi</rdg>
+               </app> suerþi s<ex>e</ex>m h<ex>ann</ex> sókti i hauginn. varstu nu fiæri e<ex>r</ex>
+               ek drap bræþr þy<ex>n</ex>a. Hrom<ex>un</ex>d<supplied>r</supplied>
+                  m<ex>æ</ex>l<ex>ti</ex>
+               <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app> þarftu Helgi aþ frýa mi<ex>er</ex> hug<ex>ar</ex>, <app>
+                  <lem>þui</lem>
+                  <rdg wit="#L222">þviat</rdg>
+               </app> annaþ <app>
+                  <lem>hu<ex>or</ex>t</lem>
+                  <rdg wit="#B4859">+ skal nu falla</rdg>
+               </app> ek e<ex>þur</ex> þu, <app>
+                  <lem>s<ex>ku</ex>lu<ex>m</ex></lem>
+                  <rdg wit="#P67">skulu</rdg>
+                  <rdg wit="#B4859">÷</rdg>
+               </app>
+               <app>
+                  <lem>nu</lem>
+                  <rdg wit="#T1768 #A345 #B4859">÷</rdg>
+               </app>
+               <app>
+                  <lem>falla</lem>
+                  <rdg wit="#B4859">÷</rdg>
+               </app>. Helgi <app>
+                  <lem>s<ex>agde</ex></lem>
+                  <rdg wit="#A345">mælti</rdg>
+                  <rdg wit="#L222">svarar</rdg>
+               </app> Mistilteirn er sua þu<ex>n</ex>gt <app>
+                  <lem>vapn</lem>
+                  <rdg wit="#A345 #P67 #L222 #B4859">+ at</rdg>
+                  <rdg wit="#T1768">sverd at</rdg>
+               </app>, þu fær <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app> valldiþ, vil <app>
+                  <lem>ek</lem>
+                  <rdg wit="#P67">+ þui</rdg>
+               </app> liá þi<ex>er</ex>
+               <app>
+                  <lem>þ<ex>ad</ex></lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> annaþ <app>
+                  <lem>su<ex>er</ex>þ</lem>
+                  <rdg wit="#T1768">vapn</rdg>
+               </app>, <app>
+                  <lem>e<ex>r</ex></lem>
+                  <rdg wit="#P67">þat</rdg>
+               </app>
+               <app>
+                  <lem>þu g<ex>e</ex>tr valldit</lem>
+                  <rdg wit="#L222 #B4859">þier er vapnbært</rdg>
+               </app>. Hrom<ex>undr</ex> m<ex>æ</ex>l<ex>ti</ex>
+               <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app> þarftu aþ b<ex>re</ex>gþa mi<ex>er</ex> u<ex>m</ex> hugleisi muna muntu
+                  þ<ex>ad</ex> hǫgg, e<ex>r</ex> ek gaf <app>
+                  <lem>hraungviþ</lem>
+                  <rdg wit="#P67">+ bröþur þijnum</rdg>
+               </app>, þá <app>
+                  <lem>hauz h<ex>an</ex>z</lem>
+                  <rdg wit="#B4859">hanns Haus</rdg>
+               </app> molaþiz. Helgi <app>
+                  <lem>sagþi</lem>
+                  <rdg wit="#P67">svarar</rdg>
+                  <rdg wit="#L222">mælti</rdg>
+               </app>. þu Hrómundr, h<ex>e</ex>fr bundiþ <app>
+                  <lem>v<ex>iþ</ex></lem>
+                  <rdg wit="#A587 #A193 #T1768">um</rdg>
+               </app> þýna hǫnd, <app>
+                  <lem>sockaband</lem>
+                  <rdg wit="#A345">socka bande</rdg>
+               </app>, meýar e<ex>ir</ex>nrar, skil þig vid skiǫlld þann e<ex>r</ex> þu ber, þu fær <app>
+                  <lem>einginn</lem>
+                  <rdg wit="#A345">engi</rdg>
+               </app> sár m<ex>ed</ex>ann þu ber þ<ex>et</ex>ta, oc helld ec fir<ex>er</ex>
+               <app>
+                  <lem>satt</lem>
+                  <rdg wit="#A345 #L222 #B4859">+ at</rdg>
+               </app>, þu t<ex>ru</ex>er á þá meýo. Hrómundr þoldi <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei leingur</rdg>
+               </app>
+               <app>
+                  <lem>þ<ex>ess</ex>i</lem>
+                  <rdg wit="#P67">þau</rdg>
+               </app> skapraun<ex>ar</ex> ord, oc kastaþi niþr skilldinom. <app>
+                  <lem>Helgi</lem>
+                  <rdg wit="#P67">+ hinn</rdg>
+               </app> f<add>r</add>ækni hafþi Jafnann sigr haft oc vann m<ex>ed</ex> fiǫlkýngi,
+               frilla h<ex>an</ex>z <app>
+                  <lem>h<ex>ie</ex>t</lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+                  <rdg wit="#A345">÷</rdg>
+               </app> Cára, <app>
+                  <lem>su s<ex>e</ex>m</lem>
+                  <rdg wit="#A345">÷</rdg>
+               </app>
+               <app>
+                  <lem>þ<ex>ar</ex> v<ex>ar</ex></lem>
+                  <rdg wit="#A345">var þar</rdg>
+               </app> i álftarlýki. Helgi reiddi suo hátt <app>
+                  <lem>suerþ sitt</lem>
+                  <rdg wit="#P67">suerdid</rdg>
+               </app> upp if<ex>er</ex> sik, at <app>
+                  <lem>þ<ex>ad</ex></lem>
+                  <rdg wit="#T1768">÷</rdg>
+               </app> toc sundr fótlegg alftarinn<ex>ar</ex>. <app>
+                  <lem>oc rendi</lem>
+                  <rdg wit="#B4859">enn</rdg>
+               </app> suerþit <app>
+                  <lem>ofan</lem>
+                  <rdg wit="#P67">nidur</rdg>
+                  <rdg wit="#B4859">sauck</rdg>
+               </app> i <app>
+                  <lem><del>vǫllinn</del></lem>
+                  <rdg wit="#P67"><add>jórdina</add>
+                  </rdg>
+                  <rdg wit="#A587 #A193 #T1768">÷</rdg>
+               </app>
+               <app>
+                  <lem>upp</lem>
+                  <rdg wit="#B4859">÷</rdg>
+               </app> aþ hiǫlltum, <app>
+                  <lem>oc m<ex>æ</ex>l<ex>ti</ex></lem>
+                  <rdg wit="#L222">Helgi mælti þä</rdg>
+                  <rdg wit="#B4859">Helgi mælltti</rdg>
+               </app> nu e<ex>r</ex>
+               <app>
+                  <lem>mýn heill</lem>
+                  <rdg wit="#L222">heill mijn</rdg>
+               </app> farinn, ok Jlla <app>
+                  <lem>tocst</lem>
+                  <rdg wit="#P67">barst nú</rdg>
+                  <rdg wit="#A345 #B4859">+ nú</rdg>
+               </app> t<ex>il</ex>, e<ex>r</ex> ek mista þýn, Hromundr m<ex>æ</ex>l<ex>ti</ex> þu
+               vanst helgi hid m<ex>e</ex>sta sliz, e<ex>r</ex> þu drapst <app>
+                  <lem>sialfr</lem>
+                  <rdg wit="#L222">÷</rdg>
+               </app> frillo þýna oc f<ex>ar</ex>inn man þýn heill, <app>
+                  <lem>datt</lem>
+                  <rdg wit="#P67">+ þä</rdg>
+               </app> cára dauþ niþr <app>
+                  <lem><del>á vǫllinn</del></lem>
+                  <rdg wit="#A587 #A193 #T1768 #A345 #P67 #L222 #B4859">÷</rdg>
+               </app>. Enn <app>
+                  <lem>af</lem>
+                  <rdg wit="#L222 #B4859">i</rdg>
+               </app> þui hǫggi e<ex>r</ex> helgi <pb n="4v" facs="AM_601b_4to_0004v"/> hió til
+                  Hromund<ex>a</ex>r <app>
+                  <lem>suo suerþ<ex>iþ</ex> lióp</lem>
+                  <rdg wit="#T1768">liop sverdit</rdg>
+                  <rdg wit="#A345 #B4859">÷</rdg>
+                  <rdg wit="#P67">so suerþid sóck</rdg>
+               </app>
+               <app>
+                  <lem>aþ hiǫlltum</lem>
+                  <rdg wit="#A345 #B4859">÷</rdg>
+               </app>
+               <app>
+                  <lem>ofan</lem>
+                  <rdg wit="#A345 #P67 #B4859">÷</rdg>
+               </app>
+               <app>
+                  <lem><del>J vǫllinn</del></lem>
+                  <rdg wit="#A587 #A193 #T1768 #A345 #P67 #B4859">÷</rdg>
+               </app>, <app>
+                  <lem>snart</lem>
+                  <rdg wit="#B4859">snerti</rdg>
+               </app>
+               <app>
+                  <lem>oddr</lem>
+                  <rdg wit="#A345 #B4859">oddurinn</rdg>
+               </app>
+               <app>
+                  <lem>suerdsinz</lem>
+                  <rdg wit="#B4859">÷</rdg>
+               </app>
+               <app>
+                  <lem>kuiþ</lem>
+                  <rdg wit="#B4859">qvidinn</rdg>
+               </app>
+               <app>
+                  <lem>hróm<ex>un</ex>d<ex>ar</ex></lem>
+                  <rdg wit="#B4859">÷</rdg>
+               </app> oc risti <app>
+                  <lem>niþr</lem>
+                  <rdg wit="#B4859">+ allann</rdg>
+               </app>. <app>
+                  <lem>Enn helgi laut</lem>
+                  <rdg wit="#B4859">Laut Helgi þa mjøg</rdg>
+               </app> epter hǫggino, v<ex>ar</ex> þá Hrom<ex>un</ex>d<ex>r</ex>
+               <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app> seinn, oc <app>
+                  <lem>hǫggr</lem>
+                  <rdg wit="#P67">+ med</rdg>
+               </app> mistilteini i hauf<ex>ud</ex>
+               <app>
+                  <lem>Helg<ex>a</ex></lem>
+                  <rdg wit="#L222">+ oc</rdg>
+               </app> klauf hiálminn ok hausinn, sua staþ<ex>ar</ex>
+               <app>
+                  <lem>mam</lem>
+                  <rdg wit="#A587 #A193 #T1768 #A345 #P67 #L222 #B4859">nam</rdg>
+               </app>
+               <note resp="#KAKapitan" n="41" place="foot" xml:id="ftn041">In A601, there is a
+                  scribal error <q>mam</q> for <q>nam</q>, not copied into any other
+                  manuscript.</note> i <app>
+                  <lem>h<ex>er</ex>þom</lem>
+                  <rdg wit="#P67 #L222">herdonum</rdg>
+               </app>, Brotnaþi þá skarþ i suerþiþ. Ept<ex>er</ex> þ<ex>ad</ex> tók Hrómundr
+               týgilknýf <app>
+                  <lem>sinn</lem>
+                  <rdg wit="#T1768">÷</rdg>
+               </app>, oc stack <app>
+                  <lem>á</lem>
+                  <rdg wit="#T1768 #L222">i</rdg>
+               </app> kuidinn <app>
+                  <lem>á sier</lem>
+                  <rdg wit="#P67">æsar</rdg>
+               </app> J sarzbrvn<ex>er</ex>n<ex>ar</ex>, rauf<ex>er</ex>, hratt suo Jnn ýstrunni
+                  e<ex>r</ex> ut <app>
+                  <lem>hángþi</lem>
+                  <rdg wit="#P67">hieck</rdg>
+               </app>. hrifi<ex>ar</ex>
+               <app>
+                  <lem>þar m<ex>ed</ex></lem>
+                  <rdg wit="#P67">so</rdg>
+               </app> sam<ex>an</ex> kuiþinn m<ex>ed</ex> bandi, oc batt klædinn hart aþ, Barþist <app>
+                  <lem>sua</lem>
+                  <rdg wit="#P67">syþan</rdg>
+               </app> J ákafa, oc felldi hu<ex>or</ex>n um<ex>m</ex>
+               <app>
+                  <lem>annann þu<ex>er</ex>ann</lem>
+                  <rdg wit="#A193">þveran annann</rdg>
+               </app> oc barþiz f<ex>ra</ex>m til midrar nætr, <app>
+                  <lem>flijþi</lem>
+                  <rdg wit="#P67">+ þä</rdg>
+               </app> þ<ex>ad</ex> liþ s<ex>e</ex>m ept<ex>er</ex> v<ex>ar</ex> af <app>
+                  <lem>halldingom</lem>
+                  <rdg wit="#P67">+ og</rdg>
+               </app>, lýkr þar m<ex>ed</ex>
+               <app>
+                  <lem>o<ex>rrustu</ex></lem>
+                  <rdg wit="#P67 #L222 #B4859">orustunne</rdg>
+               </app>: Hróm<supplied>un</supplied>dr si<ex>er</ex> þá, aþ e<ex>ir</ex>n
+                  <ex>maþr</ex> stend<ex>ur</ex> þ<ex>ar</ex> á ýsnom, veit <app>
+                  <lem>h<ex>ann</ex></lem>
+                  <rdg wit="#A345">+ at</rdg>
+               </app> sá sami muni <app>
+                  <lem>hafa m<ex>ed</ex> gǫlld<ex>rum</ex>. gi<ex>or</ex>t ÿsenn</lem>
+                  <rdg wit="#T1768 #L222">med golldrum hafa giort isinn</rdg>
+                  <rdg wit="#A345">gert hafa isinn med gaulldrum</rdg>
+               </app> á vatniþ. þeckti h<ex>ann</ex> aþ þ<ex>et</ex>ta v<ex>ar</ex> Voli,
+                  h<ex>ann</ex> q<supplied>va</supplied>d <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app> u-skillt <app>
+                  <lem>aþ</lem>
+                  <rdg wit="#L222">a</rdg>
+               </app> launa h<ex>onu</ex>m liop t<ex>il</ex> h<ex>an</ex>s, reiddi mistiltein, oc
+               villdi <app>
+                  <lem>hǫggva</lem>
+                  <rdg wit="#A345">högra</rdg>
+                  <rdg wit="#P67">haugga</rdg>
+               </app> h<ex>ann</ex>. voli bles sverþ<ex>iþ</ex> or hendi h<ex>onu</ex>m oc hitti
+                  þ<ex>ad</ex> f<ex>yrir</ex><note resp="#KAKapitan" n="42" place="foot"
+                  xml:id="ftn042">
+                     In A601, the abbreviation mark <q>ra</q> is used for
+                  <q>fyrir</q>. </note> vǫk eina, oc sǫck niþr til grunnz. <note resp="#KAKapitan"
+                     n="43" place="foot" xml:id="ftn043">A marginal note in A601 refers to the underlined text in lines 12 and 13.</note> Þá hló voli oc
+                  m<ex>æ</ex>l<ex>ti</ex> Nu ertu feigr, e<ex>r</ex> þu mist<ex>er</ex> mistilteýn
+               ur hendi <app>
+                  <lem>þinni</lem>
+                  <rdg wit="#A345 #P67 #L222">þér</rdg>
+               </app>, Hróm<ex>un</ex>d<ex>r</ex>
+               <app>
+                  <lem>s<ex>agþi</ex></lem>
+                  <rdg wit="#A345 #P67 #L222 #B4859">svarar</rdg>
+               </app> fir munto deýg<ex>ia</ex> enn ek. lióp h<ex>ann</ex> þá aþ vola, oc greip
+                  h<ex>ann</ex>
+               <app>
+                  <lem>upp</lem>
+                  <rdg wit="#A345 #L222 #B4859">+ og</rdg>
+               </app>, <app>
+                  <lem>færþi</lem>
+                  <rdg wit="#T1768 #A345">+ hann</rdg>
+               </app> niþr viþ ýsinn, <app>
+                  <lem>sua</lem>
+                  <rdg wit="#P67">+ hart ad</rdg>
+               </app> hálsbein<ex>iþ</ex> brotnaþi, lá þ<ex>ess</ex>i galld<ex>ra</ex>
+                  rum<ex>ur</ex> þar dauþr, enn Hróm<ex>un</ex>d<ex>r</ex>. settist niþ<ex>ur</ex> á
+               ýsinn. H<ex>an</ex>n m<ex>æ</ex>l<ex>ti</ex> Jeg hafþi e<ex>i</ex>g<ex>i</ex>
+               <app>
+                  <lem>ráþ</lem>
+                  <rdg wit="#A193">÷</rdg>
+               </app> meýarinn<ex>ar</ex>, þ<ex>vi</ex> h<ex>e</ex>fi e<ex>c</ex>
+               <app>
+                  <lem>nu</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> feing<ex>iþ</ex>
+               <app>
+                  <lem>xiv</lem>
+                  <rdg wit="#A345">16</rdg>
+               </app> und<ex>er</ex>, oc þo þar til fiellu brǫþr mýn<ex>er</ex> viij. oc mitt góþa
+                  su<ex>er</ex>þ mistilteirn, fiell i vatniþ, oc þ<ex>es</ex>s fæ ec alld<ex>ri</ex>
+               bætr aþ e<ex>c</ex>
+               <app>
+                  <lem>misti</lem>
+                  <rdg wit="#A345 #L222">mizta</rdg>
+               </app> su<ex>er</ex>þ<ex>iþ</ex>. g<ex>eck</ex> h<ex>ann</ex> sýþann þ<ex>ad</ex>ann
+               oc heim aþ tialldi syno, oc tóc nockra huild. </p>
+
+
+         </div>
+         <div type="chapter" n="4">
+            <p>
+               <hi rend="rubric">Cap<ex>ituli</ex> .iv.</hi> Nu<note resp="#KAKapitan" n="44"
+                  place="foot" xml:id="ftn044">In L222, chapter V begins here.</note> e<ex>ro</ex>
+                  k<ex>on</ex>gz systr sócktar, kann<ex>ar</ex> Suanhýt sár Hrómund<ex>ar</ex> oc
+                  saum<ex>ar</ex>
+               <app>
+                  <lem>kuidinn sam<ex>an</ex></lem>
+                  <rdg wit="#P67">saman quidin</rdg>
+               </app>, oc leýt<ex>ar</ex> h<ex>onu</ex>m hæginda. Hun liet fæ<ex>ra</ex>
+                  h<ex>ann</ex> kalli þ<ex>ei</ex>m t<ex>il</ex> grædslu, e<ex>r</ex> Hagall
+                  h<ex>ie</ex>t. kielling h<ex>an</ex>z v<ex>ar</ex> klók. þau tóku vel v<ex>iþ</ex>
+                  h<ex>onu</ex>m oc græddu h<ex>ann</ex> aþ heilu. Þ<ex>ad</ex> fann
+                  Hrom<ex>un</ex>d<ex>r</ex> aþ <pb n="5r" facs="AM_601b_4to_0005r"/>þ<ex>ess</ex>e
+               hión v<ex>or</ex>o m<ex>ar</ex>g kunnug. Kall var vanr at veýþa fiska, oc eitt
+                  sin<ex>n</ex> er h<ex>ann</ex> v<ex>ar</ex> aþ veiþiskap sýnom, dró h<ex>ann</ex>
+               eina <app>
+                  <lem>Geddo</lem>
+                  <rdg wit="#A345">+ eina</rdg>
+               </app>, oc er h<ex>ann</ex> kom heim oc krufþi <app>
+                  <lem>gedduna</lem>
+                  <rdg wit="#A587 #A193 #T1768">hana</rdg>
+               </app>, fann h<ex>ann</ex>
+               <app>
+                  <lem>i h<ex>e</ex>nn<ex>ar</ex> maga</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> Mistiltein, su<ex>er</ex>þ Hróm<ex>un</ex>d<ex>ar</ex>. oc f<ex>eck</ex>
+                  h<ex>onu</ex>m þ<ex>ad</ex>. Hrom<ex>un</ex>d<ex>r</ex> v<ex>ar</ex>þ glaþr
+                  v<ex>iþ</ex> oc kisti á <app>
+                  <lem>Hiallt su<ex>er</ex>þsinz</lem>
+                  <rdg wit="#P67">suerdetz hiolla</rdg>
+               </app>, oc umbvnaþi <app>
+                  <lem>v<ex>e</ex>l kalli</lem>
+                  <rdg wit="#P67">kalle vel</rdg>
+               </app>. Eirn <ex>maþr</ex> v<ex>ar</ex> sá m<ex>ed</ex>
+               <app>
+                  <lem>Halldingz</lem>
+                  <rdg wit="#A345">haddings</rdg>
+               </app>
+               <app>
+                  <lem>k<ex>on</ex>gz</lem>
+                  <rdg wit="#P67">konga</rdg>
+               </app> h<ex>er</ex> s<ex>e</ex>m h<ex>ie</ex>t Blindur hinn Jlli. H<ex>an</ex>n sagþi
+                  k<ex>on</ex>gi, aþ Hróm<ex>un</ex>dr væ<ex>ri</ex> lýfz, oc grædd<ex>ur</ex> á
+               láun hia Hag<add>a</add>li kalli, oc <ex>kon</ex>o h<ex>an</ex>z. k<ex>on</ex>gr
+                  q<ex>va</ex>d u-trvl<ex>e</ex>gt, aþ þau m<ex>vn</ex>þo þ<ex>or</ex>a aþ leina
+                  h<ex>onu</ex>m. <app>
+                  <lem>k<ex>on</ex>gr</lem>
+                  <rdg wit="#P67">Og</rdg>
+               </app>
+               <app>
+                  <lem>Bauþ</lem>
+                  <rdg wit="#P67">+ kongur</rdg>
+               </app> aþ leýta h<ex>an</ex>z. Blindr f<ex>or</ex> m<ex>ed</ex> nock<ex>ra</ex>
+                  m<ex>enn</ex>, til hvsa þ<ex>eir</ex>ra <app>
+                  <lem>Hagalz</lem>
+                  <rdg wit="#P67">+ konu hanz</rdg>
+               </app> oc spurdi ef Hróm<ex>un</ex>dr væ<ex>ri</ex> þar geimdr. kielling <app>
+                  <lem>s<ex>agþi</ex></lem>
+                  <rdg wit="#T1768">+ at</rdg>
+               </app>
+               <app>
+                  <lem>h<ex>ann</ex> m<ex>vn</ex>þi e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">at ei munde hann</rdg>
+               </app> Þ<ex>ar</ex> finnast. Blindr leýtaþi vandl<ex>e</ex>ga, oc fann <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app>. Þ<ex>vía</ex>t kelling hafþi faliþ Hróm<ex>un</ex>d. und<ex>er</ex>
+                  hitun<ex>ar</ex> katli sýnom. Blind<ex>ur</ex> oc h<ex>ans</ex> felag<ex>ar</ex>
+               gengu þ<ex>ad</ex>ann. oc e<ex>r</ex> þ<ex>ei</ex>r v<ex>or</ex>u á leýþ
+                  komn<ex>er</ex>. s<ex>agþi</ex> Blindr. E<ex>i</ex>g<ex>i</ex> e<ex>r</ex>
+                  f<ex>er</ex>þ v<ex>or</ex> frǫg v<ex>or</ex>þinn. oc s<ex>ku</ex>lum vi<ex>er</ex>
+               aptr snva, þ<ex>ei</ex>r gi<ex>or</ex>þo suo, <app>
+                  <lem>komo heim</lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> oc funþu kiellingu, sagþi <app>
+                  <lem>Blindr</lem>
+                  <rdg wit="#A345 #A193">+ at</rdg>
+               </app> h<ex>on</ex> væ<ex>ri</ex> Brǫgdött, oc h<ex>e</ex>fþi h<ex>on</ex> geimt
+                  Hróm<ex>un</ex>d und<ex>er</ex> katli sýnum. leitiþ oc tak<ex>iþ</ex>
+                  h<ex>ann</ex> þar þá <app>
+                  <lem>q<ex>va</ex>d</lem>
+                  <rdg wit="#P67">sagde</rdg>
+               </app> h<ex>on</ex>. Enn þ<ex>vi</ex> sagþi h<ex>on</ex> þ<ex>e</ex>tta, aþ
+                  þ<ex>e</ex>g<ex>ar</ex> h<ex>on</ex> sá þ<ex>ei</ex>r sn<ex>er</ex>o aptr, færþi
+                  h<ex>on</ex> hrom<ex>un</ex>d. i kuenn skrvþa. ok liet h<ex>ann</ex> mala oc snva
+               kuǫrn. þ<ex>ei</ex>r leýta <app>
+                  <lem><add>i</add></lem>
+                  <rdg wit="#A587 #A345 #T1768 #P67 #L222 #B4859">÷</rdg>
+               </app>
+               <app>
+                  <lem>nu</lem>
+                  <rdg wit="#A587 #A193 #T1768 #A345 #P67 #L222 #B4859">+ í</rdg>
+               </app> hvsonom, oc þ<ex>e</ex>g<ex>ar</ex> þ<ex>ei</ex>r <app>
+                  <lem>komo</lem>
+                  <rdg wit="#A587 #A193 #T1768">koma</rdg>
+               </app> þ<ex>ar</ex> mærinn sn<ex>er</ex>i ku<ex>or</ex>ninni, snudroþo þ<ex>ei</ex>r
+               allt u<ex>m</ex> k<ex>ri</ex>ng enn <app>
+                  <lem>su</lem>
+                  <rdg wit="#A345">sia</rdg>
+               </app> sama leit óhýrt til k<ex>on</ex>gz m<ex>anna</ex>. sn<ex>er</ex>u sua J Brott,
+               aþ þ<ex>ei</ex>r fundo <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app>. Oc e<ex>r</ex> þ<ex>ei</ex>r v<ex>or</ex>u á <app>
+                  <lem>leýþ</lem>
+                  <rdg wit="#A345 #L222 #B4859">veg</rdg>
+               </app> komn<ex>er</ex>, s<ex>agþi</ex> Blindr <app>
+                  <lem>aþ kielling</lem>
+                  <rdg wit="#B4859">÷</rdg>
+               </app>
+               <app>
+                  <lem>man</lem>
+                  <rdg wit="#L222">mundi</rdg>
+               </app> hafa villt sión<ex>er</ex> f<ex>yrir</ex> þ<ex>ei</ex>m, oc si<ex>er</ex> þike
+               grunsamt aþ <app>
+                  <lem>Hrom<ex>un</ex>d<ex>r</ex></lem>
+                  <rdg wit="#L222">kelling</rdg>
+               </app> m<ex>vn</ex>i hafa v<ex>er</ex>iþ þ<ex>at</ex> s<ex>e</ex>m sneri
+                  ku<ex>er</ex>ninni. i kuenn klæþum. Oc sie ek osz h<ex>e</ex>fr ýfer siest,
+                  dug<ex>er</ex> oss <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei</rdg>
+               </app> aþ þreita v<ex>iþ</ex> kellingu, þ<ex>vi</ex> h<ex>on</ex> e<ex>r</ex>
+               <app>
+                  <lem>oss</lem>
+                  <rdg wit="#P67">+ øllum</rdg>
+               </app> klókari. Báþo þ<ex>ei</ex>r h<ex>en</ex>ni Jlls, oc f<ex>oru</ex> heim aptr
+                  t<ex>il</ex> k<ex>on</ex>gz v<ex>iþ</ex> S<ex>vo</ex> Bviþ. </p>
+
+
+
+         </div>
+
+         <div type="chapter" n="5">
+
+
+            <p>
+               <hi rend="rubric">Cáp<ex>ituli</ex> .v.</hi> Wm<ex>m</ex><note resp="#KAKapitan"
+                  n="45" place="foot" xml:id="ftn045">In L222, chapter VI
+                  begins here. In A345, there is no clear, numbered chapter division.</note>
+               <app>
+                  <lem>vet<ex>ur</ex>inn</lem>
+                  <rdg wit="#L222">morguninn</rdg>
+               </app> ept<ex>er</ex>, Bar mart f<ex>yrir</ex> Blind i suefni. oc <app>
+                  <lem>seig<ex>er</ex></lem>
+                  <rdg wit="#A345">+ hann</rdg>
+               </app> k<ex>on</ex>gi eitt sinn Draum sinn. Oc m<ex>æ</ex>l<ex>ti</ex> sua.
+                  Mi<ex>er</ex><note resp="#KAKapitan" n="46" place="foot" xml:id="ftn046">In A601,
+                  the word-initial <q>m</q> is enlarged, marking a dream.</note> þótti vargur eirn <pb n="5v"
+                  facs="AM_601b_4to_0005v"/> renna austann, h<ex>ann</ex> beit ýþr k<ex>on</ex>gr,
+               oc veitte ýþr áv<ex>er</ex>ka. k<ex>on</ex>gr q<ex>va</ex>dz r<ex>ad</ex>a <app>
+                  <lem>þ<ex>en</ex>nann</lem>
+                  <rdg wit="#A345 #L222 #B4859">÷</rdg>
+               </app> draum s<ex>vo</ex>. Hier<note resp="#KAKapitan" n="47" place="foot"
+                  xml:id="ftn047">In A601, the word-initial <q>h</q> is enlarged.</note> man koma
+                  k<ex>on</ex>gr <app>
+                  <lem>af, nock<ex>rum</ex> staþ</lem>
+                  <rdg wit="#P67">nockur stadar frä</rdg>
+               </app>. oc m<ex>vn</ex> fu<ex>n</ex>d<ex>ur</ex>inn v<ex>er</ex>þa skiæþr first, enn
+               falla þo niþr til sátta. Enn<note resp="#KAKapitan" n="48" place="foot"
+                  xml:id="ftn048">In A601, the word-initial <q>e</q> is enlarged.</note>
+                  q<ex>va</ex>d Blind<ex>ur</ex> sik d<ex>re</ex>imt hafa, aþ h<ex>onu</ex>m þótti
+                  m<ex>ar</ex>g<ex>er</ex> haukar sitia J einu h<ex>us</ex>i, oc <app>
+                  <lem>þeckti</lem>
+                  <rdg wit="#A345 #P67 #L222 #B4859">þeckta</rdg>
+               </app> ek þar falka þinn h<ex>er</ex>ra, h<ex>ann</ex> v<ex>ar</ex> allr fiaþra laus
+               , oc flettr hamnum k<ex>on</ex>gr m<ex>æ</ex>l<ex>ti</ex> Vindr man koma <app>
+                  <lem>af</lem>
+                  <rdg wit="#A345">or</rdg>
+               </app> skýom, oc skielfa <app>
+                  <lem>vora Borg</lem>
+                  <rdg wit="#P67">borg vora</rdg>
+               </app>. Þrid<ex>ia</ex><note resp="#KAKapitan" n="49" place="foot" xml:id="ftn049">In
+                  A601, the word-initial <q>þ</q> is enlarged.</note> Draum s<ex>agþi</ex> Blindr
+               sva leýþis. Mørg svýn sá eg renna sunnan <app>
+                  <lem>aþ</lem>
+                  <rdg wit="#P67">+ ad</rdg>
+               </app> k<ex>on</ex>gz<note resp="#KAKapitan" n="50" place="foot" xml:id="ftn050">In
+                  A601, there is a double abbreviation: <q>ks</q>-ligature and a macron.</note>
+               <app>
+                  <lem>hǫllo</lem>
+                  <rdg wit="#A345 #P67 #L222 #B4859">+ oc</rdg>
+               </app>, rótuþo <app>
+                  <lem>Jǫrþunni</lem>
+                  <rdg wit="#A587 #A193 #T1768">jörðinni</rdg>
+               </app> upp m<ex>eþ</ex> rananum. k<ex>on</ex>gr m<ex>æ</ex>l<ex>ti</ex> þ<ex>ad</ex>
+                  e<ex>r</ex> f<ex>yrir</ex> siofar ólgo. Votviþrum oc grasvexti þ<ex>ei</ex>m
+                  e<ex>r</ex> grær af vatzinz vokva er <app>
+                  <lem>sólin</lem>
+                  <rdg wit="#T1768">sol</rdg>
+               </app> skÿn i heýþi. Fiórþa<note resp="#KAKapitan" n="51" place="foot" xml:id="ftn051"
+                  >In A601, the word initial <q>f</q> is enlarged.</note> draum sagþi Blindr.
+                  mi<ex>er</ex> Þótti Eirn ógrl<ex>i</ex>gr hrike, koma austan aþ, h<ex>ann</ex>
+               beit ý<ex>dur</ex> stóra und. k<ex>on</ex>gr m<ex>æ</ex>l<ex>ti</ex>
+                  sendim<ex>enn</ex>, f<ex>ra</ex>
+               <app>
+                  <lem>n<ex>ock</ex><ex>rum</ex></lem>
+                  <rdg wit="#A345 #L222 #B4859">einum</rdg>
+               </app> k<ex>on</ex>gi muno koma J mýna hǫll, þeir mano býta upp aullom sýnom vapnom, <app>
+                  <lem>oc</lem>
+                  <rdg wit="#L222">af</rdg>
+               </app>
+               <app>
+                  <lem>þ<ex>ar</ex> af</lem>
+                  <rdg wit="#B4859">af þui</rdg>
+               </app> man ec reiþaz. Fimti<note resp="#KAKapitan" n="52" place="foot" xml:id="ftn052"
+                  >In A601, the word initial <q>f</q> is enlarged.</note> draumr e<ex>r</ex> sá
+                  s<ex>agþi</ex> B<ex>lindr</ex> aþ mi<ex>er</ex> þótti liggia um<ex>m</ex>
+               <app>
+                  <lem>Suýavelldi</lem>
+                  <rdg wit="#A345">Svijarikki</rdg>
+               </app> Grim<ex>m</ex>l<ex>e</ex>gr ormr. hi<ex>er</ex> m<ex>vn</ex> koma aþ
+                  l<ex>an</ex>di sagþi k<ex>on</ex>gr. Dreki vænn <app>
+                  <lem>hlaþinn</lem>
+                  <rdg wit="#B4859">+ af</rdg>
+               </app> g<ex>er</ex>semom. Siǫtta sinn d<ex>re</ex>imde mik, s<ex>agþi</ex>
+                  B<ex>lindr</ex> aþ mi<ex>er</ex> þótti koma af l<ex>an</ex>di suǫrt <app>
+                  <lem>ský</lem>
+                  <rdg wit="#A345">ku</rdg>
+                  <rdg wit="#L222 #B4859">kii</rdg>
+               </app>. m<ex>eþ</ex> klóm oc vængiom oc <app>
+                  <lem>flugu</lem>
+                  <rdg wit="#P67">fliuga i</rdg>
+                  <rdg wit="#L222 #B4859">fliuga</rdg>
+               </app> brott m<ex>ed</ex> þ<ex>ic</ex> k<ex>on</ex>gr. Þá d<ex>re</ex>imdi
+                  m<ex>ic</ex>
+               <app>
+                  <lem>enn</lem>
+                  <rdg wit="#A345">+ sagði Blindur</rdg>
+               </app>, aþ ormr eirn væ<ex>ri</ex> hiá Hagali kalli, sá beit <app>
+                  <lem>m<ex>enn</ex></lem>
+                  <rdg wit="#A345">miok</rdg>
+               </app> g<ex>ri</ex>m<ex>m</ex>l<ex>i</ex>ga, át h<ex>ann</ex> Bæþi
+                  <del>ý<ex>þr</ex></del> mik oc ý<ex>þr</ex> upp <add>og alla
+                     k<ex>on</ex>g<ex>s</ex> m<ex>enn</ex>
+               </add> e<ex>þa</ex> hu<ex>aþ</ex> man þ<ex>e</ex>tta þýþa. k<ex>on</ex>gr <app>
+                  <lem>m<ex>æ</ex>l<ex>ti</ex></lem>
+                  <rdg wit="#P67">sagde</rdg>
+               </app> heýrt h<ex>e</ex>fi <app>
+                  <lem>ek</lem>
+                  <rdg wit="#L222">+ at</rdg>
+               </app> skamt frá <app>
+                  <lem>hýbýlom</lem>
+                  <rdg wit="#P67">hybyle</rdg>
+               </app> Hagallz. ligge hÿdbi<ex>ǫr</ex>n n<ex>ock</ex>r. Jeg m<ex>vn</ex>
+                  fa<ex>ra</ex> aþ vinna Bi<ex>ǫr</ex>ninn, oc man h<ex>ann</ex> þá Bistast<note
+                  resp="#KAKapitan" n="53" place="foot" xml:id="ftn053">The word <q>bista</q> is
+                   an orthographic variant form of <q>beysta</q>. </note> miǫk. hi<ex>er</ex>
+               næst d<ex>re</ex>imdi m<ex>ic</ex>. aþ dreka hamur væ<ex>ri</ex> d<ex>re</ex>iginn
+                  um<ex>m</ex> k<ex>on</ex>gz h<ex>ǫ</ex>ll, Oc hieck þ<ex>ar</ex> viþ lindi <app>
+                  <lem>Hromundz</lem>
+                  <rdg wit="#P67">Hromundar</rdg>
+               </app>. k<ex>on</ex>gr m<ex>æ</ex>l<ex>ti</ex> þ<ex>ad</ex> veistu <app>
+                  <lem>aþ</lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> Hróm<ex>undr</ex>
+               <app>
+                  <lem>misti</lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/></rdg>
+               </app>
+               <app>
+                  <lem>su<ex>er</ex>d</lem>
+                  <rdg wit="#A587 #A193 #T1768">sverðit</rdg>
+               </app> oc linda J vatninu, e<ex>þa</ex> e<ex>r</ex>tu nu hrædd<ex>ur</ex>
+                  v<ex>iþ</ex> Hróm<ex>un</ex>d: <app>
+                  <lem>fleýre</lem>
+                  <rdg wit="#P67">fleyra</rdg>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> drauma d<ex>re</ex>imdi Blind, hu<ex>or</ex>ia h<ex>ann</ex> sagþi
+                  k<ex>on</ex>gi. enn k<ex>on</ex>gr reþi þá <app>
+                  <lem>alla</lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app> sier i vil, enn aungvann sua s<ex>e</ex>m merking til <app>
+                  <lem>haufþo</lem>
+                  <rdg wit="#A345">hafði</rdg>
+               </app>
+               <pb n="6r" facs="AM_601b_4to_0006r"/> Nu seig<ex>er</ex>
+               <app>
+                  <lem>Blind<ex>ur</ex></lem>
+                  <rdg wit="#L222">÷ <gap reason="damaged"/>
+                  </rdg>
+               </app>
+               <app>
+                  <lem>enn e<ex>ir</ex>n</lem>
+                  <rdg wit="#A345 #L222 #B4859">÷</rdg>
+               </app> draum sinn, þ<ex>a</ex>nn e<ex>r</ex> h<ex>ann</ex> sialf<ex>an</ex>
+               <app>
+                  <lem>snerti</lem>
+                  <rdg wit="#P67">snerter</rdg>
+               </app> oc m<ex>æ</ex>l<ex>ti</ex> Mi<ex>er</ex> þotti Jarnhringr <app>
+                  <lem>settr</lem>
+                  <rdg wit="#L222 #B4859">sleiginn</rdg>
+               </app>
+               <app>
+                  <lem>á</lem>
+                  <rdg wit="#L222">umm</rdg>
+               </app>
+               <app>
+                  <lem>minn hálz</lem>
+                  <rdg wit="#B4859">haalz mier</rdg>
+               </app>. k<ex>on</ex>gr <app>
+                  <lem>sagþi</lem>
+                  <rdg wit="#L222">mælir</rdg>
+               </app>, þ<ex>ad</ex> e<ex>r</ex> þýþing þ<ex>ess</ex> draumz, aþ þu mant heingdr
+                  v<ex>er</ex>þa, oc þar m<ex>ed</ex>
+               <app>
+                  <lem>mano</lem>
+                  <rdg wit="#A193 #A345 #L222 #B4859">munum</rdg>
+               </app>
+               <note resp="#KAKapitan" n="54" place="foot" xml:id="ftn054"> The reading in T1768 is
+                  uncertain, could be <q>manu<ex>m</ex></q> or <q>manu</q>. </note> v<ex>iþ</ex>
+                  báþ<ex>er</ex> feig<ex>er</ex>. Ept<ex>er</ex> þ<ex>e</ex>tta safn<ex>ar</ex>
+               olafr k<ex>on</ex>g<ex>ur</ex> liþi, hiellt sýþann til Suýþióþar,
+                  Hromúnd<supplied>r</supplied> filgþi h<ex>onu</ex>m. komo <app>
+                  <lem>þ<ex>ei</ex>r</lem>
+                  <rdg wit="#P67">+ ä</rdg>
+               </app> óv<ex>ar</ex>t<note resp="#KAKapitan" n="55" place="foot" xml:id="ftn055">In
+                  A601, there is the <q>ra</q> abbreviation mark used for <q>ar</q>. </note> aþ hǫllo
+               halldingz k<ex>on</ex>g<ex>s</ex>. h<ex>ann</ex> lá J vtiskem<ex>m</ex>o
+               e<ex>in</ex>nri, <app>
+                  <lem>h<ex>ann</ex></lem>
+                  <rdg wit="#A193">og</rdg>
+               </app> v<ex>ar</ex>þ<note resp="#KAKapitan" n="56" place="foot" xml:id="ftn056">In
+                  A601, there is the <q>ra</q> abbreviation mark used for <q>ar</q>.</note>
+               <app>
+                  <lem>e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#A193 #P67">ei</rdg>
+               </app> firr v<ex>ar</ex> v<ex>iþ</ex> enn upp var brotinn skem<ex>m</ex>o hurþinn. <app>
+                  <lem>hallding</lem>
+                  <rdg wit="#P67">Halldingur</rdg>
+               </app> hróp<ex>ar</ex> á m<ex>enn</ex> sýna. oc spir, hu<ex>or</ex>i<ex>er</ex>
+               <app>
+                  <lem>um næt<ex>ur</ex> stryda</lem>
+                  <rdg wit="#P67">stryde um nætur</rdg>
+               </app>. Hróm<supplied>un</supplied>dr sagþi til sýn. k<ex>on</ex>gr <app>
+                  <lem>s<ex>agþi</ex></lem>
+                  <rdg wit="#B4859">mællti</rdg>
+               </app> þu munt vilia hefna <app>
+                  <lem>þinna brǫþ<ex>ra</ex></lem>
+                  <rdg wit="#P67">bródra þinna</rdg>
+               </app>. Hrom<ex>undr</ex>
+               <app>
+                  <lem>q<ex>va</ex>d</lem>
+                  <rdg wit="#P67">bad</rdg>
+                  <rdg wit="#T1768">sagdi</rdg>
+               </app> h<ex>ann</ex>
+               <app>
+                  <lem>skilldi</lem>
+                  <rdg wit="#A193 #P67">÷</rdg>
+               </app>
+               <app>
+                  <lem>fátt</lem>
+                  <rdg wit="#A193">+ scylldi</rdg>
+               </app> tala u<ex>m</ex> fall <app>
+                  <lem>brǫþ<ex>ra</ex> sinna</lem>
+                  <rdg wit="#P67">sinna brædra</rdg>
+               </app>. s<ex>ka</ex>lto nu þ<ex>ess</ex> giallda. oc hi<ex>er</ex> lýf<ex>iþ</ex>
+               misza. Þá liop <app>
+                  <lem><add>upp</add></lem>
+                  <rdg wit="#P67">÷</rdg>
+               </app> e<ex>ir</ex>n kappi halld<ex>ings</ex>
+               <app>
+                  <lem>k<ex>on</ex>g<ex>s</ex></lem>
+                  <rdg wit="#P67">+ upp sa var</rdg>
+                  <rdg wit="#B4859">÷</rdg>
+               </app>. sua st<ex>or</ex> s<ex>e</ex>m rise. Hrom<ex>un</ex>d<supplied>r</supplied>
+               drap þ<ex>an</ex>n. Halld<ex>ing</ex> k<ex>ongr</ex><note resp="#KAKapitan" n="57"
+                  place="foot" xml:id="ftn057">In A601, there is an unusual abbreviation: <q>rum</q>
+                  used for <q>konungur</q>. </note> verst i huýlunni enn fieck eck<ex>er</ex>t sár,
+               þui hu<ex>or</ex>t sinn Hróm<ex>undr</ex> hió til <app>
+                  <lem>h<ex>ans</ex></lem>
+                  <rdg wit="#A345">+ þá</rdg>
+               </app>, kom su<ex>er</ex>þ<ex>iþ</ex> flatt á k<ex>on</ex>g. Þá toc <app>
+                  <lem>Hróm<ex>un</ex>dr</lem>
+                  <rdg wit="#L222">hann</rdg>
+               </app>
+               <app>
+                  <lem>kilfo</lem>
+                  <rdg wit="#P67 #L222">+ eina</rdg>
+               </app> oc lamdi hallding k<ex>ong</ex> i hel. Þá m<ex>æ</ex>l<ex>ti</ex>
+                  Hró<ex>mundr</ex> hie<ex>r</ex>
+               <app>
+                  <lem>h<ex>e</ex>f</lem>
+                  <rdg wit="#A193 #A345 #P67 #L222">hefi</rdg>
+               </app> ek felldann Halld<ex>ing</ex> k<ex>on</ex>g oc <app>
+                  <lem>h<ex>e</ex>fi ek e<ex>i</ex>g<ex>i</ex></lem>
+                  <rdg wit="#P67">ei hefe eg</rdg>
+               </app> sieþ <app>
+                  <lem>frǫg<ex>ra</ex></lem>
+                  <rdg wit="#L222 #B4859">frægri</rdg>
+               </app> m<ex>ann</ex>. Kallinn Blindr, er hiet Bavýs. var bundinn oc heingþr, oc
+               rættist sva draum<ex>ur</ex> h<ex>an</ex>z. Toco þ<ex>ei</ex>r þar mik<ex>iþ</ex>
+               gull, oc annaþ fie, hielldo sýþann heim. Olafr k<ex>on</ex>gr gipti <app>
+                  <lem>Hrómundi Suanhuýt</lem>
+                  <rdg wit="#P67">Hrómunde suanhuyte systur syna</rdg>
+                  <rdg wit="#L222">Svanhvijt Hromundi</rdg>
+               </app>. þau untust vel. áttu sono oc dætur t<ex>il</ex> samans, oc v<ex>or</ex>u
+               afbragþ ann<ex>ar</ex>a.<note resp="#KAKapitan" n="58" place="foot" xml:id="ftn058">In
+                  A601, there is the <q>ra</q> abbreviation mark used for <q>ar</q>. </note> Eru af
+                  þ<ex>ei</ex>m Komn<ex>ar</ex> k<ex>on</ex>ga ætt<ex>er</ex> oc kapp<ex>ar</ex>
+               mikler, oc lýkr <app>
+                  <lem>hi<ex>er</ex></lem>
+                  <rdg wit="#P67">+ suo</rdg>
+               </app> saugo <app>
+                  <lem>Hrom<ex>un</ex>dz</lem>
+                  <rdg wit="#A345">Hromundar</rdg>
+               </app> greipzson<ex>ar</ex>. </p>
+         </div>
+      </body>
+   </text>
+</TEI>
